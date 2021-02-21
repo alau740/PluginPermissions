@@ -1998,6 +1998,14 @@ EpicFurnaces+EpicFurnaces.Remote+Wireless access to a paired furnace that you ha
 EpicFurnaces+EpicFurnaces.Upgrade.*+Upgrading of furnaces with economy and xp
 EpicFurnaces+EpicFurnaces.Upgrade.ECO+Upgrading of furnaces with economy
 EpicFurnaces+EpicFurnaces.Upgrade.XP+Upgrading of furnaces with experience
+EpicLevels+epiclevels.admin+Allow player to open the in-game settings editor and reload the Configuration and Language files for EpicLevels+/levels settings, /levels reload 
+EpicLevels+epiclevels.menu+Allow player to open a list of top levels+/levels
+EpicLevels+player.epiclevels.show+Allow player to look up information on a specified player+/levels show <player>
+EpicLevels+epiclevels.addexp+Allow player to add experience to a player+/levels addexp <player> <amount>
+EpicLevels+epiclevels.takeexp+Allow player to take experience away from a player+/levels takeexp <player> <amount>
+EpicLevels+epiclevels.boost+Allow player to boost a player's experience gained by a certain multiplier for a limited amount of time, remove a boost from a player, boost the experience gained by all players on the server and remove a global boost from the server+/levels boost <player> <multiplier> <time>, /levels removeboost <player>, /levels globalboost <multiplier> <time>, /levels removeglobalboost
+EpicLevels+epiclevels.reset+Allow player to resets all stats for a player+/levels reset <Player>
+EpicLevels+epiclevels.multiplier.#+Give a bonus experience multiplier. Replace # with an integer to multiply gained experience by
 EpicSkyblock+EpicSkyblock.fly+Allows a player to fly.+/is fly
 EpicSkyblock+EpicSkyblock.givecrystals+Gives a player crystals.
 EpicSkyblock+EpicSkyblock.reload+Reloads ES Config+/is reload
