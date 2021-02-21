@@ -1992,6 +1992,11 @@ EpicFarming+epicfarming.admin+Allows use of admin commands
 EpicFarming+epicfarming.upgrade.eco+Allows upgrading using economy
 EpicFarming+epicfarming.upgrade.xp+Allows upgrading using exp
 EpicFarming+epicfarming.view+Allows players to click on and open up the farm menu GUI
+EpicFarming+epicfarming.settings+Configure some EpicFarming settings from an in-game admin GUI+/efa settings
+EpicFarming+epicfarming.reload+Reloads the Configuration and Language files for EpicFarming+/efa reload
+EpicFarming+epicfarming.give+Give the specified player a farm item+/efa givefarmitem [player]
+EpicFarming+epicfarming.boost+Boost the specified players farm with a specific multiplier for a specified amount of time. Example:/efa boost Brianna 2 h:2 will boost for 2 hours.
+EpicFarming+epicfarming.limit.<amount>+Limits the player to only being able to have a specified amount of farms. Example:epicfarming.limit.5
 EpicFurnaces+EpicFurnaces.bypass+Giving this permission to a player will allow them to bypass build/interact restrictions within EpicFurnaces
 EpicFurnaces+EpicFurnaces.overview+Will allow players to access the EpicFurnaces furnace features
 EpicFurnaces+EpicFurnaces.Remote+Wireless access to a paired furnace that you have set
