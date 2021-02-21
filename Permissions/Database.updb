@@ -6068,6 +6068,14 @@ UltraStaffChatPro+helperchat.mute+Allows the player to Mute player on Helper Cha
 UltraStaffChatPro+ultrastaffchatpro.update+Allows the player to have update message
 UltraStaffChatPro+ultrastaffchatpro.reload+Allows the player to reload the plugin
 UltraStaffChatPro+ultrastaffchatpro.debug+Allows the player to debug the plugin
+UltraStaffChatPro+multichannel.<name>.talk
+UltraStaffChatPro+multichannel.<name>.read
+UltraStaffChatPro+multichannel.<name>.toggle
+UltraStaffChatPro+multichannel.<name>.mute
+UltraStaffChatPro+multichannel.<name>.join
+UltraStaffChatPro+multichannel.<name>.leave
+UltraStaffChatPro+multichannel.<name>.switch
+UltraStaffChatPro+multichannel.<name>.list
 uSkyBlock+usb.admin.*+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
 uSkyBlock+usb.admin.cache+Flushes all caches to files+/usb flush
