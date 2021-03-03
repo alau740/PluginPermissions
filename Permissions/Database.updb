@@ -6448,3 +6448,77 @@ Wormholes+wormholes.use+Grants the permission to enter portals (actually use the
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
+FateUHC+uhc.mod+Use mod items
+FateUHC+uhc.spectate.border.100+Spectate 100 blocks
+FateUHC+uhc.spectate.border.500+Spectate 500 blocks
+FateUHC+uhc.spectate.border.1000+Spectate 1000 blocks
+FateUHC+uhc.spectate.border.1500+Spectate 1500 blocks
+FateUHC+uhc.spectate.border.2000+Spectate 2000 blocks
+FateUHC+uhc.spectate.border.2500+Spectate 2500 blocks
+FateUHC+uhc.spectate.border.3000+Spectate 3000 blocks
+FateUHC+uhc.spectate.border.unlimited+Spectate unlimited blocks
+FateUHC+uhc.spectate.y.bypass+Spectate under y-45
+FateUHC+spectator.chat.see+See spectator chat
+FateUHC+uhc.deathkick.bypass+Bypass death kick
+FateUHC+uhc.inv.bypass+Bypass item drop restrictions
+FateUHC+settings.sounds+Toggle the sound setting in the settings menu
+FateUHC+settings.scoreboard+Toggle the scoreboard setting in the settings menu
+FateUHC+game.block.break+Break blocks while in creative
+FateUHC+game.block.place+Place blocks while in creative
+FateUHC+fateuhc.cosmetics.*+Use all cosmetics
+FateUHC+uhc.itemframe.remove+Allows breaking item frames and paintings
+FateUHC+fateuhc.update+Get update notifications
+FateUHC+uhc.see.anonymous+See users names while in anonymous scenario
+FateUHC+settings.open+Open settings menu+/settings
+FateUHC+uhc.announce+Announces the UHC game globally using the BungeeAnnounce addon+/announce
+FateUHC+uhc.border+Manually change the border+/border <size>
+FateUHC+uhc.clearlag+Clears all entities+/clearlagg
+FateUHC+uhc.data.edit+Allows you to edit player data+/data
+FateUHC+uhc.giveall+Allows you to give an item to all players+/giveall <item> <amount>
+FateUHC+uhc.starterinventory+Allows you to modify the starter inventory+/starterinventory
+FateUHC+uhc.edit.commands+Allows you to use the uhc command+/uhc
+FateUHC+uhc.start+Allows usage of UHC start command+/uhc start
+FateUHC+uhc.setlobby+Allows user to set lobby+/uhc setlobby
+FateUHC+uhc.reload+Allows user to reload the plugin+/uhc reload
+FateUHC+uhc.stoploading+Allows the user to cancel loading+/uhc stoploading
+FateUHC+uhc.setpvp+Allows the user to force enable PVP+/uhc setpvp
+FateUHC+uhc.reboot+Allows the user to reboot+/uhc reboot <now:time>
+FateUHC+uhc.whitelist+Allows user to modify whitelist+/whitelist
+FateUHC+uhc.freeze+Allows player to freeze players+/freeze <player>
+FateUHC+uhc.invsee+Allows the player to view other inventories+/invsee
+FateUHC+uhc.helpop.see+Allows a user to see helpop messages
+FateUHC+uhc.report.see+Allows a user to see reports
+FateUHC+uhc.sethost+Allows a user to set the host+/sethost <player>
+FateUHC+uhc.removehost+Allows a user to remove the host+/removehost
+FateUHC+uhc.spectatorchat.command+Allows a user to toggle spectator chat+/specchat
+FateUHC+uhc.respawn+Allows user to respawn a person+/respawn <player> <reason>
+FateUHC+uhc.respawn.see+Allows a user to see why a player was respawned
+FateUHC+moles.access+Lists all moles active in the game+/moles
+FateUHC+uhc.points.manage+Allows a user to manage player points+/points <give/remove> <player> <amount>
+FateUHC+uhc.regeneratemap+Allows user to force regeneration of a map+/regeneratemap
+FateUHC+builduhc.edit+Allows user to modify BuildUHC kit+/builduhckit <set/default>
+FateUHC+uhc.scatter+Manually scatter a player+/scatter <player>
+FateUHC+uhc.spectator.staff+Puts yourself in spectator mode+/spectator add <player>
+FateUHC+alerts.open+Opens alerts menu+/alerts
+FateUHC+alerts.diamonds+View diamond alerts
+FateUHC+alerts.gold+View gold alerts
+FateUHC+alerts.pvp+View PVP alerts
+FateUHC+alerts.ipvp+View IPVP alerts
+FateUHC+uhc.autostart+Use autostart command+/autostart <time>
+FateUHC+uhc.healall+Heal all players+/healall
+FateUHC+uhc.goldenhead+Give a golden head+/goldenhead <player>
+FateUHC+uhc.goldeanheadall+Give all players a goldean head+/goldenheadall
+FateUHC+uhc.edit.config+Edit game config+/config admin
+FateUHC+uhc.edit.scenarios+Edit game scenarios+/scenario admin
+FateUHC+uhc.admin+Required to enable/disable game settings.
+FateUHC+uhc.exps+Modify exp settings+/exps
+FateUHC+uhc.staffteleport+Use staff teleport+/teleport
+FateUHC+uhc.spec.tp+Use spec teleport+/specteleport
+FateUHC+practice.edit+Edit practice settings+/practice <on/off/edit>
+FateUHC+parties.edit+Edit party settings+/party <set/size/list>
+FateUHC+uhc.assign+Assign a player to a party+/assign <player> <partyleader>
+FateUHC+uhc.discord.announce+Use discord announce+/discordannounce
+FateUHC+uhc.tweet+Use tweet menu and integration+/tweet
+FateUHC+uhc.holograms+Allows placement of holograms+/uhcholograms
+FateUHC+uhc.nightvision+Use night vision+/nightviision
+FateUHC+uhc.combatlogger.despawn+/depsawnlogger <player>
