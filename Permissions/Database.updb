@@ -6448,3 +6448,6 @@ Wormholes+wormholes.use+Grants the permission to enter portals (actually use the
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
+Sell wand+sellwand.give+Allows you to give yourself or someone else a sellwand+/sellwandgive <user> <amount> <uses> <multiplier>
+Sell wand+sellwand.hologram+Allows you to left click on a chest to show holograms
+Sell wand+sellwand.use+Allows you to right click on a chest with a sell wand to sell your content
