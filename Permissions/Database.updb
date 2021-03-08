@@ -6004,23 +6004,22 @@ UltimateStatistics+ultimatestatistics.view+Allows the player to see their own st
 UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plugin+/customizer
 UltraCustomizerPlus+ucplus.command+Allows the player to use the main command of the plugin to open the GUI.
 UltraCustomizerPlus+ucplus.update-join+Allows the player to see if the plugin needs an update.
-UltraPunishments+ultrapunishments.admin+Gives all the Ultra Punihsments permissions
-UltraPunishments+ultrapunishments.access.details+Allows a player to access the Player Details of a specific Player
-UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban someone
-UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban someone
-UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted Punishments Messages
-UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze someone
-UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze someone
-UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings
-UltraPunishments+ultrapunishments.manage.templates+Allows a player to edit punishment templates
-UltraPunishments+ultrapunishments.mute.execute+Allows a player to mute someone
-UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute someone
-UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat
-UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat
-UltraPunishments+ultrapunishments.report.respond+Allows a player to view and respond reports
-UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning
-UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning
-UltraPunishments+ultrapunishments.report.respond+Allow players this permission to respend to reports
+UltraPunishments+ultrapunishments.access.details+Allows a player to access the player details of a specific player.
+UltraPunishments+ultrapunishments.admin+Allows the player to use all features of the plugin.
+UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
+UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban another player.
+UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted punishments messages.
+UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze another player.
+UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze another player.
+UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings.
+UltraPunishments+ultrapunishments.manage.templates+Allows a player to edit punishment templates.
+UltraPunishments+ultrapunishments.mute.execute+Allows a player to mute another player.
+UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute another player.
+UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat.
+UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat.
+UltraPunishments+ultrapunishments.report.respond+Allows a player to respond to reports.
+UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning.
+UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning.
 UltraRegions+region.[region].all-damage.allow+Allows the player to be immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].all-damage.disallow+Prevents the player from being immune to all kinds of damage in a specific region no matter of the flag.
 UltraRegions+region.[region].block-breaking.allow+Allows the player to break blocks in a specific region no matter of the flag.
