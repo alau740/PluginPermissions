@@ -6026,6 +6026,22 @@ UltraRegionsDynmap+urd.command+Allows the player to use the main command of the 
 UltraRegionsDynmap+urd.reload+Allows the player to reload the plugin.+/urd reload
 UltraRegionsDynmap+urd.update+Allows the player to manually update the map.+/urd update
 UltraTags+ultratags.reload+Ability to use the reload command (reloads the plugin configuration)+/ultratags reload,/ut reload,/uts reload
+UltraStaffChatPro+staffchat.talk+Allows the player to talk in the staff chat.
+UltraStaffChatPro+staffchat.read+Allows the player to read messages in the staff chat.
+UltraStaffChatPro+staffchat.toggle+Allows the player to toggle the staff chat.+/sctoggle
+UltraStaffChatPro+staffchat.mute+Allows the player to mute another player in the staff chat.+/scmute
+UltraStaffChatPro+staffchat.join+Allows the player to join the staff chat.
+UltraStaffChatPro+staffchat.leave+Allows the player to leave the staff chat.
+UltraStaffChatPro+staffchat.switch+Allows the player to switch channels in the staff chat.
+UltraStaffChatPro+staffchat.list+Allows the player to see the staff list.+/sclist
+UltraStaffChatPro+staffchat.list.exempt+Allows the player to be exempt from the staff list.
+UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
+UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
+UltraStaffChatPro+helperchat.toggle+Allows the player to toggle the helper chat.
+UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
+UltraStaffChatPro+ultrastaffchatpro.update+Allows the player to receive update notifications.
+UltraStaffChatPro+ultrastaffchatpro.reload+Allows the player to reload the plugin.
+UltraStaffChatPro+ultrastaffchatpro.debug+Allows the player to debug the plugin.
 uSkyBlock+usb.admin.*+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
 uSkyBlock+usb.admin.cache+Flushes all caches to files+/usb flush
