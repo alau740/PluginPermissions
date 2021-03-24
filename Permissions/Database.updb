@@ -13,41 +13,41 @@ AAC+aac.reset+Allows the player to clear all database entries for another player
 AAC+aac.spectate+Allows the player to teleport to another player in spectator mode.+/aac spectate [player]
 AAC+aac.status+Allows the player to view information about online players.+/aac status [player]
 AAC+aac.sudo+Allows the player to run commands as another player.+/aac sudo <player> <command>
-AACAdditionPro+aac.verbose+Allows the player to get the verbose messages of AACAdditionPro if verbose is enabled in the config.+/aacadditionpro verbose [on|off]
-AACAdditionPro+aacadditionpro.*+Grants all permissions from aacadditionpro
-AACAdditionPro+aacadditionpro.entitycheck+Allows to initiate a manual entity check
-AACAdditionPro+aacadditionpro.info+Allows to request an overview about a player's violation levels
-AACAdditionPro+aacadditionpro.neural.*+Grants access to the full heuristics framework (config setting unlock_full_framework is still required)
-AACAdditionPro+aacadditionpro.neural+Grants basic access to the heuristics framework (see all active patterns and access the help)
-AACAdditionPro+aacadditionpro.neural.create+Allows the creation and removal of patterns
-AACAdditionPro+aacadditionpro.neural.train+Allows the training of patterns.
-AACAdditionPro+aacadditionpro.tablistremove+Grants access to a command to temporarily remove a player from the tablist of another player.
-AACAdditionPro+aacadditionpro.bypass.*+Players with this permission bypass all checks and clientcontrols.
-AACAdditionPro+aacadditionpro.bypass.autoeat+Allows a player to bypass the AutoEat check
-AACAdditionPro+aacadditionpro.bypass.autofish+Allows a player to bypass the AutoFish check
-AACAdditionPro+aacadditionpro.bypass.autopotion+Allows a player to bypass the AutoPotion check
-AACAdditionPro+aacadditionpro.bypass.esp+Allows a player to bypass the ESP check
-AACAdditionPro+aacadditionpro.bypass.fastswitch+Allows a player to bypass the Fastswitch check
-AACAdditionPro+aacadditionpro.bypass.impossiblechat+Allows a player to bypass the ImpossibleChat check
-AACAdditionPro+aacadditionpro.bypass.inventory+Allows a player to bypass the Inventory check
-AACAdditionPro+aacadditionpro.bypass.keepalive+Allows a player to bypass the KeepAlive check
-AACAdditionPro+aacadditionpro.bypass.packetanalysis+Allows a player to bypass the PacketAnalysis check
-AACAdditionPro+aacadditionpro.bypass.scaffold+Allows a player to bypass the Scaffold check
-AACAdditionPro+aacadditionpro.bypass.skinblinker+Allows a player to bypass the Skinblinker check
-AACAdditionPro+aacadditionpro.bypass.teaming+Allows a player to bypass the Teaming check
-AACAdditionPro+aacadditionpro.bypass.tower+Allows a player to bypass the Tower check
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.*+Gives permission to bypass all clientcontrols.
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.bettersprinting+Allows a player to bypass the BetterSprinting clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.damageindicator+Allows a player to bypass the DamageIndicator clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.5zig+Allows a player to bypass the 5Zig clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.forge+Allows a player to bypass the Forge clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.labymod+Allows a player to bypass the LabyMod clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.liteloader+Allows a player to bypass the LiteLoader clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.oldlabymod+Allows a player to bypass the OldLabyMod clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.pxmod+Allows a player to bypass the PXMod clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.schematica+Allows a player to bypass the Schematica clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.vape+Allows a player to bypass the Vape clientcontrol
-AACAdditionPro+aacadditionpro.bypass.clientcontrol.worlddownloader+Allows a player to bypass the WorldDownloader clientcontrol
+AACAdditionPro+aac.verbose+Allows the player to get the verbose messages of the plugin if verbose is enabled in the config.+/aacadditionpro verbose [on|off]
+AACAdditionPro+aacadditionpro.*+Grants all permissions of the plugin.
+AACAdditionPro+aacadditionpro.bypass.*+Allows the player to bypass all checks and client controls.
+AACAdditionPro+aacadditionpro.bypass.autoeat+Allows the player to bypass the AutoEat check.
+AACAdditionPro+aacadditionpro.bypass.autofish+Allows the player to bypass the AutoFish check.
+AACAdditionPro+aacadditionpro.bypass.autopotion+Allows the player to bypass the AutoPotion check.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.*+Allows the player to bypass all client controls.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.5zig+Allows the player to bypass the 5Zig client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.bettersprinting+Allows the player to bypass the BetterSprinting client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.damageindicator+Allows the player to bypass the DamageIndicator client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.forge+Allows the player to bypass the Forge client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.labymod+Allows the player to bypass the LabyMod client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.liteloader+Allows the player to bypass the LiteLoader client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.oldlabymod+Allows the player to bypass the OldLabyMod client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.pxmod+Allows the player to bypass the PXMod client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.schematica+Allows the player to bypass the Schematica client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.vape+Allows the player to bypass the Vape client control.
+AACAdditionPro+aacadditionpro.bypass.clientcontrol.worlddownloader+Allows the player to bypass the WorldDownloader client control.
+AACAdditionPro+aacadditionpro.bypass.esp+Allows the player to bypass the ESP check.
+AACAdditionPro+aacadditionpro.bypass.fastswitch+Allows the player to bypass the Fastswitch check.
+AACAdditionPro+aacadditionpro.bypass.impossiblechat+Allows the player to bypass the ImpossibleChat check.
+AACAdditionPro+aacadditionpro.bypass.inventory+Allows the player to bypass the Inventory check.
+AACAdditionPro+aacadditionpro.bypass.keepalive+Allows the player to bypass the KeepAlive check.
+AACAdditionPro+aacadditionpro.bypass.packetanalysis+Allows the player to bypass the PacketAnalysis check.
+AACAdditionPro+aacadditionpro.bypass.scaffold+Allows the player to bypass the Scaffold check.
+AACAdditionPro+aacadditionpro.bypass.skinblinker+Allows the player to bypass the Skinblinker check.
+AACAdditionPro+aacadditionpro.bypass.teaming+Allows the player to bypass the Teaming check.
+AACAdditionPro+aacadditionpro.bypass.tower+Allows the player to bypass the Tower check.
+AACAdditionPro+aacadditionpro.entitycheck+Allows the player to initiate a manual entity check.
+AACAdditionPro+aacadditionpro.info+Allows the player to request an overview about a player's violation levels.
+AACAdditionPro+aacadditionpro.neural.*+Grants access to the full heuristics framework (config setting unlock_full_framework is still required).
+AACAdditionPro+aacadditionpro.neural.create+Allows the player to create and remove patterns.
+AACAdditionPro+aacadditionpro.neural.train+Allows the player to train patterns.
+AACAdditionPro+aacadditionpro.neural+Grants basic access to the heuristics framework (see all active patterns and access the help).
+AACAdditionPro+aacadditionpro.tablistremove+Allows the player to temporarily remove a player from the tablist of another player.
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
