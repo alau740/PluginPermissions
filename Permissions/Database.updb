@@ -4300,10 +4300,10 @@ PlayerPoints+PlayerPoints.pay+Pay points to players.+/points pay
 PlayerPoints+PlayerPoints.reset+Reset points of players.+/points reset
 PlayerPoints+PlayerPoints.set+Set points of players.+/points set
 PlayerPoints+PlayerPoints.take+Take points of players.+/points take
-PlayTime+playtime.use+/playtime
-PlayTime+playtime.reward+/playtimereward 
-PlayTime+playtime.leaderboard+/playtimeleaderboard
-PlayTime+playtime.reload+/playtimereload
+PlayTime+playtime.leaderboard+Allows the player to view a playtime leaderboard.+/playtimeleaderboard
+PlayTime+playtime.reload+Allows the player to reload the plugin.+/playtimereload
+PlayTime+playtime.reward+Allows the player to get playtime rewards.+/playtimereward
+PlayTime+playtime.use+Allows the player to view their own playtime.+/playtime
 PlotSquared+plots.admin.build.other+An unknown description
 PlotSquared+plots.admin.build.road+An unknown description
 PlotSquared+plots.admin.build.unowned+An unknown description
