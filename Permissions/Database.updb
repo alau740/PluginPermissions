@@ -766,6 +766,7 @@ Bukkit+minecraft.command.whitelist+Ability to use the whitelist command (complex
 Bukkit+minecraft.command.xp+Ability to use the xp command (gives the specified player a certain amount of experience)+/xp
 BungeeHub+bungeehub.hub+Allows people to do /hub+/hub
 BuycraftX+buycraft.admin+This is the only permission of Buycraft and give you permission to al these commands. (the last permission is only able to use in the console!)+/buycraft refresh,/buycraft forcecheck,/buycraft report,/buycraft signupdate,/buycraft coupon,/buycraft secret
+CanonHealth+CanonHealth.bypass+Allows the player to have more than the configured amount of canon lives.
 Captcha+captcha.notify+Allowed you to get notified when someone fails the Captcha
 Captcha+captcha.open.others+Opens a Captcha to a certain player+/captcha PLAYER
 Captcha+captcha.override+Allows you to override the Captcha
