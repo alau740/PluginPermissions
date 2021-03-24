@@ -2632,6 +2632,83 @@ FastCraftPlus+fastcraft.command.craft+/fastcraft craft permission
 FastCraftPlus+fastcraft.command.toggle.other+Use the toggle command on another player+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.command.toggle+Use the toggle command+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.use+Permission to use FastCraft for crafting
+FateUHC+alerts.diamonds+Allows the player to view diamond alerts.
+FateUHC+alerts.gold+Allows the player to view gold alerts.
+FateUHC+alerts.ipvp+Allows the player to view IPVP alerts.
+FateUHC+alerts.open+Allows the player to open the alerts menu.+/alerts
+FateUHC+alerts.pvp+Allows the player to view PVP alerts.
+FateUHC+builduhc.edit+Allows the player to modify the BuildUHC kit.+/builduhckit <set|default>
+FateUHC+fateuhc.cosmetics.*+Allows the player to use all cosmetics.
+FateUHC+fateuhc.update+Allows the player to see update notifications.
+FateUHC+game.block.break+Allows the player to break blocks while in creative.
+FateUHC+game.block.place+Allows the player to place blocks while in creative.
+FateUHC+moles.access+Allows the player to view a list of all moles.+/moles
+FateUHC+parties.edit+Allows the player to edit party settings.+/party <set|size|list>
+FateUHC+practice.edit+Allows the player to edit practice settings.+/practice <on|off|edit>
+FateUHC+settings.open+Allows the player to open the settings menu.+/settings
+FateUHC+settings.scoreboard+Allows the player to toggle the scoreboard setting in the settings menu.
+FateUHC+settings.sounds+Allows the player to toggle the sound setting in the settings menu.
+FateUHC+spectator.chat.see+Allows the player to see the spectator chat.
+FateUHC+uhc.admin+Allows the player to enable/disable game settings.
+FateUHC+uhc.announce+Allows the player to announce UHC globally.+/announce
+FateUHC+uhc.assign+Allows the player to assign another player to a party.+/assign <player> <partyleader>
+FateUHC+uhc.autostart+Allows the player to autostart UHC.+/autostart <time>
+FateUHC+uhc.border+Allows the player to reduce the border size manually.+/border <size>
+FateUHC+uhc.clearlag+Allows the player to clear all entities.+/clearlagg
+FateUHC+uhc.combatlogger.despawn+Allows the player to despawn a combat logger.+/depsawnlogger <player>
+FateUHC+uhc.craft.command+Allows the player to use the craft command.+/craft
+FateUHC+uhc.data.edit+Allows the player to edit player data.+/data
+FateUHC+uhc.deathkick.bypass+Allows the player to bypass death kicks.
+FateUHC+uhc.discord.announce+Allows the player to use discord announce.+/discordannounce
+FateUHC+uhc.edit.commands+Allows the player to use the uhc command.+/uhc
+FateUHC+uhc.edit.config+Allows the player to edit the game config.+/config admin
+FateUHC+uhc.edit.scenarios+Allows the player to edit the game scenarios.+/scenario admin
+FateUHC+uhc.exps+Allows the player to modify exp settings.+/exps
+FateUHC+uhc.freeze+Allows the player to freeze another player.+/freeze <player>
+FateUHC+uhc.giveall+Allows the player to give an item to all players.+/giveall <item> <amount>
+FateUHC+uhc.goldenhead+Allows the player to give another player a golden head.+/goldenhead <player>
+FateUHC+uhc.goldenheadall+Allows the player to give all players a golden head.+/goldenheadall
+FateUHC+uhc.healall+Allows the player to heal all players.+/healall
+FateUHC+uhc.helpop.see+Allows the player to see helpop messages.
+FateUHC+uhc.holograms+Allows the player to place holograms+/uhcholograms
+FateUHC+uhc.inv.bypass+Allows the player to bypass item drop restrictions.
+FateUHC+uhc.invsee+Allows the player to view another player's inventory.+/invsee
+FateUHC+uhc.itemframe.remove+Allows the player to break item frames and paintings.
+FateUHC+uhc.mod+Allows the player to use mod items.
+FateUHC+uhc.nightvision+Allows the player to use night vision.+/nightviision
+FateUHC+uhc.points.manage+Allows the player to manage another player's points.+/points <give|remove> <player> <amount>
+FateUHC+uhc.reboot+Allows the player to reboot.+/uhc reboot <now|time>
+FateUHC+uhc.regeneratemap+Allows the player to force regeneration of a map.+/regeneratemap
+FateUHC+uhc.reload+Allows the player to reload the plugin.+/uhc reload
+FateUHC+uhc.removehost+Allows the player to remove the host.+/removehost
+FateUHC+uhc.report.see+Allows the player to see reports.
+FateUHC+uhc.respawn.see+Allows the player to see why a player was respawned.
+FateUHC+uhc.respawn+Allows the player to respawn another player.+/respawn <player> <reason>
+FateUHC+uhc.scatter+Allows the player to manually scatter another player.+/scatter <player>
+FateUHC+uhc.see.anonymous+Allows the player to see usernames while in anonymous scenario.
+FateUHC+uhc.sethost+Allows the player to set the host.+/sethost <player>
+FateUHC+uhc.setlobby+Allows the player to set the lobby.+/uhc setlobby
+FateUHC+uhc.setpvp+Allows the player to force enable PVP.+/uhc setpvp
+FateUHC+uhc.sit+Allows the player to make another player sit.+/sit
+FateUHC+uhc.spec.tp+Allows the player to use spec teleport.+/specteleport
+FateUHC+uhc.spectate.border.100+Allows the player to spectate 100 blocks.
+FateUHC+uhc.spectate.border.1000+Allows the player to spectate 1000 blocks.
+FateUHC+uhc.spectate.border.1500+Allows the player to spectate 1500 blocks.
+FateUHC+uhc.spectate.border.2000+Allows the player to spectate 2000 blocks.
+FateUHC+uhc.spectate.border.2500+Allows the player to spectate 2500 blocks.
+FateUHC+uhc.spectate.border.3000+Allows the player to spectate 3000 blocks.
+FateUHC+uhc.spectate.border.500+Allows the player to spectate 500 blocks.
+FateUHC+uhc.spectate.border.unlimited+Allows the player to spectate unlimited blocks.
+FateUHC+uhc.spectate.y.bypass+Allows the player to spectate under y-level 45.
+FateUHC+uhc.spectator.staff+Allows the player to switch to spectator mode.+/spectator
+FateUHC+uhc.spectatorchat.command+Allows the player to toggle the spectator chat.+/specchat
+FateUHC+uhc.staffteleport+Allows the player to use staff teleport.+/teleport
+FateUHC+uhc.start+Allows the player to start UHC.+/uhc start
+FateUHC+uhc.starterinventory+Allows the player to modify the starter inventory.+/starterinventory
+FateUHC+uhc.stoploading+Allows the player to cancel loading.+/uhc stoploading
+FateUHC+uhc.tweet+Allows the player to use the tweet menu and integration.+/tweet
+FateUHC+uhc.unsit+Allows the player to unsit another player.+/unsit
+FateUHC+uhc.whitelist+Allows the player to modify the whitelist.+/whitelist
 FeatherBoard+featherboard.about+About the plugin.+/featherboard about
 FeatherBoard+featherboard.group.default+Default group.
 FeatherBoard+featherboard.gui+Show a GUI.
