@@ -1820,12 +1820,12 @@ DeluxePlayerOptions+playeroptions.speed+Enable/Disable speed mode.+/Speed
 DeluxePlayerOptions+playeroptions.stacker+Enable/Disable stacker mode.+/Stacker
 DeluxePlayerOptions+playeroptions.use+Opens Options Menu+/options
 DeluxePlayerOptions+playeroptions.visibility+Enable/Disable visibility mode.+/Visibility
-DeluxeVoidWorld+deluxevoidworld.toggle.teleportation+Permission for normal teleportation option
-DeluxeVoidWorld+deluxevoidworld.toggle.jumping+Permission for high jump option
-DeluxeVoidWorld+deluxevoidworld.toggle.lightning+Permission for the normal teleportation option with lightning
-DeluxeVoidWorld+deluxevoidworld.toggle.particles+Permission for normal teleportation option with particles and fireworks
-DeluxeVoidWorld+deluxevoidworld.manager+Open the inventory to select your teleport
-DeluxeVoidWorld+deluxevoidworldd.admin+Access to all commands
+DeluxeVoidWorld+deluxevoidworld.manager+Allows the player to use the GUI to select the teleport.
+DeluxeVoidWorld+deluxevoidworld.toggle.jumping+Allows the player to use high jumping.
+DeluxeVoidWorld+deluxevoidworld.toggle.lightning+Allows the player to use normal teleportation with a lightning.
+DeluxeVoidWorld+deluxevoidworld.toggle.particles+Allows the player to use normal teleportation with particles and fireworks.
+DeluxeVoidWorld+deluxevoidworld.toggle.teleportation+Allows the player to use normal teleportation.
+DeluxeVoidWorld+deluxevoidworldd.admin+Allows the player to use all commands of the plugin.
 DiscordMinecraft+discordminecraft.discord+Sends the player a message with a link to the Discord server.
 DiscordMinecraft+discordminecraft.discordlink+Initiates an account link with Discord.
 DiscordMinecraft+discordminecraft.discordsay+Sends a message to the specified channel.
