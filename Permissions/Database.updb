@@ -5142,6 +5142,10 @@ RoyaleEconomy+rec.talismans.open+Allow player to open the talisman list+/tailsma
 RunAsConsole+rac.info+Allow Use Of The /runasconsole command+/runasconsole
 RunAsConsole+rac.use+Allow Use Of The /console command+/console
 Secrets+secret.admin+Needed for sign creation.
+Sellwand+sellwand.cooldown.[duration]+Specifies the cooldown between sellwand usages.
+Sellwand+sellwand.give+Allows the player to give themselves or another player a sellwand.+/sellwandgive <player> <amount> <uses> <multiplier>
+Sellwand+sellwand.hologram+Allows the player to left-click on a chest with a sellwand to show a hologram.
+Sellwand+sellwand.use+Allows the player to right-click on a chest with a sellwand to sell the contents.
 ServerListPlus+serverlistplus.admin+Grants the player all permissions of the plugin.+/slp,/slp reload,/slp save,/slp enable,/slp disable,/slp clean <favicon;player;request>
 ServerRestart+srt.check+See next scheduled restart time+/srt check
 ServerRestart+srt.frestart+Schedule force restart in N seconds (or immediately if not specified)+/srt frestart [seconds]
