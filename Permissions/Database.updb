@@ -1994,10 +1994,15 @@ EpicEnchants+epicenchants.givescroll+Allows the player to give a player an encha
 EpicEnchants+epicenchants.list+Allows the player to see all all enchants with their description.+/ee list [chat]
 EpicEnchants+epicenchants.maxapply.[max_amount]+Defines the maximum amount of enchants the player is allowed to apply on a given item.
 EpicEnchants+epicenchants.tinkerer+Allows the player to open the tinkerer menu.+/tinkerer
-EpicFarming+epicfarming.admin+Allows use of admin commands
-EpicFarming+epicfarming.upgrade.eco+Allows upgrading using economy
-EpicFarming+epicfarming.upgrade.xp+Allows upgrading using exp
-EpicFarming+epicfarming.view+Allows players to click on and open up the farm menu GUI
+EpicFarming+epicfarming.admin+Grants the player all permissions of the plugin and allows the player to use all commands.
+EpicFarming+epicfarming.boost+Allows the player to boost another player's farm with a specific multiplier for a specified amount of time.+/efa boost <player> <multiplier> <time>
+EpicFarming+epicfarming.give+Allows the player to give another player a farm item or to themself.+/efa givefarmitem [player]
+EpicFarming+epicfarming.limit.[amount]+Specifies the amount of farms the player is allowed to have.
+EpicFarming+epicfarming.reload+Allows the player to reload the plugin.+/efa reload
+EpicFarming+epicfarming.settings+Allows the player to configure settings from in-game GUI.+/efa settings
+EpicFarming+epicfarming.upgrade.eco+Allows the player to upgrade using economy.
+EpicFarming+epicfarming.upgrade.xp+Allows the player to upgrade using experience.
+EpicFarming+epicfarming.view+Allows the player to use the farm menu GUI.
 EpicFurnaces+EpicFurnaces.bypass+Giving this permission to a player will allow them to bypass build/interact restrictions within EpicFurnaces
 EpicFurnaces+EpicFurnaces.overview+Will allow players to access the EpicFurnaces furnace features
 EpicFurnaces+EpicFurnaces.Remote+Wireless access to a paired furnace that you have set
