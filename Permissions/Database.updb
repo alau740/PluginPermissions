@@ -51,7 +51,7 @@ AACAdditionPro+aacadditionpro.tablistremove+Allows the player to temporarily rem
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
-Actionbar+actionbar.announcer.stop+Allows you to stop the announcer+/actionbarannouncer stop
+Actionbar+actionbar.announcer.sto p+Allows you to stop the announcer+/actionbarannouncer stop
 Actionbar+actionbar.announcer.time+Allows you to set the time of the announcer+/actionbarannouncer time
 Actionbar+actionbar.colorcodes+gives you the permission to use colorcodes
 Actionbar+actionbar.private+Allows you to send a private message via actionbar+/actionbar <msg|private> <player> <message>
@@ -2668,6 +2668,28 @@ FastCraftPlus+fastcraft.command.craft+/fastcraft craft permission
 FastCraftPlus+fastcraft.command.toggle.other+Use the toggle command on another player+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.command.toggle+Use the toggle command+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.use+Permission to use FastCraft for crafting
+FateHub+queue.priority.1-50+Queue priority(1 is highest).
+FateHub+queue.bypass+Bypass the queue.
+FateHub+queue.bypass.SERVERNAME+Bypasses a specific servers queue.
+FateHub+hub.bypass.vis+Bypasses player visibility toggles.
+FateHub+hub.options.bypass.brake+Bypass breaking blocks restrictions.
+FateHub+hub.options.bypass.place+Bypass placing block restrictions.
+FateHub+hub.options.bypass.drop+Bypass dropping item restrictions.
+FateHub+ub.options.bypass.pick+Bypass picking up item restrictions.
+FateHub+hub.options.bypass.chat+Bypass chat restrictions.
+FateHub+fatehub.inv.bypass+Bypass inventory move restrictions.
+FateHub+fatehub.fly+Auto fly on join.
+FateHub+fatehub.reload+View reload message when trying to run /reload.
+FateHub+hub.bypass.vis+Bypass player hider
+FateHub+fatehub.interact.bypass+Bypass for the interaction block list
+FateHub+fatehub.update+Shows the update message when joining the server
+FateHub+hub.gadget.NAME+Gives access to a gadget. Replace NAME with the name of your gadget's name.
+FateHub+hub.command.fly+Fly command+/fly
+FateHub+hub.reload+Reload FateHub+/hubcore reload
+FateHub+hub.command.setspawn+Set the server spawn+/setspawn
+FateHub+hub.command.spawn+Go to the server spawn+/spawn
+FateHub+hub.command.joinserver+Manually join a server+/joinserver <servername> <player>
+FateHub+hub.command.openmenu+Manually opens a menu+/openmenu <menu>
 FateUHC+alerts.diamonds+Allows the player to view diamond alerts.
 FateUHC+alerts.gold+Allows the player to view gold alerts.
 FateUHC+alerts.ipvp+Allows the player to view IPVP alerts.
