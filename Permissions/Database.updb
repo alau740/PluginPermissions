@@ -2668,28 +2668,28 @@ FastCraftPlus+fastcraft.command.craft+/fastcraft craft permission
 FastCraftPlus+fastcraft.command.toggle.other+Use the toggle command on another player+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.command.toggle+Use the toggle command+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.use+Permission to use FastCraft for crafting
-FateHub+queue.priority.1-50+Queue priority(1 is highest).
-FateHub+queue.bypass+Bypass the queue.
-FateHub+queue.bypass.SERVERNAME+Bypasses a specific servers queue.
-FateHub+hub.bypass.vis+Bypasses player visibility toggles.
-FateHub+hub.options.bypass.brake+Bypass breaking blocks restrictions.
-FateHub+hub.options.bypass.place+Bypass placing block restrictions.
-FateHub+hub.options.bypass.drop+Bypass dropping item restrictions.
-FateHub+ub.options.bypass.pick+Bypass picking up item restrictions.
-FateHub+hub.options.bypass.chat+Bypass chat restrictions.
-FateHub+fatehub.inv.bypass+Bypass inventory move restrictions.
-FateHub+fatehub.fly+Auto fly on join.
-FateHub+fatehub.reload+View reload message when trying to run /reload.
-FateHub+hub.bypass.vis+Bypass player hider
-FateHub+fatehub.interact.bypass+Bypass for the interaction block list
-FateHub+fatehub.update+Shows the update message when joining the server
-FateHub+hub.gadget.NAME+Gives access to a gadget. Replace NAME with the name of your gadget's name.
-FateHub+hub.command.fly+Fly command+/fly
-FateHub+hub.reload+Reload FateHub+/hubcore reload
-FateHub+hub.command.setspawn+Set the server spawn+/setspawn
-FateHub+hub.command.spawn+Go to the server spawn+/spawn
-FateHub+hub.command.joinserver+Manually join a server+/joinserver <servername> <player>
-FateHub+hub.command.openmenu+Manually opens a menu+/openmenu <menu>
+FateHubCore+queue.priority.1-50+Queue priority(1 is highest).
+FateHubCore+queue.bypass+Bypass the queue.
+FateHubCore+queue.bypass.SERVERNAME+Bypasses a specific servers queue.
+FateHubCore+hub.bypass.vis+Bypasses player visibility toggles.
+FateHubCore+hub.options.bypass.brake+Bypass breaking blocks restrictions.
+FateHubCore+hub.options.bypass.place+Bypass placing block restrictions.
+FateHubCore+hub.options.bypass.drop+Bypass dropping item restrictions.
+FateHubCore+ub.options.bypass.pick+Bypass picking up item restrictions.
+FateHubCore+hub.options.bypass.chat+Bypass chat restrictions.
+FateHubCore+fatehub.inv.bypass+Bypass inventory move restrictions.
+FateHubCore+fatehub.fly+Auto fly on join.
+FateHubCore+fatehub.reload+View reload message when trying to run /reload.
+FateHubCore+hub.bypass.vis+Bypass player hider
+FateHubCore+fatehub.interact.bypass+Bypass for the interaction block list
+FateHubCore+fatehub.update+Shows the update message when joining the server
+FateHubCore+hub.gadget.NAME+Gives access to a gadget. Replace NAME with the name of your gadget's name.
+FateHubCore+hub.command.fly+Fly command+/fly
+FateHubCore+hub.reload+Reload FateHub+/hubcore reload
+FateHubCore+hub.command.setspawn+Set the server spawn+/setspawn
+FateHubCore+hub.command.spawn+Go to the server spawn+/spawn
+FateHubCore+hub.command.joinserver+Manually join a server+/joinserver <servername> <player>
+FateHubCore+hub.command.openmenu+Manually opens a menu+/openmenu <menu>
 FateUHC+alerts.diamonds+Allows the player to view diamond alerts.
 FateUHC+alerts.gold+Allows the player to view gold alerts.
 FateUHC+alerts.ipvp+Allows the player to view IPVP alerts.
