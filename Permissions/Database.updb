@@ -6160,12 +6160,12 @@ UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the w
 UltraPunishments+ultrapunishments.report.respond+Allows a player to respond to reports.
 UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning.
 UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning.
+UltraRegions+ultraregions.admin.region.bypass+Allows the player to bypass the regions default gamemode.
 UltraRegions+ultraregions.admin+Allows the player to use the main command of the plugin to access the GUI.+/uregions
-UltraRegions+ultraregions.teleport+Allows the player to use the cross world tp command.+/urtp [world]
+UltraRegions+ultraregions.gamemode.world.bypass+Allows the player to bypass the worlds default gamemode.
 UltraRegions+ultraregions.teleport.others+Allows the player to teleport another player to a world.+/urtp [world] [player]
-UltraRegions+ultraregions.teleport.world.[world]+Allows the player to only teleport to the specific world or other with the teleport.others permission+/urtp [world]
-UltraRegions+ultraregions.gamemode.world.bypass+Allows the player to bypass the worlds default gamemode
-UltraRegions+ultraregions.admin.region.bypass+Allows the player to bypass the regions default gamemode
+UltraRegions+ultraregions.teleport.world.[world]+Allows the player to teleport to a specific world or another player with the teleport.others permission.+/urtp [world]
+UltraRegions+ultraregions.teleport+Allows the player to use the cross world tp command.+/urtp [world]
 UltraRegionsDynmap+urd.command+Allows the player to use the main command of the plugin.+/urd,/urd help
 UltraRegionsDynmap+urd.reload+Allows the player to reload the plugin.+/urd reload
 UltraRegionsDynmap+urd.update+Allows the player to manually update the map.+/urd update
