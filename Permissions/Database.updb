@@ -2668,28 +2668,29 @@ FastCraftPlus+fastcraft.command.craft+/fastcraft craft permission
 FastCraftPlus+fastcraft.command.toggle.other+Use the toggle command on another player+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.command.toggle+Use the toggle command+/fc toggle,/fastcraft toggle
 FastCraftPlus+fastcraft.use+Permission to use FastCraft for crafting
-FateHubCore+queue.priority.1-50+Queue priority(1 is highest).
-FateHubCore+queue.bypass+Bypass the queue.
-FateHubCore+queue.bypass.SERVERNAME+Bypasses a specific servers queue.
-FateHubCore+hub.bypass.vis+Bypasses player visibility toggles.
-FateHubCore+hub.options.bypass.brake+Bypass breaking blocks restrictions.
-FateHubCore+hub.options.bypass.place+Bypass placing block restrictions.
-FateHubCore+hub.options.bypass.drop+Bypass dropping item restrictions.
-FateHubCore+ub.options.bypass.pick+Bypass picking up item restrictions.
-FateHubCore+hub.options.bypass.chat+Bypass chat restrictions.
-FateHubCore+fatehub.inv.bypass+Bypass inventory move restrictions.
-FateHubCore+fatehub.fly+Auto fly on join.
-FateHubCore+fatehub.reload+View reload message when trying to run /reload.
-FateHubCore+hub.bypass.vis+Bypass player hider
-FateHubCore+fatehub.interact.bypass+Bypass for the interaction block list
-FateHubCore+fatehub.update+Shows the update message when joining the server
-FateHubCore+hub.gadget.NAME+Gives access to a gadget. Replace NAME with the name of your gadget's name.
-FateHubCore+hub.command.fly+Fly command+/fly
-FateHubCore+hub.reload+Reload FateHub+/hubcore reload
-FateHubCore+hub.command.setspawn+Set the server spawn+/setspawn
-FateHubCore+hub.command.spawn+Go to the server spawn+/spawn
-FateHubCore+hub.command.joinserver+Manually join a server+/joinserver <servername> <player>
-FateHubCore+hub.command.openmenu+Manually opens a menu+/openmenu <menu>
+FateHubCore+fatehub.fly+Allows the player to have auto fly on join.
+FateHubCore+fatehub.interact.bypass+Allows the player to bypass the interaction block list.
+FateHubCore+fatehub.inv.bypass+Allows the player to bypass inventory move restrictions.
+FateHubCore+fatehub.reload+Allows the player see reload messages when trying to run /reload.
+FateHubCore+fatehub.update+Allows the player to see update notifications.
+FateHubCore+hub.bypass.vis+Allows the player to bypass the player hider.
+FateHubCore+hub.bypass.vis+Allows the player to bypass visibility toggles.
+FateHubCore+hub.command.fly+Allows the player to use toggle fly mode.+/fly
+FateHubCore+hub.command.joinserver+Allows the player to manually join a server.+/joinserver <servername> [player]
+FateHubCore+hub.command.openmenu+Allows the player to manually open a menu.+/openmenu <menu>
+FateHubCore+hub.command.setspawn+Allows the player to set the server spawn.+/setspawn
+FateHubCore+hub.command.spawn+Allows the player to go to the server spawn.+/spawn
+FateHubCore+hub.gadget.[gadget_name]+Allows the player to use a specific gadget.
+FateHubCore+hub.options.bypass.brake+Allows the player to bypass block breaking restrictions.
+FateHubCore+hub.options.bypass.chat+Allows the player to bypass chat restrictions.
+FateHubCore+hub.options.bypass.drop+Allows the player to bypass item drop restrictions.
+FateHubCore+hub.options.bypass.place+Allows the player to bypass block placing restrictions.
+FateHubCore+hub.pausequeue+Allows the player to pause the queue.+/pausequeue
+FateHubCore+hub.reload+Allows the player to reload the plugin.+/hubcore reload
+FateHubCore+queue.bypass.[server_name]+Allows the player to bypass the queue of a specific server.
+FateHubCore+queue.bypass+Allows the player to bypass the queue.
+FateHubCore+queue.priority.[priority]+Specifies the queue priority (1 is highest, 50 is lowest).
+FateHubCore+ub.options.bypass.pick+Allows the player to bypass item pickup restrictions.
 FateUHC+alerts.diamonds+Allows the player to view diamond alerts.
 FateUHC+alerts.gold+Allows the player to view gold alerts.
 FateUHC+alerts.ipvp+Allows the player to view IPVP alerts.
@@ -6187,23 +6188,23 @@ UltraRegions+ultraregions.urtp+Allows the player to use the cross world tp comma
 UltraRegionsDynmap+urd.command+Allows the player to use the main command of the plugin.+/urd,/urd help
 UltraRegionsDynmap+urd.reload+Allows the player to reload the plugin.+/urd reload
 UltraRegionsDynmap+urd.update+Allows the player to manually update the map.+/urd update
-UltraTags+ultratags.reload+Ability to use the reload command (reloads the plugin configuration)+/ultratags reload,/ut reload,/uts reload
-UltraStaffChatPro+staffchat.talk+Allows the player to talk in the staff chat.
-UltraStaffChatPro+staffchat.read+Allows the player to read messages in the staff chat.
-UltraStaffChatPro+staffchat.toggle+Allows the player to toggle the staff chat.+/sctoggle
-UltraStaffChatPro+staffchat.mute+Allows the player to mute another player in the staff chat.+/scmute
+UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
+UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
+UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
+UltraStaffChatPro+helperchat.toggle+Allows the player to toggle the helper chat.
 UltraStaffChatPro+staffchat.join+Allows the player to join the staff chat.
 UltraStaffChatPro+staffchat.leave+Allows the player to leave the staff chat.
-UltraStaffChatPro+staffchat.switch+Allows the player to switch channels in the staff chat.
-UltraStaffChatPro+staffchat.list+Allows the player to see the staff list.+/sclist
 UltraStaffChatPro+staffchat.list.exempt+Allows the player to be exempt from the staff list.
-UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
-UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
-UltraStaffChatPro+helperchat.toggle+Allows the player to toggle the helper chat.
-UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
-UltraStaffChatPro+ultrastaffchatpro.update+Allows the player to receive update notifications.
-UltraStaffChatPro+ultrastaffchatpro.reload+Allows the player to reload the plugin.
+UltraStaffChatPro+staffchat.list+Allows the player to see the staff list.+/sclist
+UltraStaffChatPro+staffchat.mute+Allows the player to mute another player in the staff chat.+/scmute
+UltraStaffChatPro+staffchat.read+Allows the player to read messages in the staff chat.
+UltraStaffChatPro+staffchat.switch+Allows the player to switch channels in the staff chat.
+UltraStaffChatPro+staffchat.talk+Allows the player to talk in the staff chat.
+UltraStaffChatPro+staffchat.toggle+Allows the player to toggle the staff chat.+/sctoggle
 UltraStaffChatPro+ultrastaffchatpro.debug+Allows the player to debug the plugin.
+UltraStaffChatPro+ultrastaffchatpro.reload+Allows the player to reload the plugin.
+UltraStaffChatPro+ultrastaffchatpro.update+Allows the player to receive update notifications.
+UltraTags+ultratags.reload+Ability to use the reload command (reloads the plugin configuration)+/ultratags reload,/ut reload,/uts reload
 uSkyBlock+usb.admin.*+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
 uSkyBlock+usb.admin.cache+Flushes all caches to files+/usb flush
