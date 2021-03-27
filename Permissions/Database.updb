@@ -6167,6 +6167,13 @@ UltimateStatistics+ultimatestatistics.view+Allows the player to see their own st
 UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plugin+/customizer
 UltraCustomizerPlus+ucplus.command+Allows the player to use the main command of the plugin to open the GUI.
 UltraCustomizerPlus+ucplus.update-join+Allows the player to see if the plugin needs an update.
+UltraEconomy+ultraeconomy.admin+Grants the player all permissions of the plugin.+/uecon
+UltraEconomy+ultraeconomy.balance.others+Allows the player to see the balance of another player.+/balance <player>
+UltraEconomy+ultraeconomy.balance.self+Allows the player to see their own balance.+/balance
+UltraEconomy+ultraeconomy.balancetop+Allows the player to view the top 10 players balance for the selected currency.+/balancetop <currency>,/baltop <currency>
+UltraEconomy+ultraeconomy.cheat+Allows the player to open the balance view.+/balance
+UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> <currency> <value>
+UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>
 UltraPunishments+ultrapunishments.access.details+Allows a player to access the player details of a specific player.
 UltraPunishments+ultrapunishments.admin+Allows the player to use all features of the plugin.
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
