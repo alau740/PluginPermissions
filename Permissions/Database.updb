@@ -51,7 +51,7 @@ AACAdditionPro+aacadditionpro.tablistremove+Allows the player to temporarily rem
 Actionbar+actionbar.announcer.list+Allows you to list all messages of the announcer +/actionbarannouncer list
 Actionbar+actionbar.announcer.send+Allows you to send a line of the announcers messages +/actionbarannouncer send
 Actionbar+actionbar.announcer.start+Allows you to start the announcer+/actionbarannouncer start
-Actionbar+actionbar.announcer.sto p+Allows you to stop the announcer+/actionbarannouncer stop
+Actionbar+actionbar.announcer.stop+Allows you to stop the announcer+/actionbarannouncer stop
 Actionbar+actionbar.announcer.time+Allows you to set the time of the announcer+/actionbarannouncer time
 Actionbar+actionbar.colorcodes+gives you the permission to use colorcodes
 Actionbar+actionbar.private+Allows you to send a private message via actionbar+/actionbar <msg|private> <player> <message>
