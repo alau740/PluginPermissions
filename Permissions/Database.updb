@@ -6617,6 +6617,16 @@ Wormholes+wormholes.destroy+Grants the permission to destroy portals (or via the
 Wormholes+wormholes.list+Grants the permission to list portals and teleport to them (or any location in the world technically)+/wormholes list
 Wormholes+wormholes.reload+Grants the permission to reload the plugin+/wormholes reload
 Wormholes+wormholes.use+Grants the permission to enter portals (actually use them) all players should have this if you plan on players using the portals you create.
+XProtect+xprotect.use+The main command for this plugin.+/p <add|remove|check|test|reload>
+XProtect+xprotect.add+Force verifies a playe.r+/p verify <player>
+XProtect+xprotect.blacklist+Blacklists a player.+/p blacklist <player>
+XProtect+xprotect.remove+Force unverifies a player.+/p remove <player>
+XProtect+xprotect.check+Gets if a player is verified or not.+/f check <player>
+XProtect+xprotect.test+Puts the player under a verification test.+/p test <player>
+XProtect+xprotect.reload+Reloads the configuration files of the plugin.+/p reload
+XProtect+xprotect.*+Basically gives all of the permissions.
+XProtect+xprotect.bypass+Bypasses the antibot and captcha tests.
+XProtect+xprotect.notify+Get notified when a player completes/fails a test.
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
