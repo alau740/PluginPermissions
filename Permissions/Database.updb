@@ -2869,6 +2869,14 @@ GriefPreventionFlags+gpflags.setworldflag+Allows the player to set a flag on an 
 GriefPreventionFlags+gpflags.unsetflag+Allows the player to remove a flag from a land claim.+/UnsetClaimFlag <flag>
 GriefPreventionFlags+gpflags.unsetserverflag+Allows the player to remove a flag from a server.+/UnsetServerFlag <flag>
 GriefPreventionFlags+gpflags.unsetworldflag+Allows the player to remove a flag from a world.+/UnsetWorldFlag <flag>
+Gamemode-Change+gmchange.gmc+Access to creative mode.+/creative
+Gamemode-Change+gmchange.gms+Access to survival mode.+/survival
+Gamemode-Change+gmchange.gma+Access to adventure mode.+/adventure
+Gamemode-Change+gmchange.gmsp+Access to spectator mode.+/spectator
+Gamemode-Change+gmchange.others+Change other people's gamemode.
+Gamemode-Change+gmchange.creative.bypass+Bypass the Anti-Creative feature (must be toggled in config).
+Gamemode-Change+gmchange.gmchange.notify+Notify when someone changes there gamemode (must be toggled in config).
+Gamemode-Change+gmchange.death.bypass+Bypass the change gamemode on death feature (must be toggled in config).
 HackedServer+hackedserver.alert+Allows the player to receive alerts when a player triggers HackedServer.
 HackedServer+hackedserver.bypass+Allows the player to bypass the alert when joining the server.
 HackedServer+hackedserver.check+Allows the player to check another player's version.+/hackedserver check,/hs check
