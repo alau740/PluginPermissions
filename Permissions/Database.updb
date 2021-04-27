@@ -877,6 +877,86 @@ ChatControl+chatcontrol.notify.signduplication+Receive a warning when a player m
 ChatControl+chatcontrol.notify.update+Receive a warning when a new version of plugin is available.
 ChatControl+chatcontrol.notify.whenmentioned+Receive a sound warning when somebody mentions you in the chat.
 ChatControl+chatcontrol+An unknown description
+ChatControlRed+chatcontrol.bypass.caps+Bypass the anticaps filter.
+ChatControlRed+chatcontrol.bypass.clear+Prevents your screen from getting wiped when the chat is cleared.
+ChatControlRed+chatcontrol.bypass.delay+Bypass time limit for messages and commands.
+ChatControlRed+chatcontrol.bypass.grammar+Do not apply capitalize first first/insert dot grammar adjustments.
+ChatControlRed+chatcontrol.bypass.log+Prevent your messages and commands from being logged.
+ChatControlRed+chatcontrol.bypass.logindelay+Prevent antibot login delay from applying.
+ChatControlRed+chatcontrol.bypass.loginusernames+Allow player joining if he has a disallowed nickname.
+ChatControlRed+chatcontrol.bypass.move+Prevent antibot chat/command until move check.
+ChatControlRed+chatcontrol.bypass.mute+Bypass chat or channel mute.
+ChatControlRed+chatcontrol.bypass.newcomer+Except player from different rules if he is newcomer.
+ChatControlRed+chatcontrol.bypass.period+Bypass period antispam check.
+ChatControlRed+chatcontrol.bypass.range.world+Bypass channel range and reach everyone on the same world only. False even to OPs by default.
+ChatControlRed+chatcontrol.bypass.range+Bypass channel range and reacheveryone on all worlds. False even to OPs by default.
+ChatControlRed+chatcontrol.bypass.reach+Send messages and privates messages to players who ignore you, or have PMs disabled.
+ChatControlRed+chatcontrol.bypass.signduplication+Prevent antibot sign duplication check.
+ChatControlRed+chatcontrol.bypass.similarity+Bypass similarity check.
+ChatControlRed+chatcontrol.bypass.spamkick+Bypass the vanilla antispam kick when typing rapidly.
+ChatControlRed+chatcontrol.bypass.spy+Prevent player actions from being spied upon.
+ChatControlRed+chatcontrol.bypass.tabcomplete+Bypass tab-complete filtering.
+ChatControlRed+chatcontrol.bypass.warnpoints+Do not receive warning points and bypass their actions.
+ChatControlRed+chatcontrol.channel.autojoin.[channel].[write|read]+Automatically join the given channel to the given mode on join.
+ChatControlRed+chatcontrol.channel.join.[channel].[write|read]+Join channel in mode with "/ch join".+/ch join <channel> <mode>
+ChatControlRed+chatcontrol.channel.join.others+Join others to channels with "/ch join".
+ChatControlRed+chatcontrol.channel.leave.[channel]+Leave channel with "/ch leave".+/ch leave <channel>
+ChatControlRed+chatcontrol.channel.leave.others+Leave others from channel with "/ch leave".+/ch leave <channel> <player>
+ChatControlRed+chatcontrol.channel.list.options+Mute or Kick players from channels in "/ch list".+/ch list
+ChatControlRed+chatcontrol.channel.send.[channel]+Send messages to channel with "/ch send".+/ch send <channel> <message>
+ChatControlRed+chatcontrol.chat.read+See game chat messages.
+ChatControlRed+chatcontrol.chat.write+Write messages to game chat.
+ChatControlRed+chatcontrol.color.[color]+Enable to use & color codes for colors and decoration.
+ChatControlRed+chatcontrol.command.announce.[type]+Announce important messages to everyonevia "/chc announce". Replace "type" with: chat, title, actionbar, bossbar, toast.+/chc announce <type> <message>
+ChatControlRed+chatcontrol.command.book+Read or save books you can use in rules etc "/chc book".+/chc book
+ChatControlRed+chatcontrol.command.bungee+Forwards commands to BungeeCord.
+ChatControlRed+chatcontrol.command.captcha+Answer or regenerate captcha.
+ChatControlRed+chatcontrol.command.clear.console.+Clear the console.+/chc clear -console
+ChatControlRed+chatcontrol.command.clear+Clear the game chat.+/chc clear
+ChatControlRed+chatcontrol.command.color.others+Change another player's color/decoration.
+ChatControlRed+chatcontrol.command.color+Change your chat color/decoration via "/chc color".+/chc color
+ChatControlRed+chatcontrol.command.debug+Compress settings for GitHub issues.+/chc debug
+ChatControlRed+chatcontrol.command.forward+Send commands to BungeeCord or another server.+/chc forward <server> <command>
+ChatControlRed+chatcontrol.command.ignore.list+List of who is ignoring messages/PMs.+/ignore list
+ChatControlRed+chatcontrol.command.ignore.others+Toggle seeing messages/PMs for others.+/ignore <forWhom> <player>
+ChatControlRed+chatcontrol.command.ignore+Toggle seeing messages/PMs from players.+/ignore <player>
+ChatControlRed+chatcontrol.command.info+Print various debug information.+/chc info
+ChatControlRed+chatcontrol.command.inspect+Inspect classes, fields and methods in Java.+/chc inspect
+ChatControlRed+chatcontrol.command.list+Browse players on your server or BungeeCord.+/list
+ChatControlRed+chatcontrol.command.log+View last player communication.+/chc log
+ChatControlRed+chatcontrol.command.mail+Manage your game mail.+/mail
+ChatControlRed+chatcontrol.command.me+Send a formatted message.+/me
+ChatControlRed+chatcontrol.command.message+Manage player messages.+/chc message
+ChatControlRed+chatcontrol.command.migrate+Migrate date between MySQL and data.db.+/chc migrate
+ChatControlRed+chatcontrol.command.motd.others+Send the message of the day to other players.
+ChatControlRed+chatcontrol.command.motd+Read the message of the day.+/motd
+ChatControlRed+chatcontrol.command.mute+Mute the game chat.+/mute
+ChatControlRed+chatcontrol.command.permissions+List all plugins permissions.+/chc perms
+ChatControlRed+chatcontrol.command.points+Manage player warning points.+/chc points
+ChatControlRed+chatcontrol.command.purge+Remove past player's messages.+/chc purge
+ChatControlRed+chatcontrol.command.realname+Look up player's real name and nick.+/realname
+ChatControlRed+chatcontrol.command.region+Manage map regions used in rules.+/chc region
+ChatControlRed+chatcontrol.command.reload+Reload plugin configuration.+/chc reload
+ChatControlRed+chatcontrol.command.reply+Reply to last player who messaged you.+/reply
+ChatControlRed+chatcontrol.command.rule+Manage the rule system.+/chc rule
+ChatControlRed+chatcontrol.command.script+Execute JavaScript scripts.+/chc script
+ChatControlRed+chatcontrol.command.spy+Toggle spying player commands and messages.+/spy
+ChatControlRed+chatcontrol.command.tag.[type]+Set yourself a tag such as prefix, suffix or nick. Type is either prefix, suffix or nick.+/tag
+ChatControlRed+chatcontrol.command.tag.admin+Control tags for players.+/chc tag
+ChatControlRed+chatcontrol.command.tell+Send private messages to players.+/message
+ChatControlRed+chatcontrol.command.toggle.[type]+Toggle seeing parts of the plugin. Replace type with: mail, announcement, me, pm, death, join. kick, quit, list.+/toggle <type>
+ChatControlRed+chatcontrol.command.toggle.off+Toggle a given plugin part off, see the main toggle permission.
+ChatControlRed+chatcontrol.command.toggle.on+Toggle a given plugin part on, see the main toggle permission.
+ChatControlRed+chatcontrol.command.tour+Discoer what ChatControlRed is and how it can help your server.+/chc tour
+ChatControlRed+chatcontrol.command.update+Reload player's tab list name.+/chc update
+ChatControlRed+chatcontrol.group.[group]+Automatically assign a certain group to player.
+ChatControlRed+chatcontrol.guicolor.[color]+Enable to use certain colors or decoration.
+ChatControlRed+chatcontrol.hexcolor.[color]+Enable to use hex colors or decoration, also via "/chc color". Replace color with the code without #.
+ChatControlRed+chatcontrol.receive.announcer+See messages from "/chc announce".
+ChatControlRed+chatcontrol.soundnotify+Use the sound notify feature.
+ChatControlRed+chatcontrol.spy.autoenable+Automatically start spying on everything on join.
+ChatControlRed+chatcontrol.use.color.[apply_on]+Allow players use & and hex colors. Replace apply_on with Colors. Apply_On sections from settings.yml.
+ChatControlRed+chatcontrolred.notify.update+Receive plugin update notifications on join.
 ChatItem+chatiem.ignore.cooldown+allows you to bypass the message cooldown (if enabled)
 ChatItem+chatitem.reload+allows you to reload the config+/cireload
 ChatItem+chatitem.use+allows your messages to be parsed by the plugin also {item}
