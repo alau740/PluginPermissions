@@ -2771,6 +2771,19 @@ FateHubCore+queue.bypass.[server_name]+Allows the player to bypass the queue of 
 FateHubCore+queue.bypass+Allows the player to bypass the queue.
 FateHubCore+queue.priority.[priority]+Specifies the queue priority (1 is highest, 50 is lowest).
 FateHubCore+ub.options.bypass.pick+Allows the player to bypass item pickup restrictions.
+FateMeetup+fate.editkits+Allows user to edit the game kits.+/editkits
+FateMeetup+fate.kiteditormode+Allows user to set kits in lobby.+/kiteditormode
+FateMeetup+fate.forcestart+Allows user to force start the game.+/forcestart
+FateMeetup+fate.announce+Allows user to announce the game via bungee if using addon.+/announce
+FateMeetup+fate.freeze+Freeze/Un-Freeze a player.+/freeze
+FateMeetup+fate.goldenhead+Gives yourself a golden head.+/goldenhead
+FateMeetup+fate.rl+Refresh leaderboards.+/refreshleaderboards
+FateMeetup+fate.loadfiles+Reloads all files.+/reloadfiles
+FateMeetup+fate.settings+Opens settings GUI.+/meetupsettings
+FateMeetup+fate.scenarios.admin+Edit the scenarios.+/scenarios admin
+FateMeetup+fate.setlobby+Set the game lobby.+/setlobby
+FateMeetu+fate.resetdata+Resets all data.+/resetdata [all]
+FateMeetup+fatemeetup.update+Receive update notifications.
 FateUHC+alerts.diamonds+Allows the player to view diamond alerts.
 FateUHC+alerts.gold+Allows the player to view gold alerts.
 FateUHC+alerts.ipvp+Allows the player to view IPVP alerts.
