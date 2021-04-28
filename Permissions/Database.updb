@@ -2699,9 +2699,10 @@ FateMeetup+fate.freeze+Freeze/Un-Freeze a player.+/freeze
 FateMeetup+fate.goldenhead+Gives yourself a golden head.+/goldenhead
 FateMeetup+fate.rl+Refresh leaderboards.+/refreshleaderboards
 FateMeetup+fate.loadfiles+Reloads all files.+/reloadfiles
-FateMeetup+fate.settings+Opens settings GUI.+/settings
+FateMeetup+fate.settings+Opens settings GUI.+/meetupsettings
 FateMeetup+fate.scenarios.admin+Edit the scenarios.+/scenarios admin
 FateMeetup+fate.setlobby+Set the game lobby.+/setlobby
+FateMeetu+fate.resetdata+Resets all data.+/resetdata [all]
 FateMeetup+fatemeetup.update+Receive update notifications.
 FateUHC+alerts.diamonds+Allows the player to view diamond alerts.
 FateUHC+alerts.gold+Allows the player to view gold alerts.
