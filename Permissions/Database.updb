@@ -6280,6 +6280,7 @@ UltraPunishments+ultrapunishments.admin+Allows the player to use all features of
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
 UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban another player.
 UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted punishments messages.
+UltraPunishments+ultrapunishments.clearchat.execute+Allows the clearing of chat for players.
 UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze another player.
 UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze another player.
 UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings.
