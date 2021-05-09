@@ -6725,3 +6725,10 @@ XProtect+xprotect.notify+Get notified when a player completes/fails a test.
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
+UltraEditor+ultraeditor.use+Allows usage of commands.
+UltraEditor+ultraeditor.help+Show a list of commands.+/ultraeditor help
+UltraEditor+ultraeditor.getauth+Get current auth key.+/ultraeditor getauth
+UltraEditor+ultraeditor.newauth+Generate a new auth key.+/ultraeditor newauth
+UltraEditor+ultraeditor.reload+Reload the config.+/ultraeditor reload
+UltraEditor+ultraeditor.info+Get some info on the plugin.+/ultraeditor info
+UltraEditor+ultraeditor.editor+Get a link to the editors.+/ultraeditor editor
