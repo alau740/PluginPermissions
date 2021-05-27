@@ -2066,6 +2066,20 @@ EasyWarp+easywarp.command.warpother+Warp yourself (or a player specified) to the
 EasyWarp+easywarp.delay.bypass+The ability to bypass any warp delay if 'permsBypassDelay' is 'true' in the config.
 EasyWarp+easywarp.sign.create+The ability to create a warp sign
 EasyWarp+easywarp.sign.use+The ability to use warp signs if 'signs-require-permissions' is 'true' in the config.
+EconomyShopGUI+EconomyShopGUI.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
+EconomyShopGUI+EconomyShopGUI.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
+EconomyShopGUI+EconomyShopGUI.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
+EconomyShopGUI+EconomyShopGUI.eshop.edititem+This command will edit any item from the shop.+/editshop edititem <section> <item> <action> <key> <value>
+EconomyShopGUI+EconomyShopGUI.eshop.editor+Gives access to the GUI Editor (when shift-clicking an item in a shop) [Premium Only].
+EconomyShopGUI+EconomyShopGUI.eshop.import+Allow you to use the /editshop import command [Premium Only]+/editshop import
+EconomyShopGUI+EconomyShopGUI.eshop+Allows access to the editshop commands.+/editshop
+EconomyShopGUI+EconomyShopGUI.reload+Allows you to reload the plugin+/sreload
+EconomyShopGUI+EconomyShopGUI.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
+EconomyShopGUI+EconomyShopGUI.shop.<ShopSectionName>+Acces to open a specific shop section by its name.+/shop <section>
+EconomyShopGUI+EconomyShopGUI.shop.all+Gives you permission to open all shop sections.
+EconomyShopGUI+EconomyShopGUI.shop+This permission allows players to use the shop.+/shop
 Eggwars+eggwars.addspawner+Adds a spawner to the arena.+/Eggwars addspawner
 Eggwars+eggwars.addvillager+Adds a villager to the arena.+/Eggwars addvillager
 Eggwars+eggwars.admin+Shows a list of admin commands.+/Eggwars admin
