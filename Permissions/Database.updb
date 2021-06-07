@@ -3445,6 +3445,10 @@ ItemFrameShops+ifs.user.useBuyAll+Non command: Buy All for one item.
 ItemFrameShops+ifs.user.useSellAll+Non command: Sell one stack for a item.
 ItemRestrict+ItemRestrict.admin+Bypass the item restrictions and access to the /itemrestrict reload command. Default to OP
 ItemRestrict+ItemRestrict.bypass+Bypass all the restrictions
+ItemsInChatPro+ItemInChat.send.item+Allows to use the [item] tag
+ItemsInChatPro+ItemInChat.send.inventory+Allows to use the [inventory] tag
+ItemsInChatPro+ItemInChat.send.gear+Allows to use the [gear] tag
+ItemsInChatPro+ItemInChat.send.gift+Allows to send an inventory gift through the chat+/iic gift <player>
 JEssentials+jessentials.*+Grants all permissions from the plugin
 JEssentials+jessentials.afk.auto+Marks the player as afk until they move/interact in-game
 JEssentials+jessentials.afk.kickexempt+Bypass afk kick
