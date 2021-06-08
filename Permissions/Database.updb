@@ -712,6 +712,20 @@ BetterBowTrails+betterbowtrails.updater+receive a message if the plugin has a ne
 BetterBowTrails+betterbowtrails.use.menu+Shows all bow trails choices listed in the menu file+/arrow
 BetterBowTrails+betterbowtrails.use+Shows all bow trails choices listed in the menu file+/arrow help
 betterSleeping+bettersleeping.reload+Reloads all BetterSleeping configuration files+/bs reload,/bettersleeping reload
+BkTeleport+bkteleport.countdown.[0-99]+Will give the group X seconds countdown. To have an instant teleport simply use a 0 instead.
+BkTeleport+bkteleport.delhome+Deletes a home.+/delhome <name>
+BkTeleport+bkteleport.delwarp+Deletes a warp.+/delwarp <name>
+BkTeleport+bkteleport.home+Teleports to one of your homes.+/homes,/home <name>
+BkTeleport+bkteleport.maxhomes.[0-54]+Will give the group a limit of homes.
+BkTeleport+bkteleport.sethome+Sets a home.+/sethome <name>
+BkTeleport+bkteleport.setwarp+Sets the location of a warp.+/setwarp <name>
+BkTeleport+bkteleport.spy.home+Shows the home list of another player.+/home <player>
+BkTeleport+bkteleport.tpa+Sends a clickable TPA request to another player.+/tpa <player>
+BkTeleport+bkteleport.tpaccept+Accepts a teleport request.+/tpaccept
+BkTeleport+bkteleport.tpdeny+Refuses a teleport request.+/tpdeny
+BkTeleport+bkteleport.tphere+Sends a clickable TPHERE request to another player.+/tphere <player>
+BkTeleport+bkteleport.warp.others+eleports another player to a warp, even if the target player doesn't have the permission to go to that warp.+/warp <name> <player>
+BkTeleport+kteleport.warp.[warp-name]+Teleports you to a warp. You need to grant per warp permissions or use the global permission.+/warps,/warp <name>
 BossShopPro+BossShop.bypass+Bypass the anti click spam delay.
 BossShopPro+BossShop.close+Allows to close the currently opened inventory of a player via command.+/shop close
 BossShopPro+BossShop.createSign+Allows to create BossShop signs.
