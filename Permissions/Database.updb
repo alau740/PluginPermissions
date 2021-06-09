@@ -2199,224 +2199,274 @@ EpicSpawners+epicspawners.shop.*+This will depict what spawners players will see
 EpicSpawners+epicspawners.silkdrop.*+This will allow players to receive a spawner when they mine it with a silk touch pickaxe. You can configure the plugin to only allow specific spawners to be mined. You can make any preferred changes in the configuration file, or add them as a permission. (Example: epicspawners.silkdrop.pig)
 EpicSpawners+epicspawners.stack.*+Permission to stack spawners
 EpicSpawners+epicspawners.stats+This will allow a player to access the /spawnerstats command, so that they may view their EpicSpawner stats, including but not limited to, how many kills they must get to receive a specific spawner as a drop.
+Essentials+essentials.afk+Allow access to the /afk command.+/afk
 Essentials+essentials.afk.auto+Players with this permission will be set to afk after a period of inaction as defined in the config file.
 Essentials+essentials.afk.kickexempt+Exempts the user from being auto kicked for AFK
 Essentials+essentials.afk.message+allow the player to use /afk [text]+/afk [text]
 Essentials+essentials.afk.others+Allows you to AFK other players.
-Essentials+essentials.afk+Allow access to the /afk command.+/afk
 Essentials+essentials.antioch+Allow access to the /antioch command.+/antioch
-Essentials+essentials.back.ondeath+Give this permission to allow players to use /back to go to their death spot
+Essentials+essentials.anvil+Allow access to the /anvil command.+/anvil
 Essentials+essentials.back+Allow access to the /back command.+/back
+Essentials+essentials.back.into.[worldname]+Allows access to /back when the destination location is within the specified world
+Essentials+essentials.back.ondeath+Give this permission to allow players to use /back to go to their death spot
+Essentials+essentials.back.onteleport+Players with this permission will have back location stored during any teleportation
+Essentials+essentials.back.others+Allows the user to execute the /back command for other players
 Essentials+essentials.backup+Allow access to the /backup command.+/backup
-Essentials+essentials.balance.others+Allows you to see the balance of other players
 Essentials+essentials.balance+Allow access to the /balance command.+/balance
+Essentials+essentials.balance.others+Allows you to see the balance of other players
 Essentials+essentials.balancetop+Allow access to the /balancetop command.+/balancetop
-Essentials+essentials.ban.exempt+Prevents a specified group or player from being banned
-Essentials+essentials.ban.notify+Players with this permission will receive a notification when a ban is set.
-Essentials+essentials.ban.offline+Allows banning of players who are offline. This may allow you to ban exempt players_
+Essentials+essentials.balancetop.exclude+Players with this permission are excluded from the balancetop
+Essentials+essentials.balancetop.force+Allow a forced refresh of balancetop.+/balancetop force
 Essentials+essentials.ban+Allow access to the /ban command.+/ban
+Essentials+essentials.ban.exempt+Prevents a specified group or player from being banned.
+Essentials+essentials.ban.notify+Players with this permission will receive a notification when a ban is set.
+Essentials+essentials.ban.offline+Allows banning of players who are offline. This may allow you to ban exempt players.
 Essentials+essentials.banip+Allow access to the /banip command.+/banip
+Essentials+essentials.banip.notify+Players with this permission will receive a notification when an IP ban is set.
+Essentials+essentials.beezooka+Allow access to the /beezooka command.+/beezooka
 Essentials+essentials.bigtree+Spawns the specified big tree at the block you are looking at+/bigtree
+Essentials+essentials.book+Allow access to the /book command.+/book
 Essentials+essentials.book.author+Allows the user to change the author of a book.
 Essentials+essentials.book.others+Allow editing a book belonging to another player
 Essentials+essentials.book.title+Allows the user to change the title of a written book
-Essentials+essentials.book+Allow access to the /book command_+/book
-Essentials+essentials.break.bedrock+Using this command will break the block that the player's cursor has selected
 Essentials+essentials.break+Using this command will break the block that the player's cursor has selected+/break
+Essentials+essentials.break.bedrock+Using this command will break the block that the player's cursor has selected
 Essentials+essentials.broadcast+Allow access to the /broadcast command.+/broadcast
-Essentials+essentials.build+Allows people to build when using permission systems which don't support build toggles.
+Essentials+essentials.broadcastworld+Allow access to the /broadcastworld command.+/broadcastworld
 Essentials+essentials.burn+Allow access to the /burn command.+/burn
-Essentials+essentials.chat.color+This allows you to color your chat messages using color codes.
-Essentials+essentials.chat.format+This allows you to format your chat messages using format codes.
-Essentials+essentials.chat.ignoreexempt+Someone with this permission will not be ignored, even if they are on another persons ignore list.
-Essentials+essentials.chat.magic+This allows you to use the matrix/magic color in your chat messages.
-Essentials+essentials.chat.question+This allows you to send global qeustions, used if a chat-raidus is configured.
-Essentials+essentials.chat.shout+This allows you to send global messages, used if a chat-raidus is configured.
-Essentials+essentials.chat.spy.exempt+SocialSpy exempt with+/spy
-Essentials+essentials.chat.spy+A permission designed for admins, to intercept all local messages (ignoring the chat-radius).
-Essentials+essentials.chat.url+This allows you to use urls in your chat messages.
-Essentials+essentials.clearinventory.all+Allows a player to clear all players inventories.
-Essentials+essentials.clearinventory.others+Allows you to clear other player's inventory
+Essentials+essentials.cartographytable+Allow access to the /cartographytable command.+/cartographytable
 Essentials+essentials.clearinventory+Allow access to the /clearinventory command.+/clearinventory
-Essentials+essentials.commandcooldowns.bypass+Users can be set to bypass all command cooldowns
+Essentials+essentials.clearinventory.all+Allows a player to clear all players inventories.
+Essentials+essentials.clearinventory.multiple+Allow access to the /clearinventory command.+/clearinventory
+Essentials+essentials.clearinventory.others+Allows you to clear other player's inventory.
+Essentials+essentials.commandcooldowns.bypass+Users can be set to bypass all command cooldowns.
 Essentials+essentials.compass+Allow access to the /compass command.+/compass
+Essentials+essentials.condense+	Allow access to the /condense command.+/condense
 Essentials+essentials.createkit+Creates a kit from your inventory and puts it in the config file.+/createkit <kitname> <delay>
 Essentials+essentials.customtext+Allow access to the /customtext command and all aliases.+/customtext
-Essentials+essentials.delhome.others+Allows you to delete the homes of other players.
 Essentials+essentials.delhome+Allow access to the /delhome command.+/delhome
+Essentials+essentials.delhome.others+Allows you to delete the homes of other players.
 Essentials+essentials.deljail+Allow access to the /deljail command.+/deljail
+Essentials+essentials.delkit+Allow access to the /delkit command.+/delkit
 Essentials+essentials.delwarp+Allow access to the /delwarp command.+/delwarp
 Essentials+essentials.depth+Allow access to the /depth command.+/depth
-Essentials+essentials.eco.loan+Allows the player to have a negative balance.
+Essentials+essentials.disposal+Allow access to the /disposal command+/disposal
 Essentials+essentials.eco+Allow access to the /eco command.+/eco
-Essentials+essentials.enchant.allowunsafe+The command will add an enchantment to the item the user is currently holding. Using the command without an enchantment name will return a list of available enchantments
+Essentials+essentials.eco.loan+Allows the player to have a negative balance.
+Essentials+essentials.editsign+Allows access to the /editsign command.+/editsign
+Essentials+essentials.editsign.[color]+Allows you to /editsign in <color> using color codes.
+Essentials+essentials.editsign.color+This allows you to use any color code within the /editsign command, NOT including hex colors (&#RRGGBB).
+Essentials+essentials.editsign.rgb+Allows access to hex colors in the /editsign command using the &#RRGGBB format.
+Essentials+essentials.editsign.unlimited+Allows access to exceed the 15-character-per-line limit.
 Essentials+essentials.enchant+The command will add an enchantment to the item the user is currently holding. Using the command without an enchantment name will return a list of available enchantments+/enchant
+Essentials+essentials.enchantments.[enchantmentname]+Allows access to each enchantment type.
 Essentials+essentials.enchantments.allowunsafe+If enabled in the config, this permission allows unsafe enchantments.
+Essentials+essentials.enderchest+Allow access to the /enderchest command.+/enderchest
 Essentials+essentials.enderchest.modify+Allows you to modify the contents of another players enderchest.
 Essentials+essentials.enderchest.others+Allows you to see the contents of another players enderchest.
-Essentials+essentials.enderchest+Allow access to the /enderchest command.+/enderchest
 Essentials+essentials.essentials+Allow access to the /essentials command.+/essentials
-Essentials+essentials.exp.give.others+Allows players to give others exp (if they also have essentials.exp.give).
-Essentials+essentials.exp.give+Allows players to give themselves exp.
-Essentials+essentials.exp.others+Allows players to see another players exp.
-Essentials+essentials.exp.set.others+Allows players to change others exp (if they also have essentials.exp.set).
-Essentials+essentials.exp.set+Allows players to set their own exp.
 Essentials+essentials.exp+Allow access to the /exp command.+/exp
-Essentials+essentials.ext+Allow access to the /ext command.+/ext
-Essentials+essentials.feed.cooldown.bypass+Bypass the feed cooldown
+Essentials+essentials.exp.give+Allows players to give themselves exp.
+Essentials+essentials.exp.give.others+Allows players to give others exp (if they also have essentials.exp.give).
+Essentials+essentials.exp.others+Allows players to see another players exp.
+Essentials+essentials.exp.set+Allows players to set their own exp.
+Essentials+essentials.exp.set.others+Allows players to change others exp (if they also have essentials.exp.set).
+Essentials+essentials.ext+Allow access to the "/ext" command.+/ext
+Essentials+essentials.ext.others+Allow to specify other player in /ext.
+Essentials+essentials.feed+Allows access to the "/feed" command.+/feed
+Essentials+essentials.feed.cooldown.bypass+Bypass the feed cooldown.
 Essentials+essentials.feed.others+Allows a player to feed another player.
-Essentials+essentials.feed+Allows access to the /feed command.
-Essentials+essentials.fireball+Allow access to the /fireball command.+/fireball
+Essentials+essentials.fireball+Allow access to the "/fireball" command.+/fireball
+Essentials+essentials.fireball.arrow+Allow firing arrows.
+Essentials+essentials.fireball.dragon+Allow firing Ender Dragon fireballs.
+Essentials+essentials.fireball.egg+Allow firing eggs.
+Essentials+essentials.fireball.expbottle+Allow firing experience bottles.
+Essentials+essentials.fireball.fireball+Allow firing regular fireballs.
+Essentials+essentials.fireball.large+Allow firing large fireballs.
+Essentials+essentials.fireball.lingeringpotion+Allow firing lingering potions.
+Essentials+essentials.fireball.skull+Allow firing wither skulls.
+Essentials+essentials.fireball.small+Allow firing small fireballs.
+Essentials+essentials.fireball.snowball+Allow firing frozen fireballs.
+Essentials+essentials.fireball.splashpotion+Allow firing splash potions.
+Essentials+essentials.fireball.trident+Allow firing tridents.
+Essentials+essentials.firework+Allow access to the "/firework" command.+/firework
 Essentials+essentials.firework.fire+Allows a user to 'spawn' a copy of the firework held in their hands.
-Essentials+essentials.firework+Allow access to the /firework command.+/firework
+Essentials+essentials.firework.multiple+Allows to spawn multiple firework effects at once.
+Essentials+essentials.fly+Allow access to the "/fly" command.+/fly
 Essentials+essentials.fly.others+Allows you to toggle fly for other players.
 Essentials+essentials.fly.safelogin+Players with this command will automatically switch to fly mode if they login whilst floating in the air.
-Essentials+essentials.fly+Allow access to the /fly command.+/fly
-Essentials+essentials.gamemode.adventure+An unknown description+/gma
-Essentials+essentials.gamemode.all+An unknown description+/gmc,/gms,/gma,/gmsp
-Essentials+essentials.gamemode.creative+An unknown description+/gmc
-Essentials+essentials.gamemode.others+Allows you to change the gamemode of other players.
-Essentials+essentials.gamemode.spectator+An unknown description+/gmsp
-Essentials+essentials.gamemode.survival+An unknown description+/gms
 Essentials+essentials.gamemode+Allow access to the /gamemode command.+/gamemode
-Essentials+essentials.gc+Allow access to the /gc command.+/gc
-Essentials+essentials.geoip.show+Shows the GeoIP location of a player, if the GeoIP module is installed.
-Essentials+essentials.getpos.others+Allow user to get the position of another player.
+Essentials+essentials.gamemode.adventure+Allow access to the "/gamemode adventure" command. Also requires 'essentials.gamemode'+/gma
+Essentials+essentials.gamemode.all+Allow access to all the gamemodes in the "/gamemode" command+/gmc,/gms,/gma,/gmsp
+Essentials+essentials.gamemode.creative+Allow access to the "/gamemode creative" command. Also requires 'essentials.gamemode'+/gmc
+Essentials+essentials.gamemode.others+Allows you to change the gamemode of other players.
+Essentials+essentials.gamemode.spectator+Allow access to the "/gamemode spectator" command. Also requires 'essentials.gamemode'+/gmsp
+Essentials+essentials.gamemode.survival+Allow access to the "/gamemode survival" command. Also requires 'essentials.gamemode'+/gms
+Essentials+essentials.gc+Allow access to the "/gc" command.+/gc
 Essentials+essentials.getpos+Allow access to the /getpos command.+/getpos
-Essentials+essentials.give+Allow access to the /give command.+/give
+Essentials+essentials.getpos.others+Allow user to get the position of another player.
+Essentials+essentials.give+Allow access to the "/give" command.+/give
+Essentials+essentials.give.item-[itemid]+If permission-based-item-spawn: Spawn <itemname>.
+Essentials+essentials.give.item-[itemname]+If permission-based-item-spawn: Spawn <itemname>.
+Essentials+essentials.god+Allow access to the "/god" command.+/god
 Essentials+essentials.god.others+Allows you to god other players
 Essentials+essentials.god.pvp+Allows you to attack other players while in god mode.
-Essentials+essentials.god+Allow access to the /god command.+/god
-Essentials+essentials.hat+Allow access to the /hat command.+/hat
+Essentials+essentials.grindstone+Allow access to the /grindstone command.
+Essentials+essentials.hat+Allow access to the "/hat" command.+/hat
+Essentials+essentials.hat.ignore-binding+Disable blocking the removing of hats with curse of binding.
+Essentials+essentials.hat.prevent-type.[item-name]+Give this permission to users to prevent them using this type of item in "/hat" command.
 Essentials+essentials.heal.cooldown.bypass+Bypass the heal cooldown
 Essentials+essentials.heal.others+Allows healing another player
-Essentials+essentials.heal+Allow access to the /heal command.+/heal
-Essentials+essentials.help+Allow access to the /help command.+/help
+Essentials+essentials.heal+Allow access to the "/heal" command.+/heal
+Essentials+essentials.help+Allow access to the "/help" command.+/help
+Essentials+essentials.help.[pluginname]+Manually adds the commands from a plugin to this group's "/help". Name is all lowercase.
+Essentials+essentials.help.[pluginname].[command]+Manually adds a command from a plugin to this group's "/help". Name is all lowercase.
+Essentials+essentials.helpop+Allow access to the "/helpop" command.+/helpop
 Essentials+essentials.helpop.receive+Allows you to see Helpop messages
-Essentials+essentials.helpop+Allow access to the /helpop command.+/helpop
+Essentials+essentials.home+Allow access to the "/home" command.+/home
 Essentials+essentials.home.bed+Allow access to the vanilla bed home.
-Essentials+essentials.home.others+Allows you to teleport to homes of other players
-Essentials+essentials.home+Allow access to the /home command.+/home
-Essentials+essentials.ignore+Allow access to the /ignore command.+/ignore
-Essentials+essentials.info+Allow access to the /info command.+/info
+Essentials+essentials.home.compass+Point the player's compass at their first home. compass-towards-home-perm needs to be enabled in the configuration.
+Essentials+essentials.home.others+Allows you to teleport to homes of other players.+/home <player> <home>
+Essentials+essentials.ignore+Allow access to the "/ignore" command.+/ignore
+Essentials+essentials.info+Allow access to the "/info" command.+/info
+Essentials+essentials.invsee+Allow access to the "/invsee" command.+/invsee
+Essentials+essentials.invsee.equip+Allow access to see someones equiped armor slots in "/invsee <name> [armor]".
 Essentials+essentials.invsee.modify+Players can modify the other players inventory (remove/add items).
 Essentials+essentials.invsee.preventmodify+Prevents other players from modifying the players inventory.
-Essentials+essentials.invsee+Allow access to the /invsee command.+/invsee
 Essentials+essentials.item+Allow access to the /item command.+/item
-Essentials+essentials.itemdb+Allows access to the /itemdb command.+/itemdb
+Essentials+essentials.itemdb+Allows access to the "/itemdb" command.+/itemdb
+Essentials+essentials.itemlore+Allow access to the "/itemlore" command.+/itemlore
+Essentials+essentials.itemname+Allows access to the "/itemname" command.+/itemname
+Essentials+essentials.itemname.[effect]+Gives access to use <effect> in the "/itemname" command. <effect> examples: bold, reset, gold, dark_red, *+/itemname <effect>
 Essentials+essentials.itemspawn.exempt+Allows spawning of items on the spawn blacklist.
+Essentials+essentials.itemspawn.item-[itemid]+If permission-based-item-spawn: Spawn "<itemid>".
+Essentials+essentials.itemspawn.item-[itemname]+If permission-based-item-spawn: Spawn "<itemname>".
 Essentials+essentials.itemspawn.item_all+If permission-based-item-spawn Spawn all items.
 Essentials+essentials.itemspawn.meta_author+Allow 'author' meta to be used in item spawning.
-Essentials+essentials.itemspawn.meta_book+Allows spawning of books with pre-filled content from books.txt
+Essentials+essentials.itemspawn.meta_book+Allows spawning of books with pre-filled content from "books.txt file."
+Essentials+essentials.itemspawn.meta-chapter-[chapter]+Allow access to the Allows spawning of specific books only, from "book.txt" file.
 Essentials+essentials.itemspawn.meta_firework+Allow specific meta for fireworks.
 Essentials+essentials.itemspawn.meta_head+Allows spawning of mob heads.
 Essentials+essentials.itemspawn.meta_lore+Allow 'lore' meta to be used in item spawning.
 Essentials+essentials.itemspawn.meta_title+Allow 'title' meta to be used in item spawning.
-Essentials+essentials.jails+Allow access to the /jails command.+/jails
+Essentials+essentials.jail.allow-block-damage+Allow damaging blocks whilst jailed. (Might also want to add essentials.jail.allow-break).
+Essentials+essentials.jail.allow-break+Allow breaking blocks whilst jailed. (Might also want to add essentials.jail.allow-block-damage).
+Essentials+essentials.jail.allow-interact+Allow interacting whilst jailed
+Essentials+essentials.jail.allow-place+Allow placing blocks whilst jailed.
+Essentials+essentials.jail.allow.[command]+Allows essentials commands to be used while jailed (requires regular perm).
+Essentials+essentials.jails+Allow access to the /"jails" command.+/jails
 Essentials+essentials.joinfullserver+Player can join when the server is full.
-Essentials+essentials.jump+Allow access to the /jump command.+/jump
+Essentials+essentials.jump+Allow access to the "/jump" command.+/jump
+Essentials+essentials.jump.lock+Allow access to the "/jump lock" command.+/jump lock
+Essentials+essentials.keepinv+Allows the user to keep their inventory on death, instead of dropping it.
 Essentials+essentials.keepxp+Allows the user to keep their exp on death, instead of dropping it.
+Essentials+essentials.kick+Allow access to the "/kick" command.+/kick
 Essentials+essentials.kick.exempt+Prevents the player from being kicked.
 Essentials+essentials.kick.notify+User sees a notification when a user is kicked.
-Essentials+essentials.kick+Allow access to the /kick command.+/kick
-Essentials+essentials.kickall+Allow access to the /kickall command.+/kickall
+Essentials+essentials.kickall+Allow access to the "/kickall" command.+/kickall
+Essentials+essentials.kickall.exempt+Be exempt from the "/kickall" command.
+Essentials+essentials.kit+Allow access to the /kit command.+/kit
 Essentials+essentials.kill.exempt+Prevents the player from being killed.
 Essentials+essentials.kill.force+Force player death, even if event is cancelled.
-Essentials+essentials.kill+Allow access to the /kill command.+/kill
 Essentials+essentials.kit.exemptdelay+Exempts you from the kit delay feature, this affects signs as well as command.
 Essentials+essentials.kit.others+Allows spawning of kits on other players.
-Essentials+essentials.kit+Allow access to the /kit command.+/kit
+Essentials+essentials.kitreset+Allow access to the "/kitreset" command.+/kitreset
+Essentials+essentials.kitreset.others+Allow to reset other another player's kit cooldown using the "/kitreset" command.+/kitreset
 Essentials+essentials.kits.*+Allows access to all created kits
-Essentials+essentials.lightning.others+Allows use of /lightning [playername]
-Essentials+essentials.lightning+Allow access to the /lightning command.+/lightning
+Essentials+essentials.kits.[kitname]+Give access to a single kit, where <kitname> is the name of an existing kit.
+Essentials+essentials.kittycannon+Allow access to the "/kittycannon" command.+/kittycannon
+Essentials+essentials.lightning+Allow access to the "/lightning" command.+/lightning
+Essentials+essentials.lightning.others+Allows use of the "/lightning <playername>" command.+/lightning <playername>
+Essentials+essentials.list+Allow access to the "/list" command.+/list
 Essentials+essentials.list.hidden+Show hidden users
-Essentials+essentials.list+Allow access to the /list command.+/list
+Essentials+essentials.loom+Allow access to the "/loom" command.+/loom
+Essentials+essentials.mail+Allow access to the "/mail" command.+/mail
 Essentials+essentials.mail.send+Send mail
 Essentials+essentials.mail.sendall+Allows sending mail to all players at the same time
-Essentials+essentials.mail+Allow access to the /mail command.+/mail
-Essentials+essentials.me+Allow access to the /me command.+/me
-Essentials+essentials.more+Allows access to the /more command.+/more
+Essentials+essentials.me+Allow access to the "/me" command.+/me
+Essentials+essentials.more+Allows access to the "/more" command.+/more
 Essentials+essentials.motd+User sees MOTD on connect, and can use the command.
+Essentials+essentials.msg+Allow access to the "/msg" command.+/msg
 Essentials+essentials.msg.color+This allows you to color your private messages using color codes.
 Essentials+essentials.msg.format+This allows you to format your private messages using format codes.
 Essentials+essentials.msg.magic+This allows you to use the matrix/magic color in your private messages.
 Essentials+essentials.msg.multiple+This allows you to message multiple users in a single command.
+Essentials+essentials.msg.rgb+Allows using rgb colors in "/msg" command.
 Essentials+essentials.msg.url+This allows you to use urls in your private messages.
-Essentials+essentials.msg+Allow access to the /msg command.+/msg
-Essentials+essentials.msgtoggle+/msgtoggle command allows people to ignore all private messages+/msgtoggle
+Essentials+essentials.msgtoggle+Allows people to ignore all private messages+/msgtoggle
+Essentials+essentials.msgtoggle.bypass+This permission allows you to send private messages to users that have disabled them with the "/msgtoggle" command.
+Essentials+essentials.msgtoggle.others+Allow executing the "/msgtoggle" command for someone else.
+Essentials+essentials.mute+Allow access to the "/mute" command.+/mute <player>
 Essentials+essentials.mute.exempt+Prevents a specified group or player from being muted
 Essentials+essentials.mute.notify+Players with this permission will receive a notification when a player is muted.
 Essentials+essentials.mute.offline+Allows muting of players who are offline. This may allow you to mute exempt players.
-Essentials+essentials.mute+Allow access to the /mute command.+/mute
+Essentials+essentials.mute.unlimited+Allow overriding the max-mute-time set in the config.
+Essentials+essentials.near+Allow access to the "/near" command.+/near
+Essentials+essentials.near.exclude+Player gets excluded from "/near" lookup.
 Essentials+essentials.near.maxexempt+Allows bypassing the radius limit.
 Essentials+essentials.near.others+Allows using the near command on another player.
-Essentials+essentials.near+Allow access to the /near command_+/near
+Essentials+essentials.nick+Allow access to the "/nick" command.+/nick <name>
+Essentials+essentials.nick.[color]+Allows you to color your nickname using color codes.
+Essentials+essentials.nick.allowunsafe+If a player has this, they can set their username to any value. Use with caution, as this has the potential to break userdata files.
+Essentials+essentials.nick.blacklist.bypass+Allow access to bypass the "/nick" blacklist.
+Essentials+essentials.nick.changecolors+hen a player has the preceding permission, they are only allowed to add colours to their names.
 Essentials+essentials.nick.changecolors.bypass+Where if a player has the preceeding permission they are allowed to bypass the check and thus be able to change the characters of their name.
-Essentials+essentials.nick.changecolors+hen a player has the preceding permission, they are only allowed to add colours to their names.+/nick &5Mr_JesseZ
-Essentials+essentials.nick.color+essentials.nick.changecolors requires the essentials.nick.color permission in order to use colors in the nickname.
 Essentials+essentials.nick.color+This allows you to color your nickname using color codes.
 Essentials+essentials.nick.format+This allows you to format your nickname using format codes.
 Essentials+essentials.nick.magic+This allows you to use the matrix/magic color in your nickname.
 Essentials+essentials.nick.others+Gives you permission to give other players a nick name
-Essentials+essentials.nick+Allow access to the /nick command.+/nick
+Essentials+essentials.nick.rgb+Gives permission to use hex colors in the "/nick" commend using the &#RRGGBB format.
+Essentials+essentials.nocommandcost.[command]+Removes the command cost of a given command.
 Essentials+essentials.nocommandcost.all+Removes the command cost of all commands.
 Essentials+essentials.nuke+Allow access to the /nuke command.+/nuke
-Essentials+essentials.oversizedstacks+Allows spawning of stacks above normal max stack size
+Essentials+essentials.oversizedstacks+Allows spawning of stacks above normal max stack size.
+Essentials+essentials.pay+Allow access to the "/pay" command.+/pay <name> <amount>
 Essentials+essentials.pay.multiple+This allows you to pay multiple users in a single command.
-Essentials+essentials.pay+Allow access to the /pay command.+/pay
-Essentials+essentials.ping+Allow access to the /ping command.+/ping
+Essentials+essentials.pay.offline+This allows you to pay offline players.
+Essentials+essentials.payconfirmtoggle+Allow access to the "/payconfirmtoggle" command.+/payconfirmtoggle
+Essentials+essentials.paytoggle+Allow access to the "/paytoggle" command.+/paytoggle
+Essentials+essentials.ping+Allow access to the "/ping" command.+/ping
+Essentials+essentials.potion.[potionName]+Allow access to the "/potion [potionName]" command.
+Essentials+essentials.potion.apply+Allow access to the "/potion apply" command.+/potion apply
+Essentials+essentials.powertool+Allow access to the "/powertool" command.+/powertool
 Essentials+essentials.powertool.append+Allows adding multiple commands to a single powertool.
-Essentials+essentials.powertool+Allow access to the /powertool command.+/powertool
-Essentials+essentials.powertooltoggle+Allow access to the /powertooltoggle command.+/powertooltoggle
-Essentials+essentials.protect.admin+Allows the destruction of signs and rails.
-Essentials+essentials.protect.alerts+Allows a player to recieve protect alerts.
-Essentials+essentials.protect.damage.contact+Player will receive contact damage
-Essentials+essentials.protect.damage.creeper+Player will receive creeper damage
-Essentials+essentials.protect.damage.disable+Admin override to prevent admins from dying
-Essentials+essentials.protect.damage.drowning+Player will receive drowning damage
-Essentials+essentials.protect.damage.fall+Player will receive fall damage
-Essentials+essentials.protect.damage.fire+Player will receive fire damage
-Essentials+essentials.protect.damage.fireball+Player will receive fireball damage
-Essentials+essentials.protect.damage.lava+Player will receive lava damage
-Essentials+essentials.protect.damage.lightning+Player will receive lightning damage
-Essentials+essentials.protect.damage.projectiles+Player will receive projectile damage
-Essentials+essentials.protect.damage.suffocation+Player will receive suffocation damage
-Essentials+essentials.protect.damage.tnt+Player will receive tnt damage
-Essentials+essentials.protect.entitytarget.bypass+Allows a player to be targeted by mobs.
-Essentials+essentials.protect.exemptbreak+Allows a player to ignore the break blacklist.
-Essentials+essentials.protect.exemptplacement+Allows a player to ignore the block placement blacklist.
-Essentials+essentials.protect.exemptusage+Allows a player to ignore the usage blacklist.
-Essentials+essentials.protect.ownerinfo+Allows a player to examine protected objects to find their owner.
-Essentials+essentials.protect.pvp+When prevent PVP is set to true, this allows players to still PVP. Both attacker and defender need to have this permission.
-Essentials+essentials.protect+Allows the protection of rails and signs, otherwise they are not protected.
-Essentials+essentials.ptime.others+Allows you to change the time of another online player.
+Essentials+essentials.powertooltoggle+Allow access to the "/powertooltoggle" command.+/powertooltoggle
 Essentials+essentials.ptime+Allow access to the /ptime command.+/ptime
+Essentials+essentials.ptime.others+Allows you to change the time of another online player.
 Essentials+essentials.pvpdelay.exempt+Exempts players from the 'pvp delay' option in the config file.
-Essentials+essentials.realname+Allow access to the /realname command.+/realname
-Essentials+essentials.recipe+Allow access to the /recipe command.+/recipe
-Essentials+essentials.remove+Allow access to the /remove command.+/remove
-Essentials+essentials.repair.all+Unlock the /repair all ability+/repair
+Essentials+essentials.pweather+Allow access to the "/pweather" command.+/pweather
+Essentials+essentials.pweather.others+Allow to change the pweather of someone else.
+Essentials+essentials.realname+Allow access to the "/realname" command.+/realname
+Essentials+essentials.recipe+Allow access to the "/recipe" command.+/recipe
+Essentials+essentials.remove+Allow access to the "/remove" command.+/remove
+Essentials+essentials.repair+Allow access to the "/repair" command.+/repair
+Essentials+essentials.repair.all+Unlock the "/repair all" ability+/repair all
 Essentials+essentials.repair.armor+Repair all also repairs equipped armor.
 Essentials+essentials.repair.enchanted+Repairing of enchanted items.
-Essentials+essentials.repair+Allow access to the /repair command.+/repair
-Essentials+essentials.rules+Allow access to the /rules command.+/rules
+Essentials+essentials.rest+Allow access to the "/rest" command.+/rest
+Essentials+essentials.rest.others+Allow to specify other player in "/rest".
+Essentials+essentials.rtoggle+Allows access to toggle replying to last message recipient.
+Essentials+essentials.rules+Allow access to the "/rules" command.+/rules
+Essentials+essentials.seen+Allow access to the "/seen" command.+/seen
+Essentials+essentials.seen.alts+Allows the user to see accounts with the same IP in "/see".
 Essentials+essentials.seen.banreason+Allows the user to see why a user is banned.
 Essentials+essentials.seen.extra+Allow the user to see the last IP address a user connected with, and their last logged in location.
+Essentials+essentials.seen.ip+Allow to see someone's ip-address in "/seen".
 Essentials+essentials.seen.ipsearch+Allows the user to search IPs for username matches.
-Essentials+essentials.seen+Allow access to the /seen command.+/seen
+Essentials+essentials.seen.location+Allow to see someone's location in "/seen".
+Essentials+essentials.sell+Allow access to the "/sell" command.+/sell
 Essentials+essentials.sell.bulk+Separate permissions for bulk sell and hand sell
 Essentials+essentials.sell.hand+Separate permissions for bulk sell and hand sell
-Essentials+essentials.sell+Allow access to the /sell command.+/sell
+Essentials+essentials.sethome+Allow access to the "/sethome" command.+/sethome <name>
 Essentials+essentials.sethome.bed+Allows the player to right click a bed during daytime to update their 'bed' home.
-Essentials+essentials.sethome.multiple.unlimited+Removes the cap on the number of homes people are allowed (if they have multiple homes).
 Essentials+essentials.sethome.multiple+Allows player to have multiple homes, or create named homes. Required for 2 homes.
+Essentials+essentials.sethome.multiple.[setname]+Raise the multiple home limit to a setting defined in the config file.
+Essentials+essentials.sethome.multiple.unlimited+Removes the cap on the number of homes people are allowed (if they have multiple homes).
 Essentials+essentials.sethome.others+Allows you to change another users home location.
-Essentials+essentials.sethome+Allow access to the /sethome command.+/sethome
-Essentials+essentials.setjail+Allow access to the /setjail command.+/setjail
-Essentials+essentials.setspawn+Allow access to the /setspawn command.
-Essentials+essentials.setwarp+Allow access to the /setwarp command.+/setwarp
-Essentials+essentials.setworth+Allow access to the /setworth command.+/setworth
-Essentials+essentials.showkit+Shows a list of kit contents straight from config file.+/showkit <kitname>
+Essentials+essentials.setjail+Allow access to the "/setjail" command.+/setjail
+Essentials+essentials.setwarp+Allow access to the "/setwarp" command.+/setwarp <name>
+Essentials+essentials.setworth+Allow access to the "/setworth" command.+/setworth
+Essentials+essentials.showkit+Shows a list of kit contents straight from config file.+/showkit <name>
 Essentials+essentials.signs.break.balance+Controls who can break balance signs.
 Essentials+essentials.signs.break.buy+Controls who can break buy signs.
 Essentials+essentials.signs.break.disposal+Controls who can break disposal signs.
@@ -2454,11 +2504,13 @@ Essentials+essentials.signs.create.time+Controls who can create time signs.
 Essentials+essentials.signs.create.trade+Controls who can create trade signs.
 Essentials+essentials.signs.create.warp+Controls who can create warp signs.
 Essentials+essentials.signs.create.weather+Controls who can create weather signs.
-Essentials+essentials.signs.enchant.allowunsafe+Allows using [enchant] signs to perform unsafe enchantments
+Essentials+essentials.signs.enchant.allowunsafe+Allows using [enchant] signs to perform unsafe enchantments.
 Essentials+essentials.signs.format+This allows you to format your signs using format codes.
 Essentials+essentials.signs.magic+This allows you to use the matrix/magic color in your signs.
-Essentials+essentials.signs.protection.override+Used to override any protections. Typically given to mods & admins
-Essentials+essentials.signs.trade.override+Used to override the creator only protection on trade signs. Typically given to mods & admins
+Essentials+essentials.signs.protection.override+Used to override any protections. Typically given to mods & admins.
+Essentials+essentials.signs.rgb+This allows you to color your signs using hex color formatting "&#RRGGBB".
+Essentials+essentials.signs.trade.override+Used to override the creator only protection on trade signs. Typically given to mods & admins.
+Essentials+essentials.signs.trade.override.collect+Allow collecting of protected trade signs.
 Essentials+essentials.signs.use.balance+Controls who can use balance signs.
 Essentials+essentials.signs.use.buy+Controls who can use buy signs.
 Essentials+essentials.signs.use.disposal+Controls who can use disposal signs.
@@ -2478,77 +2530,143 @@ Essentials+essentials.signs.use.trade+Controls who can use trade signs.
 Essentials+essentials.signs.use.warp+Controls who can use warp signs.
 Essentials+essentials.signs.use.weather+Controls who can use weather signs.
 Essentials+essentials.silentjoin+Suppress join messages for users with this permission.
+Essentials+essentials.silentjoin.vanish+Allow to join silently, and get put in vanish mode.
 Essentials+essentials.silentquit+Suppress leave/quit messages for users with this permission.
+Essentials+essentials.skull+Allow access to the /skull command.+/skull
 Essentials+essentials.skull.modify+Allow changing the owner of an existing player skull.
 Essentials+essentials.skull.others+Allow creating skulls belonging to other players.
 Essentials+essentials.skull.spawn+Allows the spawning of a skull, default if the player isn't holding a skull.
-Essentials+essentials.skull+Allow access to the /skull command.+/skull
 Essentials+essentials.sleepingignored+User isn't required to be sleeping, for time to be reset.
+Essentials+essentials.smithingtable+Allow access to the "/smithingtable" command.+/smithingtable
+Essentials+essentials.socialspy+Allow access to the "/socialspy" command.+/socialspy
 Essentials+essentials.socialspy.others+Allows you to toggle the social spy status of others.
-Essentials+essentials.socialspy+Allow access to the /socialspy command.+/socialspy
-Essentials+essentials.spawn-on-join.exempt+allow the player to log in where they left off
-Essentials+essentials.spawn.others+Allows you to teleport other people to spawn
-Essentials+essentials.spawn+Allow access to the /spawn command.
-Essentials+essentials.spawner.*+Allows the spawning of all mobs
-Essentials+essentials.spawner+Allow access to the /spawner command.+/spawner
+Essentials+essentials.spawner+Allow access to the "/spawner" command.+/spawner
+Essentials+essentials.spawner.*+Allows the spawning of all mobs.
+Essentials+essentials.spawner.[mob]+Allows setting a spawner to a specific mob type.
+Essentials+essentials.spawner.delay+Allows setting the delay of a spawner.
 Essentials+essentials.spawnerconvert.*+If placed spawners are still pigs
+Essentials+essentials.spawnerconvert.[mob]+Allows placing a spawner of a specific mob type.
+Essentials+essentials.spawnmob+Allow access to the "/spawnmob" command.+/spawnmob
 Essentials+essentials.spawnmob.*+Allow the spawning of all mobs
+Essentials+essentials.spawnmob.[mob]+Allow access to spawn a specific mob.
 Essentials+essentials.spawnmob.stack+Allows the spawning of stacked mobs.
-Essentials+essentials.spawnmob+Allow access to the /spawnmob command.+/spawnmob
-Essentials+essentials.speed.bypass+Allows you to bypass the speed limits set in the config.yml
+Essentials+essentials.speed+Allow access to the "/speed" command.+/speed <number>
+Essentials+essentials.speed.bypass+Allows you to bypass the speed limits set in the "config.yml".
 Essentials+essentials.speed.fly+This permission will allow a player to change fly speed only.
 Essentials+essentials.speed.others+Allows you to modify the speed of other players.
 Essentials+essentials.speed.walk+This permission will allow a player to change walk speed only.
-Essentials+essentials.speed+Allow access to the /speed command.+/speed
+Essentials+essentials.stonecutter+Allow access to the "/stonecutter" command.+/stonecutter
+Essentials+essentials.sudo+Allow access to the "/sudo" command.+/sudo
 Essentials+essentials.sudo.exempt+Prevents the holder from being sudo'ed by another user.
-Essentials+essentials.sudo+Allow access to the /sudo command.+/sudo
-Essentials+essentials.suicide+Allow access to the /suicide command.+/suicide
-Essentials+essentials.teleport.cooldown.bypass+Bypass the teleport cooldown
-Essentials+essentials.teleport.timer.bypass+Bypass the teleport delay
+Essentials+essentials.sudo.multiple+Allow access to the "/sudo" command for multiple people.
+Essentials+essentials.suicide+Allow access to the "/suicide" command.+/suicide
+Essentials+essentials.teleport.cooldown.bypass.back+Allow to bypass the "/back" command cooldown.
+Essentials+essentials.teleport.cooldown.bypass.tpa+Allow to bypass the "/tpa" command cooldown.
+Essentials+essentials.teleport.timer.bypass+Bypass the teleport delay.
 Essentials+essentials.teleport.timer.move+Allows players to move while waiting for teleport.
-Essentials+essentials.time.set+Prior to this build, players with the permissions essentials.time and essentials.time.set were able to set the time in any world, despite world-permissions provided via permission plugins. This build provides the feature of per world permissions for setting the time of a world.+/time set
+Essentials+essentials.tempban+Allow access to the "/tempban" command.+/tempban
+Essentials+essentials.tempban.exempt+Prevents a specified group or player from being tempbanned.
+Essentials+essentials.tempban.offline+Allows temp-banning of players who are offline. This may allow you to ban exempt players.
+Essentials+essentials.thunder+Allow access to the "/thunder" command.+/thunder
+Essentials+essentials.time+Allow access to the "/time" command.+/time
 Essentials+essentials.time.set+User is allowed to change the time of the world.
 Essentials+essentials.time.world.all+Permits the user to set time of all worlds. This will override essentials.time.world.<world>
-Essentials+essentials.time+Allow access to the /time command.+/time
-Essentials+essentials.time+Prior to this build, players with the permissions essentials.time and essentials.time.set were able to set the time in any world, despite world-permissions provided via permission plugins. This build provides the feature of per world permissions for setting the time of a world.+/time set
-Essentials+essentials.top+Allow access to the /top command.+/top
+Essentials+essentials.togglejail+Allow access to the "/togglejail command".+/togglejail
+Essentials+essentials.togglejail.offline+Allows jailing of players who are offline. This may allow you to jail exempt players.
+Essentials+essentials.top+Allow access to the "/top" command.+/top
+Essentials+essentials.tp+Allow access to the "/tp" command.+/tp
 Essentials+essentials.tp.others+Allow players to teleport another player.
-Essentials+essentials.tp+Allow access to the /tp command.+/tp
-Essentials+essentials.tpa+Allow access to the /tpa command.+/tpa
-Essentials+essentials.tpaall+Allow access to the /tpaall command.+/tpaall
-Essentials+essentials.tpaccept+Allow access to the /tpaccept command.+/tpaccept
-Essentials+essentials.tpahere+Allow access to the /tpahere command.+/tpahere
-Essentials+essentials.tpall+Allow access to the /tpall command.+/tpall
-Essentials+essentials.tpdeny+Allow access to the /tpdeny command.+/tpdeny
-Essentials+essentials.tphere+Allow access to the /tphere command.+/tphere
-Essentials+essentials.tpo+Allow access to the /tpo command.+/tpo
-Essentials+essentials.tpohere+Allow access to the /tpohere command.+/tpohere
-Essentials+essentials.tppos+Allow access to the /tppos command.+/tppos
+Essentials+essentials.tp.position+Allow to teleport to an exact location.
+Essentials+essentials.tpa+Allow access to the "/tpa" command.+/tpa
+Essentials+essentials.tpaall+Allow access to the "/tpaall" command.+/tpaall
+Essentials+essentials.tpaccept+Allow access to the "/tpaccept" command.+/tpaccept
+Essentials+essentials.tpahere+Allow access to the "/tpahere" command.+/tpahere
+Essentials+essentials.tpall+Allow access to the "/tpall" command.+/tpall
+Essentials+essentials.tpauto+Allow access to the "/tpauto" command.+/tpauto
+Essentials+essentials.tpauto.others+Allow using "/tpauto" for other players.
+Essentials+essentials.tpdeny+Allow access to the "/tpdeny" command.+/tpdeny
+Essentials+essentials.tphere+Allow access to the "/tphere" command.+/tphere
+Essentials+essentials.tpo+Allow access to the "/tpo" command.+/tpo
+Essentials+essentials.tpoffline+Allow teleporting to a player's logout location using "/tpoffline".+/tpoffline
+Essentials+essentials.tpohere+Allow access to the "/tpohere" command.+/tpohere
+Essentials+essentials.tppos+Allow access to the "/tppos" command.+/tppos
+Essentials+essentials.tpr+Allow access to the "/tpr" command.+/tpr
+Essentials+essentials.tptoggle+Allow access to the "/tptoggle" command.+/tptoggle
 Essentials+essentials.tptoggle.others+Allows a player to toggle the teleport status of another player.
-Essentials+essentials.tptoggle+Allow access to the /tptoggle command.+/tptoggle
-Essentials+essentials.tree+Allow access to the /tree command.+/tree
-Essentials+essentials.unbanip+Allow access to the /unbanip command.+/unbanip
-Essentials+essentials.unlimited.item_all+Allows the player to recieve an unlimited stack of any item.
-Essentials+essentials.unlimited.item_bucket+Allows the player to recieve an unlimited use of empty/lava/water buckets.
+Essentials+essentials.tree+Allow access to the "/tree" command.+/tree
+Essentials+essentials.unban+Allow access to the "/unban" command.+/unban
+Essentials+essentials.unbanip+Allow access to the "/unbanip" command.+/unbanip
+Essentials+essentials.unlimited+Allow access to the "/unlimited" command.+/unlimited
+Essentials+essentials.unlimited.item-[itemid]+Allows the player to recieve an unlimited stack of "<itemid>".
+Essentials+essentials.unlimited.item-[itemname]+Allows the player to recieve an unlimited stack of "<itemname>".
+Essentials+essentials.unlimited.item-all+Allows the player to recieve an unlimited stack of any item.
+Essentials+essentials.unlimited.item-bucket+Allows the player to recieve an unlimited use of empty/lava/water buckets.
 Essentials+essentials.unlimited.others+Allows the player to gift/remove another player with an unlimited stack.
-Essentials+essentials.unlimited+Allow access to the /unlimited command.+/unlimited
+Essentials+essentials.updatecheck+Notify players with this permission on join when there is an update available.
+Essentials+essentials.vanish+Allow access to the "/vanish" command.+/vanish
 Essentials+essentials.vanish.effect+People with this effect will get the potion effect applied while vanished.
 Essentials+essentials.vanish.interact+Allows the player to use commands which interact with a vanished player.
-Essentials+essentials.vanish.interact+Allows the user to teleport to players who are vanished.
 Essentials+essentials.vanish.others+Allows you to toggle vanish on others
 Essentials+essentials.vanish.pvp+Allows players who are vanished to attack other players.
 Essentials+essentials.vanish.see+Allows you to see a vanished player.
-Essentials+essentials.vanish+Allow access to the /vanish command.+/vanish
+Essentials+essentials.version+Allow access to the "/essentials version" command.+/essentials version
+Essentials+essentials.warp+Allow access to the "/warp" command.+/warp
 Essentials+essentials.warp.list+Specifies whether you can view warp list with /warp.
 Essentials+essentials.warp.otherplayers+Allows warping another player.
+Essentials+essentials.warp.others+Allows warping another player.
 Essentials+essentials.warp.overwrite.*+Allows overwriting of all existing warps.
-Essentials+essentials.warp+Allow access to the /warp command.+/warp
+Essentials+essentials.warp.overwrite.[warpname]+Allows overwriting of existing warps.
+Essentials+essentials.warpinfo+Allow access to the "/warpinfo" command.+/warpinfo
 Essentials+essentials.warps.*+Allows access to all warps.
-Essentials+essentials.weather+Allow access to the /weather command.+/weather
-Essentials+essentials.whois+Allow access to the /whois command.+/whois
-Essentials+essentials.workbench+Allow access to the /workbench command.+/workbench
-Essentials+essentials.world+Allow access to the /world command.+/world
-Essentials+essentials.worth+Allow access to the /worth command.+/worth
+Essentials+essentials.warps.[warpname]+If you have per-warp-permission set to true in the config.yml then you can limit what warps players can use. This also controls what players would see with /warp and /warpinfo.
+Essentials+essentials.weather+Allow access to the "/weather" command.+/weather
+Essentials+essentials.whois+Allow access to the "/whois" command.+/whois
+Essentials+essentials.whois.ip+Allow seeing someones ip address in the /whois command.
+Essentials+essentials.workbench+Allow access to the "/workbench" command.+/workbench
+Essentials+essentials.world+Allow access to the "/world" command.+/world
+Essentials+essentials.worlds.[worldname]+Allows players access to a specific world.
+Essentials+essentials.worth+Allow access to the "/worth" command.+/worth
+EssentialsAntiBuild+essentials.build+Allows people to build when using permission systems which don't support build toggles.
+EssentialsAntiBuild+essentials.build.[action].[material]+Allows executing <action> for <material>, action being place, break, interact, craft, drop or pickup.
+EssentialsAntiBuild+essentials.protect.alerts+Allows a player to recieve protect alerts.
+EssentialsAntiBuild+essentials.protect.alerts.notrigger+Users with this permission do not trigger protect alerts.
+EssentialsAntiBuild+essentials.protect.exemptbreak+Allows a player to ignore the break blacklist.
+EssentialsAntiBuild+essentials.protect.exemptplacement+Allows a player to ignore the block placement blacklist.
+EssentialsAntiBuild+essentials.protect.exemptusage+Allows a player to ignore the usage blacklist.
+EssentialsChat+essentials.chat.[color]+This allows you to color your chat messages in any color using color codes, NOT including hex colors (&#RRGGBB).
+EssentialsChat+essentials.chat.color+This allows you to color your chat messages using color codes.
+EssentialsChat+essentials.chat.format+This allows you to format your chat messages using format codes.
+EssentialsChat+essentials.chat.ignoreexempt+Someone with this permission will not be ignored, even if they are on another persons ignore list.
+EssentialsChat+essentials.chat.magic+This allows you to use the matrix/magic color in your chat messages.
+EssentialsChat+essentials.chat.question+This allows you to send global qeustions, used if a chat-raidus is configured.
+EssentialsChat+essentials.chat.rgb+This allows you to use hex color formatting in your chat messages. Format is &#RRGGBB.
+EssentialsChat+essentials.chat.shout+This allows you to send global messages, used if a chat-raidus is configured.
+EssentialsChat+essentials.chat.spy+A permission designed for admins, to intercept all local messages (ignoring the chat-radius).
+EssentialsChat+essentials.chat.spy.exempt+Allow to be exempt from chat spy.+/spy
+EssentialsChat+essentials.chat.url+This allows you to use urls in your chat messages.
+EssentialsGeoIP+essentials.geoip.hide+Allows you to hide your country and city from people who have permission "essentials.geoip.show".
+EssentialsGeoIP+essentials.geoip.show+Shows the GeoIP location of a player, if the GeoIP module is installed.
+EssentialsProtect+essentials.protect.damage.contact+Player will receive contact damage.
+EssentialsProtect+essentials.protect.damage.creeper+Player will receive creeper damage.
+EssentialsProtect+essentials.protect.damage.disable+Admin override to prevent admins from dying.
+EssentialsProtect+essentials.protect.damage.drowning+Player will receive drowning damage.
+EssentialsProtect+essentials.protect.damage.fall+Player will receive fall damage.
+EssentialsProtect+essentials.protect.damage.fire+Player will receive fire damage.
+EssentialsProtect+essentials.protect.damage.fireball+Player will receive fireball damage.
+EssentialsProtect+essentials.protect.damage.lava+Player will receive lava damage.
+EssentialsProtect+essentials.protect.damage.lightning+Player will receive lightning damage.
+EssentialsProtect+essentials.protect.damage.projectiles+Player will receive projectile damage.
+EssentialsProtect+essentials.protect.damage.suffocation+Player will receive suffocation damage.
+EssentialsProtect+essentials.protect.damage.tnt+Player will receive tnt damage.
+EssentialsProtect+essentials.protect.entitytarget.bypass+Allows a player to be targeted by mobs.
+EssentialsProtect+essentials.protect.pvp+When prevent PVP is set to true, this allows players to still PVP. Both attacker and defender need to have this permission.
+EssentialsSpawn+essentials.setspawn+Allow access to the "/setspawn" command.+/setspawn
+EssentialsSpawn+essentials.spawn+Allow access to the "/spawn" command.+/spawn
+EssentialsSpawn+essentials.spawn-on-join.exempt+Allow to be exempt from forced teleporting to spawn on join.
+EssentialsSpawn+essentials.spawn.others+Allows you to teleport other people to spawn.
+EssentialsXMPP+essentials.setxmpp+Allow access to the "/setxmpp" command.+/setxmpp
+EssentialsXMPP+essentials.xmpp+Allow access to the "/xmpp" command.+/xmpp
+EssentialsXMPP+essentials.xmppspy+Allow access to the "/xmppspy" command.+/xmppspy
 ExploitFixer+exploitfixer.admin+Grants the player all permissions of the plugin.+/ef help,/ef reload,/ef notifications,/ef stats
 ExploitFixer+exploitfixer.notifications+Allows the player to toggle notifications.+/ef notifications
 EZColors+ezcolors.*+Grants the player all permissions of the plugin.
