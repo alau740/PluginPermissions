@@ -4244,6 +4244,13 @@ MiniBoardGames+miniboardgames.reload+Reload the games/config/database.+/mbg relo
 MiniBoardGames+miniboardgames.spectate+Spectate a players game.+/mbg spectate,/miniboardgames spectate,/games spectate
 MiniBoardGames+miniboardgames.stats+See your stats.+/mbg stats,/miniboardgames stats,/games stats
 MiniBoardGames+miniboardgames.top+See the top stats for a game.+/mbg top <game> [page] [stats],/miniboardgames top <game> [page] [stats],/games top <game> [page] [stats]
+MoneyFromMobs+MoneyFromMobs.clear+Removes all money drops off the ground+/MfmClear
+MoneyFromMobs+MoneyFromMobs.drop+Drops a specified amount of money on the ground+/MfmDrop <AmountToDrop> [NumberOfDrops]
+MoneyFromMobs+MoneyFromMobs.event+Starts/Stops an event that increases the amount of money dropped by mobs for a certain amount of time.+/MfmEvent <Start|Stop> [Percentage Increase] [Hours] [Minutes] [Seconds]
+MoneyFromMobs+MoneyFromMobs.mute+Mutes messages sent by the plugin when a player picks up money+/MfmMute
+MoneyFromMobs+MoneyFromMobs.PreventMoneyDropOnDeath+Stops player from dropping money when they die.
+MoneyFromMobs+MoneyFromMobs.reload+Reloads the config file of Money From Mobs+/MfmReload
+MoneyFromMobs+MoneyFromMobs.use+Allows players to kill mobs to obtain money and pick money up.
 MoreTp+moretp.accept.*+for all world allowed
 MoreTp+moretp.admin.device.other+permission to give device to other player
 MoreTp+moretp.admin.device+permission to give device to yourself
