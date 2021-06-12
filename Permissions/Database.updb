@@ -2557,7 +2557,7 @@ Essentials+essentials.socialspy.others+Allows you to toggle the social spy statu
 Essentials+essentials.spawner+Allow access to the "/spawner" command.+/spawner
 Essentials+essentials.spawner.*+Allows the spawning of all mobs.
 Essentials+essentials.spawner.[mob]+Allows setting a spawner to a specific mob type.
-Essentials+essentials.spawner.delay+Allows setting the delay of a spawner.
+Essentials+essentials.spawner.delay+Allow access to adjust delay in "/spawner" command.+/spawner <mob> <delay>
 Essentials+essentials.spawnerconvert.*+If placed spawners are still pigs
 Essentials+essentials.spawnerconvert.[mob]+Allows placing a spawner of a specific mob type.
 Essentials+essentials.spawnmob+Allow access to the "/spawnmob" command.+/spawnmob
@@ -2658,6 +2658,8 @@ EssentialsChat+essentials.chat.shout+This allows you to send global messages, us
 EssentialsChat+essentials.chat.spy+A permission designed for admins, to intercept all local messages (ignoring the chat-radius).
 EssentialsChat+essentials.chat.spy.exempt+Allow to be exempt from chat spy.+/spy
 EssentialsChat+essentials.chat.url+This allows you to use urls in your chat messages.
+EssentialsChat+essentials.toggleshout+Toggles whether you are talking in shout mode.+/toggleshout
+EssentialsChat+essentials.toggleshout.others+Toggles shout mode for other players.+/toggleshout <player> <on|off>
 EssentialsGeoIP+essentials.geoip.hide+Allows you to hide your country and city from people who have permission "essentials.geoip.show".
 EssentialsGeoIP+essentials.geoip.show+Shows the GeoIP location of a player, if the GeoIP module is installed.
 EssentialsProtect+essentials.protect.damage.contact+Player will receive contact damage.
