@@ -2153,6 +2153,24 @@ Enjin-Minecraft-Plugin+enjin.sign.remove+Allows the player to remove an enjin st
 Enjin-Minecraft-Plugin+enjin.sign.set+Allows the player to create an enjin stats sign
 Enjin-Minecraft-Plugin+enjin.tags.view+Allows the player to see the tags of a player
 Enjin-Minecraft-Plugin+enjin.updateheads+Allows the player to force a sync of the heads/sign stats
+EpicCraftingsPlus+ecraft.admin+This permission will allow you to use all plugin commands.
+EpicCraftingsPlus+ecraft.bypass.cooldowns+For ignoring cooldown in craftings.
+EpicCraftingsPlus+ecraft.command.create+Creates a new craft on the config.+/ecraft create <name>
+EpicCraftingsPlus+ecraft.command.delete+Deletes a craft.+/ecraft delete <name>
+EpicCraftingsPlus+ecraft.command.ecraft+Opens the plugin inventory.+/ecraft
+EpicCraftingsPlus+ecraft.command.edit+Allows you to edit the required items of a created craft.+/ecraft edit <name>
+EpicCraftingsPlus+ecraft.command.give+Give the craft directly to the player.+/ecraft give <craft-name> <player>
+EpicCraftingsPlus+ecraft.command.help+Allows to view the available commands.+/ecraft help
+EpicCraftingsPlus+ecraft.command.info+Show plugin info.+/ecraft info
+EpicCraftingsPlus+ecraft.command.list+Shows all created crafts.+/ecraft list <page-number>
+EpicCraftingsPlus+ecraft.command.open.others+Opens a category for an other player.+/ecraft open <category> <player>
+EpicCraftingsPlus+ecraft.command.open.self+Opens a category.+/ecraft open <category>
+EpicCraftingsPlus+ecraft.command.opencraft.others+Opens a craft for an other player.+/ecraft opencraft <craft> <player> <true|false>
+EpicCraftingsPlus+ecraft.command.opencraft.self+Opens a craft.+/ecraft opencraft <craft> <true|false>
+EpicCraftingsPlus+ecraft.command.reload+Reload the config.+/ecraft reload
+EpicCraftingsPlus+ecraft.command.removeplace+Removes an existing Crafting Place.+/ecraft removeplace
+EpicCraftingsPlus+ecraft.command.setplace+Creates a new Crafting Place.+/ecraft setplace [category]
+EpicCraftingsPlus+ecraft.cooldown.[crafting].[percentage_reduce]+For reducing cooldown time.
 EpicDispensers+EpicDispensers.admin+Gives the player access to all commands
 EpicDispensers+EpicDispensers.Upgrade.ECO+Allows the player to upgrade the dispensers level with economy
 EpicDispensers+EpicDispensers.Upgrade.XP+Allows the player to upgrade the dispensers level with XP
