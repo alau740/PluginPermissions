@@ -3957,51 +3957,58 @@ KiteBoard+kiteboard.toggle.other+This allows players to turn on/off the scoreboa
 KiteBoard+kiteboard.toggle+This allows players to turn on/off the scoreboard.+/kiteboard on,/kb on,/kiteboard off,/kb off
 KitPreview+previewkit.use+View a specific kit.+/previewkit
 KitPreview+previewkit+An unknown description
-KitPvP+kp.ability.[name]+Gives access to custom kit ability
-KitPvP+kp.ability.archer+Gives access to Archer's Kit Ability
-KitPvP+kp.ability.bomber+Gives access to Bomber's Kit Ability
-KitPvP+kp.ability.fighter+Gives access to Fighter's Kit Ability
-KitPvP+kp.ability.kangaroo+Gives access to Kangaroo's Kit Ability
-KitPvP+kp.ability.ninja+Gives access to the Ninja's Kit Ability
-KitPvP+kp.ability.soldier+Gives access to Soldier's Kit Ability
-KitPvP+kp.ability.tank+Gives access to Tank's Kit Ability
-KitPvP+kp.ability.thunderbolt+Gives access to the Thunderbolt's Kit Abililty
-KitPvP+kp.ability.vampire+Gives access to the Vampire's Kit Ability
-KitPvP+kp.ability.warper+Gives access to Warper's Kit Ability
-KitPvP+kp.ability.witch+Gives access to Witch's Kit Ability
-KitPvP+kp.arena.blockbreaking+Allows players with this permission to break blocks
-KitPvP+kp.arena.blockplacing+Allows players with this permission to place blocks
-KitPvP+kp.arena.itemdropping+Allows players with this permission to drop items
-KitPvP+kp.arrowmessage+Displays the health of your opponent if shot is successful
-KitPvP+kp.arrowreturn+Gives an arrow back to the shooter if shot was successful and hit a player
-KitPvP+kp.command.addspawn+Gives access to /kp addspawn+/kp addspawn
-KitPvP+kp.command.clear+Gives access to /kp clear+/kp clear
-KitPvP+kp.command.create+Gives access to /kp create name+/kp create
-KitPvP+kp.command.delete+Gives access to /kp delete name+/kp delete
-KitPvP+kp.command.delspawn+Gives access to /kp delspawn+/kp delspawn
-KitPvP+kp.command.kit+Gives access to /kp kit name+/kp kit
-KitPvP+kp.command.kits+Gives access to /kp kits+/kp kits
-KitPvP+kp.command.menu+Gives access to /kp menu+/kp menu
-KitPvP+kp.command.preview+Gives access to /kp preview name+/kp preview
-KitPvP+kp.command.reload+Gives access to /kp reload+/kp reload
-KitPvP+kp.command.spawn+Gives access to /kp spawn+/kp spawn
-KitPvP+kp.command.stats+Gives access to /kp stats+/kp stats
-KitPvP+kp.givekititem+Gives the kit item on join
-KitPvP+kp.giveleaveitem+Gives the leave item on join
-KitPvP+kp.kit.[name]+Gives access to a custom kit
-KitPvP+kp.kit.archer+Gives access to the Archer Kit
-KitPvP+kp.kit.bomber+Gives access to the Bomber Kit
-KitPvP+kp.kit.fighter+Gives access to the Fighter Kit
-KitPvP+kp.kit.kangaroo+Gives access to the Kangaroo Kit
-KitPvP+kp.kit.ninja+Gives access to the Ninja Kit
-KitPvP+kp.kit.soldier+Gives access to the Soldier Kit
-KitPvP+kp.kit.tank+Gives access to the Tank Kit
-KitPvP+kp.kit.thunderbolt+Gives access to the Thunderbolt Kit
-KitPvP+kp.kit.vampire+Gives access to the Vampire Kit
-KitPvP+kp.kit.warper+Gives access to the Warper Kit
-KitPvP+kp.kit.witch+Gives access to the Witch Kit
-KitPvP+kp.playertracker+Allows players to use the Player Tracker
-KitPvP+kp.soupreturn+Gives the player a soup when they kill another player
+KitPvP+kp.ability.[kit-name]+Give access to custom kit ability.
+KitPvP+kp.ability.archer+Gives access to Archer's Kit Ability.
+KitPvP+kp.ability.bomber+Gives access to Bomber's Kit Ability.
+KitPvP+kp.ability.fighter+Gives access to Fighter's Kit Ability.
+KitPvP+kp.ability.kangaroo+Gives access to Kangaroo's Kit Ability.
+KitPvP+kp.ability.ninja+Gives access to Ninja's Kit Ability.
+KitPvP+kp.ability.rhino+Gives access to the Rhino's Kit Ability.
+KitPvP+kp.ability.soldier+Gives access to Soldier's Kit Ability.
+KitPvP+kp.ability.tank+Gives access to Tank's Kit Ability.
+KitPvP+kp.ability.thunderbolt+Gives access to Thunderbolt's Kit Abililty.
+KitPvP+kp.ability.trickster+Gives access to the Trickster's Kit Ability.
+KitPvP+kp.ability.vampire+Gives access to the Vampire's Kit Ability.
+KitPvP+kp.ability.warper+Gives access to Warper's Kit Ability.
+KitPvP+kp.ability.witch+Gives access to Witch's Kit Ability.
+KitPvP+kp.arena.blockbreaking+Allows players with this permission to break blocks.
+KitPvP+kp.arena.blockplacing+Allows players with this permission to place blocks.
+KitPvP+kp.arena.itemdropping+Allows players with this permission to drop items.
+KitPvP+kp.arrowmessage+Displays the health of your opponent if shot is successful.
+KitPvP+kp.arrowreturn+Gives an arrow back to the shooter if shot was successful and hit a player.
+KitPvP+kp.command.addspawn+Creates a new Arena in your current world.+/kp addspawn
+KitPvP+kp.command.clear.other+Clears the kit of another player.+/kp clear <player>
+KitPvP+kp.command.clear+Clears your current kit.+/kp clear
+KitPvP+kp.command.create+Creates a kit based on inventory and effects.+/kp create <kit name>
+KitPvP+kp.command.delete+Deletes a kit.+/kp delete <kitname>
+KitPvP+kp.command.delspawn+Deletes the Arena in your current world.+/kp delspawn
+KitPvP+kp.command.kit.other+Attempts to select a kit for another player.+/kp kit <kit name> <player>
+KitPvP+kp.command.kit+Select your kit.+/kp kit <kit-name>
+KitPvP+kp.command.kits+Lists all the available kits.+/kp kits
+KitPvP+kp.command.menu+Displays the kits menu.+/kp menu
+KitPvP+kp.command.preview+Previews a kit.+/kp preview <kitname>
+KitPvP+kp.command.reload+Reloads the configuration.+/kp reload
+KitPvP+kp.command.spawn+Teleports you to the spawn in your current arena.+/kp spawn
+KitPvP+kp.command.stats.other+View the stats of another player.+/kp stats <player>
+KitPvP+kp.command.stats+View your stats.+/kp stats
+KitPvP+kp.cooldownbypass+Players with this permission bypass any kit cooldown.
+KitPvP+kp.kit.[kit-name]+Gives access to a custom kit.+/kp kit <kit-name>
+KitPvP+kp.kit.archer+Gives access to the Archer Kit.+/kp kit Archer
+KitPvP+kp.kit.bomber+Gives access to the Bomber Kit.+/kp kit Bomber
+KitPvP+kp.kit.fighter+Gives access to the Fighter Kit.+/kp kit Fighter
+KitPvP+kp.kit.kangaroo+Gives access to the Kangaroo Kit.+/kp kit Kangaroo
+KitPvP+kp.kit.ninja+Gives access to the Ninja Kit.+/kp kit Ninja
+KitPvP+kp.kit.rhino+Gives access to the Rhino Kit.+/kp kit Rhino
+KitPvP+kp.kit.soldier+Gives access to the Soldier Kit.+/kp kit Solder
+KitPvP+kp.kit.tank+Gives access to the Tank Kit.+/kp kit Tank
+KitPvP+kp.kit.thunderbolt+Gives access to the Thunderbolt Kit.+/kp kit Thunderbolt
+KitPvP+kp.kit.trickster+Gives access to the Trickster Kit.+/kp kit Trickster
+KitPvP+kp.kit.vampire+Gives access to the Vampire Kit.+/kp kit Vampire
+KitPvP+kp.kit.warper+Gives access to the Warper Kit.+/kp kit Warper
+KitPvP+kp.kit.witch+Gives access to the Witch Kit.+/kp kit Witch
+KitPvP+kp.levelbypass.[level]+Players with this permission bypass up to a certain kit level.
+KitPvP+kp.playertracker+Allows players to use the Player Tracker.
+KitPvP+kp.soupreturn+Gives the player a soup when they kill another player.
 LagMeter+lagmeter.*+Full Access to all LagMeter Commands+/lag,/mem,/lagmem,/lm,/uptime,/ping,/Iping
 LagMeter+lagmeter.command.lag+Gives access to the /lag command+/lag
 LagMeter+lagmeter.command.lagmem+Gives access to the combination /lagmem command+/lagmem,/lm
