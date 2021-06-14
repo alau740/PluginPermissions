@@ -6523,6 +6523,48 @@ UltraRegions+ultraregions.teleport+Allows the player to use the cross world tp c
 UltraRegionsDynmap+urd.command+Allows the player to use the main command of the plugin.+/urd,/urd help
 UltraRegionsDynmap+urd.reload+Allows the player to reload the plugin.+/urd reload
 UltraRegionsDynmap+urd.update+Allows the player to manually update the map.+/urd update
+UltraSkyWars+usw.admin+Grants you administrator permission to configure.
+UltraSkyWars+usw.forcestart+Force start a game.+/sw forcestart
+UltraSkyWars+usw.spectate+Spectate a game.+/sw spect <name>
+UltraSkyWars+ultraskywars.soulwell.animation.blaze+Select favorites.
+UltraSkyWars+ultraskywars.soulwell.animation.3d+Permission to use the blaze animation.
+UltraSkyWars+ultraskywars.selector.favorites+Permission to use the 3d animation.
+UltraSkyWars+ultraskywars.ballons.[name]+Grants you permission to buy vip Balloon with that name.
+UltraSkyWars+ultraskywars.glass.[name]+Grants you permission to buy vip Glass with that name.
+UltraSkyWars+ultraskywars.killsound.[name]+Grants you permission to buy vip KillSound with that name.
+UltraSkyWars+ultraskywars.parting.[name]+Grants you permission to buy vip Parting with that name.
+UltraSkyWars+ultraskywars.taunt.[name]+Grants you permission to buy vip Taunt with that name.
+UltraSkyWars+ultraskywars.trails.[name]+Grants you permission to buy vip Trail with that name.
+UltraSkyWars+ultraskywars.windances.[name]+Grants you permission to buy vip Parting with that name.
+UltraSkyWars+ultraskywars.wineffects.[name]+Grants you permission to buy vip WinEffect with that name.
+UltraSkyWars+ultraskywars.killeffect.[name]+Grants you permission to buy vip KillEffect with that name.
+UltraSkyWars+ultraskywars.votes.projectile.*+Give all projectile voting permissions.
+UltraSkyWars+ultraskywars.votes.projectile.noproj+Give permission to vote for Not Projectiles in the Projectiles voting type.
+UltraSkyWars+ultraskywars.votes.projectile.siproj+Give permission to vote for Yes Projectiles in the Projectiles voting type.
+UltraSkyWars+ultraskywars.votes.projectile.exproj+Give permission to vote for Explosive Projectiles in the Projectiles voting type.
+UltraSkyWars+ultraskywars.votes.projectile.desproj+Give permission to vote for Destructor Projectiles in the Projectiles voting type.
+UltraSkyWars+ultraskywars.votes.projectile.teleproj+Give permission to vote for Teleport Projectiles in the Projectiles voting type.
+UltraSkyWars+ultraskywars.votes.time.*+Give all time voting permissions.
+UltraSkyWars+ultraskywars.votes.time.dawn+Give permission to vote for Dawn Time in the Time voting type.
+UltraSkyWars+ultraskywars.votes.time.afternoon+Give permission to vote for Afternoon Time in the Time voting type.
+UltraSkyWars+ultraskywars.votes.time.nigth+Give permission to vote for Nigth Time in the Time voting type.
+UltraSkyWars+ultraskywars.votes.health.*+Give all health voting permissions.
+UltraSkyWars+ultraskywars.votes.health.health5+Give permission to vote for 5 Hearts in the Health voting type.
+UltraSkyWars+ultraskywars.votes.health.health10+Give permission to vote for 10 Hearts in the Health voting type.
+UltraSkyWars+ultraskywars.votes.health.health20+Give permission to vote for 20 Hearts in the Health voting type.
+UltraSkyWars+ultraskywars.votes.health.uhc+Give permission to vote for UHC Hearts in the Health voting type.
+UltraSkyWars+ultraskywars.votes.final.*+Give all final voting permissions.
+UltraSkyWars+ultraskywars.votes.final.dragon+Give permission to vote for Dragon Final in the Final voting type.
+UltraSkyWars+ultraskywars.votes.final.tnt+Give permission to vote for TNT Final in the Final voting type.
+UltraSkyWars+ultraskywars.votes.final.wither+Give permission to vote for Wither Final in the Final voting type.
+UltraSkyWars+ultraskywars.votes.final.zombie+Give permission to vote for Zombie Final in the Final voting type.
+UltraSkyWars+ultraskywars.votes.final.none+ultraskywars.votes.chest.*
+UltraSkyWars+ultraskywars.votes.chest.basic+Give permission to vote for Basic Chest in the Chest voting type.
+UltraSkyWars+ultraskywars.votes.chest.normal+Give permission to vote for Normal Chest in the Chest voting type.
+UltraSkyWars+ultraskywars.votes.chest.op+Give permission to vote for OP Chest in the Chest voting type.
+UltraSkyWars+ultraskywars.multiplier.coins.[amount]+Give multiplier permission for coins.+/sw multiplier coin <player> <amount> <time>
+UltraSkyWars+ultraskywars.multiplier.souls.[amount]+Give multiplier permission for souls.+/sw multiplier souls <player> <amount> <time>
+UltraSkyWars+ultraskywars.multiplier.xp.[amount]+Give multiplier permission for xp.+/sw multiplier xp <player> <amount> <time>
 UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
 UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
 UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
