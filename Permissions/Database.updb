@@ -6523,6 +6523,9 @@ UltraRegions+ultraregions.teleport+Allows the player to use the cross world tp c
 UltraRegionsDynmap+urd.command+Allows the player to use the main command of the plugin.+/urd,/urd help
 UltraRegionsDynmap+urd.reload+Allows the player to reload the plugin.+/urd reload
 UltraRegionsDynmap+urd.update+Allows the player to manually update the map.+/urd update
+UltraScoreboards+ultrascoreboards.admin+The main commands for the plugin.+/uboard,/usc,/usc setScoreBoard <Player> <Scoreboard>,/usc edit <Scoreboard>,/usc lines <boardName>
+UltraScoreboards+ultrascoreboards.switchBoard+Switch your scoreboard with a simple command.+/usc switchBoard
+UltraScoreboards+ultrascoreboards.toggleBoard+Toggle your scoreboard on and off with a simple command.+/usc toggleBoard
 UltraSkyWars+usw.admin+Grants you administrator permission to configure.
 UltraSkyWars+usw.forcestart+Force start a game.+/sw forcestart
 UltraSkyWars+usw.spectate+Spectate a game.+/sw spect <name>
