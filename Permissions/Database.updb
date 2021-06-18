@@ -2,6 +2,9 @@
 # Github: https://github.com/TechsCode-Team/PluginPermissions
 # Format: https://github.com/TechsCode-Team/PluginPermissions/blob/master/README.md#formatting
 #
+# PLUGIN: Advanced Anti Cheat
+# LINK: https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/
+# PERMISSIONS:
 AAC+aac.*+Grants the player all permissions of the plugin.
 AAC+aac.alerts+Allows the player to receive alerts from checks and to set the alert level.+/aac alerts [off|normal|reduced]
 AAC+aac.bypass+Allows the player to bypass all checks.
@@ -2231,7 +2234,7 @@ EpicSpawners+epicspawners.shop.*+This will depict what spawners players will see
 EpicSpawners+epicspawners.silkdrop.*+This will allow players to receive a spawner when they mine it with a silk touch pickaxe. You can configure the plugin to only allow specific spawners to be mined. You can make any preferred changes in the configuration file, or add them as a permission. (Example: epicspawners.silkdrop.pig)
 EpicSpawners+epicspawners.stack.*+Permission to stack spawners
 EpicSpawners+epicspawners.stats+This will allow a player to access the /spawnerstats command, so that they may view their EpicSpawner stats, including but not limited to, how many kills they must get to receive a specific spawner as a drop.
-Essentials+essentials.afk+Allow access to the /afk command.+/afk
+Essentials+essentials.afk+Allow access to the "/afk" command.+/afk
 Essentials+essentials.afk.auto+Players with this permission will be set to afk after a period of inaction as defined in the config file.
 Essentials+essentials.afk.kickexempt+Exempts the user from being auto kicked for AFK
 Essentials+essentials.afk.message+allow the player to use /afk [text]+/afk [text]
