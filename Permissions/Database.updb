@@ -4538,6 +4538,14 @@ MysqlPlayerDataBridge+MPDB.moderator.armor+Allows to open and edit others armor.
 MysqlPlayerDataBridge+MPDB.moderator.enderchest+Allows to open and edit others enderchest.
 MysqlPlayerDataBridge+MPDB.moderator.inventory+Allows to open and edit others inventory.
 MysqlPlayerDataBridge+MPDB.moderator+Allow the use of inventory, armor and enderchest edit commands and also check and set balance commands.+/mpdb,/mpdb help
+# PLUGIN: Mythical Races
+# LINK: https://www.spigotmc.org/resources/mythical-races-elfs-dwarfs-and-so-forth-1-17-x.92564/
+# PERMISSIONS:
+MythicalRaces+mythicalraces.race.[race]+Allows the user to choose a race.+/races choose <race>
+MythicalRaces+mythicalraces.info.races+Gives informations about the races.+/races info <race>
+MythicalRaces+mythicalraces.help+Allow access to the "/races help" command.+/races help
+MythicalRaces+mythicalraces.gui+Allow access to the "/races gui" command.+/races gui
+MythicalRaces+mythicalraces.cooldown.bypass+Bypass race choosing cooldowns
 NamelessMC+namelessmc.admin.setgroup+setgroup command
 NamelessMC+namelessmc.admin.userinfo+get user info+/userinfo
 NamelessMC+namelessmc.command.getnotifications+Gets Notifications From Website+/Webite GetNotifications
