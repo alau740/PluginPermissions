@@ -7002,3 +7002,11 @@ XProtect+xprotect.notify+Get notified when a player completes/fails a test.
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
+WaveGuard+waveguard.command.admin+Access to all Commands
+WaveGuard+waveguard.message.staff+Access to Staff alerts
+WaveGuard+waveguard.command.use+Access to use a Command from WaveGuard
+WaveGuard+waveguard.anticrash.notification+Get notified when a player try to crash the Server
+WaveGuard+waveguard.command.whitelist+Access to the Whitelist command
+WaveGuard+waveguard.command.blacklist+Access to the Blacklist command
+WaveGuard+waveguard.command.status+Access to the Status command
+WaveGuard+waveguard.command.reload+Access to the Reload command
