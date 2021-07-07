@@ -3,7 +3,6 @@
 ## Adding Plugin
 <!-- THIS SECTION IS RESERVED IF YOU ARE ADDING A NEW PLUGIN TO OUR DATABASE -->
 **Plugin Name:** [Plugin Name](Download_Link)
-<br>
 **Permissions Page:** *Link to permission page*
 
 **plugin.yml**
@@ -17,7 +16,6 @@
 ## Modifying Plugin
 <!-- THIS SECTION IS RESERVED IF YOU ARE MAKING MODIFICATIONS TO PERMISSIONS ALREADY ADDED TO OUR DATABASE -->
 **Plugin Name:** [Plugin Name](Download_Link)
-<br>
 **Permissions Page:** *Link to permission page*
 
 ### What Changes Did You Make?
