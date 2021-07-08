@@ -1983,6 +1983,9 @@ DeluxePlayerOptions+playeroptions.speed+Enable/Disable speed mode.+/Speed
 DeluxePlayerOptions+playeroptions.stacker+Enable/Disable stacker mode.+/Stacker
 DeluxePlayerOptions+playeroptions.use+Opens Options Menu+/options
 DeluxePlayerOptions+playeroptions.visibility+Enable/Disable visibility mode.+/Visibility
+# PLUGIN: DeluxeVoidWorld
+# LINK: https://songoda.com/marketplace/product/deluxe-void-world-188-116-fall-into-the-void-with-effects-unique-to-this-plugin.532
+# PERMISSIONS: https://songoda.com/marketplace/product/deluxe-void-world-188-116-fall-into-the-void-with-effects-unique-to-this-plugin.532
 DeluxeVoidWorld+deluxevoidworld.manager+Allows the player to use the GUI to select the teleport.
 DeluxeVoidWorld+deluxevoidworld.toggle.jumping+Allows the player to use high jumping.
 DeluxeVoidWorld+deluxevoidworld.toggle.lightning+Allows the player to use normal teleportation with a lightning.
@@ -2204,6 +2207,9 @@ EpicFurnaces+EpicFurnaces.Remote+Wireless access to a paired furnace that you ha
 EpicFurnaces+EpicFurnaces.Upgrade.*+Upgrading of furnaces with economy and xp
 EpicFurnaces+EpicFurnaces.Upgrade.ECO+Upgrading of furnaces with economy
 EpicFurnaces+EpicFurnaces.Upgrade.XP+Upgrading of furnaces with experience
+# PLUGIN: EpicLevels
+# LINK: https://songoda.com/marketplace/product/epiclevels-gain-levels-by-fighting.44
+# PERMISSIONS: https://wiki.songoda.com/Epic_Levels
 EpicLevels+epiclevels.addexp+Allows the player to add experience to another player.+/levels addexp <player> <amount>
 EpicLevels+epiclevels.admin+Allows the player to open the in-game settings editor and reload the plugin.+/levels settings,/levels reload
 EpicLevels+epiclevels.boost+Allows the player to boost another player's experience gained by a certain multiplier for a limited amount of time, remove a boost from a player, boost the experience gained by all players on the server and remove a global boost from the server.+/levels boost <player> <multiplier> <time>,/levels removeboost <player>,/levels globalboost <multiplier> <time>,/levels removeglobalboost
@@ -6579,6 +6585,9 @@ UltraSkyWars+ultraskywars.votes.chest.op+Give permission to vote for OP Chest in
 UltraSkyWars+ultraskywars.multiplier.coins.[amount]+Give multiplier permission for coins.+/sw multiplier coin <player> <amount> <time>
 UltraSkyWars+ultraskywars.multiplier.souls.[amount]+Give multiplier permission for souls.+/sw multiplier souls <player> <amount> <time>
 UltraSkyWars+ultraskywars.multiplier.xp.[amount]+Give multiplier permission for xp.+/sw multiplier xp <player> <amount> <time>
+# PLUGIN: UltraStaffChatPro
+# LINK: https://www.spigotmc.org/resources/ultrastaffchatpro.80461/
+# PERMISSIONS: https://docs.hypera.dev/en/docs/ultrastaffchatpro#UltraStaffChatPro-default-permissions
 UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
 UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
 UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
@@ -6822,7 +6831,21 @@ WarpSystem+warpsystem.use.spawn+Allows the player to use spawn.+/spawn
 WarpSystem+warpsystem.use.warpgui+Allows the player to access the warp GUI.+/warps
 WarpSystem+warpsystem.use.warpsigns+Allows the player to use warp signs.
 WarpSystem+warpsystem.warpgui.other+Allows the player to open the warp GUI for another player.+/warps <player>
+# PLUGIN: WaveGuard By GamingLPyt
+# LINK: https://www.mc-market.org/resources/20303/
+# PERMISSIONS: 
+WaveGuard+waveguard.anticrash.notification+Get notified when a player try to crash the Server
+WaveGuard+waveguard.command.admin+Access to all Commands
+WaveGuard+waveguard.command.blacklist+Access to the Blacklist command+/waveguard blacklist
+WaveGuard+waveguard.command.reload+Access to the Reload command+/waveguard reload
+WaveGuard+waveguard.command.status+Access to the Status command+/waveguard status
+WaveGuard+waveguard.command.use+Access to use a Command from WaveGuard
+WaveGuard+waveguard.command.whitelist+Access to the Whitelist command+/waveguard whitelist
+WaveGuard+waveguard.message.staff+Access to Staff alerts
 WorldBorder+worldborder.use+Allow the player to set the worldborder radius.+/wb <Radius>
+# PLUGIN: WorldEdit
+# LINK: https://dev.bukkit.org/projects/worldedit
+# PERMISSIONS: https://worldedit.enginehub.org/en/latest/permissions/
 WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.analysis.count+Counts the number of a certain type of block+//count
 WorldEdit+worldedit.analysis.distr+Get the distribution of blocks in the selection+//distr
@@ -6933,6 +6956,9 @@ WorldEdit+worldedit.tool.replacer+Block replacer tool+/repl
 WorldEdit+worldedit.tool.tree+Tree generator tool+/tree
 WorldEdit+worldedit.wand.toggle+Toggle functionality of the edit wand+/toggleeditwand
 WorldEdit+worldedit.wand+Get the wand object+//wand
+# PLUGIN: WorldGuard
+# LINK: https://dev.bukkit.org/projects/worldguard
+# PERMISSIONS: https://worldguard.enginehub.org/en/latest/permissions/
 WorldGuard+worldguard.chest_protection.override+override chest protection.
 WorldGuard+worldguard.fire_toggle+An unknown description
 WorldGuard+worldguard.halt_activity+An unknown description+/halt-activity,/halt-activity -c
@@ -6989,6 +7015,9 @@ Wormholes+wormholes.destroy+Grants the permission to destroy portals (or via the
 Wormholes+wormholes.list+Grants the permission to list portals and teleport to them (or any location in the world technically)+/wormholes list
 Wormholes+wormholes.reload+Grants the permission to reload the plugin+/wormholes reload
 Wormholes+wormholes.use+Grants the permission to enter portals (actually use them) all players should have this if you plan on players using the portals you create.
+# PLUGIN: XProtect
+# LINK: https://www.spigotmc.org/resources/xprotect-the-best-protection-plugin-stops-bots-attacks-vpns-more-mysql-1-8-1-16.67863/
+# PERMISSIONS: https://github.com/LagBug/XProtect/wiki/Commands-&-Permissions
 XProtect+xprotect.use+The main command for this plugin.+/p <add|remove|check|test|reload>
 XProtect+xprotect.add+Force verifies a playe.r+/p verify <player>
 XProtect+xprotect.blacklist+Blacklists a player.+/p blacklist <player>
@@ -7002,11 +7031,3 @@ XProtect+xprotect.notify+Get notified when a player completes/fails a test.
 YouTubeBridge+youtubebridge.admin+Access to all administrative features+/panel
 YT+box.set+Zum Box-setzen
 YT+yt.box+Zum Box-joinen
-WaveGuard+waveguard.command.admin+Access to all Commands
-WaveGuard+waveguard.message.staff+Access to Staff alerts
-WaveGuard+waveguard.command.use+Access to use a Command from WaveGuard
-WaveGuard+waveguard.anticrash.notification+Get notified when a player try to crash the Server
-WaveGuard+waveguard.command.whitelist+Access to the Whitelist command+/waveguard whitelist
-WaveGuard+waveguard.command.blacklist+Access to the Blacklist command+/waveguard blacklist
-WaveGuard+waveguard.command.status+Access to the Status command+/waveguard status
-WaveGuard+waveguard.command.reload+Access to the Reload command+/waveguard reload
