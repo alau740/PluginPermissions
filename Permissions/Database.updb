@@ -5297,6 +5297,15 @@ ProdigyXray+prodigy.xray.gold+Allows player to see gold ore.+/px gold,/prodigyxr
 ProdigyXray+prodigy.xray.lapis+Allows player to see lapis ore.+/px lapis,/prodigyxray lapis
 ProdigyXray+prodigy.xray.redstone+Allows player to see redstone ore.+/px redstone,/prodigyxray redstone
 ProdigyXray+prodigy.xray+Allows player to use /prodigyxray or /px command.+/px,/prodigyxray
+# PLUGIN NAME: ProHub
+# PLUGIN LINK: https://www.spigotmc.org/resources/prohub-1-16.94324/
+# PERMISSIONS
+ProHub+prohub.spawn+desc+/spawn,/lobby,/spawn
+ProHub+prohub.command.setspawn+Allows to set spawn+/prohub setspawn
+ProHub+prohub.command.reload+Allows to reload+/prohub reload
+ProHub+prohub.command.help+Shows the help info+/prohub help,/prohub ver
+ProHub+prohub.worldsettings.bypass+Allows to bypass world settings.
+ProHub+prohub.update.notify+Get notified of updates on login.
 ProtectionStones+protectionstones.admin+This permission allows users to override all ProtectionStones regions.+/ps admin {version|settings|hide|unhide|cleanup|lastlogon|lastlogons|stats}
 ProtectionStones+protectionstones.create+Protect a region by placing a ProtectionStones block.
 ProtectionStones+protectionstones.destroy+Allow players to remove their own protected regions.
