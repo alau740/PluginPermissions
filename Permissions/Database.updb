@@ -711,6 +711,9 @@ BetterBowTrails+betterbowtrails.type+toggle particles type+/arrow type
 BetterBowTrails+betterbowtrails.updater+receive a message if the plugin has a new version available!
 BetterBowTrails+betterbowtrails.use.menu+Shows all bow trails choices listed in the menu file+/arrow
 BetterBowTrails+betterbowtrails.use+Shows all bow trails choices listed in the menu file+/arrow help
+BetterDrops+betterdrops.reload+Reloads the configuration.+/drops reload
+BetterDrops+betterdrops.toggle-nametags+Players can use this command to toggle whether they can see nametags. Does not affect other players.+/drops toggle-nametags
+BetterDrops+betterdrops.toggle+Players can use this command to toggle whether they can see 3D drops.+/drops toggle
 betterSleeping+bettersleeping.reload+Reloads all BetterSleeping configuration files+/bs reload,/bettersleeping reload
 BkTeleport+bkteleport.countdown.[0-99]+Will give the group X seconds countdown. To have an instant teleport simply use a 0 instead.
 BkTeleport+bkteleport.delhome+Deletes a home.+/delhome <name>
