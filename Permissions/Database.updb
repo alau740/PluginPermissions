@@ -2,9 +2,7 @@
 # Github: https://github.com/TechsCode-Team/PluginPermissions
 # Format: https://github.com/TechsCode-Team/PluginPermissions/blob/master/README.md#formatting
 #
-# PLUGIN: Advanced Anti Cheat
-# LINK: https://www.spigotmc.org/resources/aac-advanced-anti-cheat-hack-kill-aura-blocker.6442/
-# PERMISSIONS:
+
 AAC+aac.*+Grants the player all permissions of the plugin.
 AAC+aac.alerts+Allows the player to receive alerts from checks and to set the alert level.+/aac alerts [off|normal|reduced]
 AAC+aac.bypass+Allows the player to bypass all checks.
@@ -1299,7 +1297,7 @@ CMI+cmi.command.fly.safelogin+Safely lands player after relog if he is in air
 CMI+cmi.command.fly+Set players fly true or false+/fly
 CMI+cmi.command.flyc.others+Toggle flight charge mode
 CMI+cmi.command.flyc+Toggle flight charge mode+/flyc
-CMI+cmi.command.flyspeed.[range1-10]+Set players fly speed from 0 to 10
+CMI+cmi.command.flyspeed.[range_1-10]+Set players fly speed from 0 to 10
 CMI+cmi.command.flyspeed.others+Set players fly speed from 0 to 10
 CMI+cmi.command.flyspeed+Set players fly speed from 0 to 10+/flyspeed
 CMI+cmi.command.gamerule+Manage gamerules+/gamerule
@@ -1721,19 +1719,19 @@ CMI+cmi.kit.bypass.time+Allows to bypass kit time limitations
 CMI+cmi.me.colors+Allows to use colors in me command
 CMI+cmi.messages.disablelogin+Disables login message
 CMI+cmi.messages.disablequit+Disables logout message
-CMI+cmi.minecart.change.[minecarttype]+Allows to change minecart type by right clicking with appropriate item
+CMI+cmi.minecart.change.[minecart_type]+Allows to change minecart type by right clicking with appropriate item
 CMI+cmi.namehistory+Allows to see previous players names
 CMI+cmi.netherportalbypass+Allows nether portal creation when its disabled in config file
 CMI+cmi.openshulker.shift+Allows to use shulkerbox as backpack with shift right click
 CMI+cmi.openshulker+Allows to use shulkerbox as backpack
 CMI+cmi.permisiononerror+Allows to see missing permission on error message
-CMI+cmi.placespawner.[entitytype]+Allows to place spawner by particular type and keep its type
+CMI+cmi.placespawner.[entity_type]+Allows to place spawner by particular type and keep its type
 CMI+cmi.placespawner+Allows to place spawner and keep its type
 CMI+cmi.prewards.[prewardName]+Allows to get specific playtime reward. This feature should be enabled in config file. Disabled by default
 CMI+cmi.prewards.notification+Sets players security level
 CMI+cmi.randomteleport.cooldownbypass+Allows to bypass random teleport cooldown
-CMI+cmi.rank.[rankname]+Defines default player rank
-CMI+cmi.respawngroup.[respawngroup]+Defines player individual respawn point
+CMI+cmi.rank.[rank_name]+Defines default player rank
+CMI+cmi.respawngroup.[respawn_group]+Defines player individual respawn point
 CMI+cmi.safeteleport.bypass.[lava/void/suffocation/unknown/plugin/unsafeteleportation/noperm]+Allows to teleport into unsafe location without confirmation
 CMI+cmi.safeteleport+Prevents teleportation to unsafe locations
 CMI+cmi.saveinv+Saves player inventory on death to be restored if needed later on
@@ -1745,18 +1743,18 @@ CMI+cmi.select+Allows to select with selection tool
 CMI+cmi.signs.shiftedit+Allows to edit signs with shift right click
 CMI+cmi.signs.shifteditbypass+Allows to edit signs on protected land
 CMI+cmi.silentchest.editing+Allows to edit chests while in silent open mode
-CMI+cmi.spawners.charge.[groupname]+Defines spawner charge group
+CMI+cmi.spawners.charge.[group_name]+Defines spawner charge group
 CMI+cmi.spawners.charge.bypass+Allows to bypass charge limitations
 CMI+cmi.spawners.proximity.bypass+Bypass spawner place range limitations
-CMI+cmi.spawngroup.[spawngroup]+Defines player individual spawn point
-CMI+cmi.tablist.[groupnumber]+Defines player custom tab list group
+CMI+cmi.spawngroup.[spawn_group]+Defines player individual spawn point
+CMI+cmi.tablist.[group_number]+Defines player custom tab list group
 CMI+cmi.tag.color+Tagged player name gets colorized
 CMI+cmi.teleport.bypassblacklist+Allows to bypass protection from teleporting with
 CMI+cmi.teleport.currentlocation+Allows to bypass protection from teleporting with blacklisted items
-CMI+cmi.teleport.with.[entitytype]+Allows teleportation with defined mount
+CMI+cmi.teleport.with.[entity_type]+Allows teleportation with defined mount
 CMI+cmi.title.colors+Allows to use colors in titlemsg command
 CMI+cmi.versioncheck+Allows to see new version message on login
-CMI+cmi.viewrange.[range(1-15)]+Defines custom view range
+CMI+cmi.viewrange.[range_1-15]+Defines custom view range
 CMI+cmi.viewrange+Allows to have custom view range
 CMI+cmi.worldlimit.fly.aboveroof+Allows to fly over world build limit. Feature should be enabled in config file
 CMI+cmi.worldlimit.fly.bypass+Allows to bypass fly mode limitations by worlds
@@ -1880,12 +1878,12 @@ Custom-Images+image.manage.delete+To delete an image then just right click the i
 Custom-Images+image.manage.options+To see all the file options of images that you can click to create+/image options
 CustomEnderChest+CustomEnderChest.admin+Access to administration command to open and edit or delete other players enderchests, and reload the plugin config.+/ec reload,/ec open,/ec delete
 CustomEnderChest+CustomEnderChest.commands+Allows players to open the EnderChest with command /customec open.+/customec open,/ec open
-CustomEnderChest+CustomEnderChest.level.0+For 9 slots (1 raw) EnderChest size.
-CustomEnderChest+CustomEnderChest.level.1+For 18 slots (2 raw's) EnderChest size.
-CustomEnderChest+CustomEnderChest.level.2+For 27 slots (3 raw's) EnderChest size.
-CustomEnderChest+CustomEnderChest.level.3+For 36 slots (4 raw's) EnderChest size.
-CustomEnderChest+CustomEnderChest.level.4+For 45 slots (5 raw's) EnderChest size.
-CustomEnderChest+CustomEnderChest.level.5+For 54 slots (6 raw's) EnderChest size.
+CustomEnderChest+CustomEnderChest.level.0+For 9 slots (1 row) EnderChest size.
+CustomEnderChest+CustomEnderChest.level.1+For 18 slots (2 rows) EnderChest size.
+CustomEnderChest+CustomEnderChest.level.2+For 27 slots (3 rows) EnderChest size.
+CustomEnderChest+CustomEnderChest.level.3+For 36 slots (4 rows) EnderChest size.
+CustomEnderChest+CustomEnderChest.level.4+For 45 slots (5 rows) EnderChest size.
+CustomEnderChest+CustomEnderChest.level.5+For 54 slots (6 rows) EnderChest size.
 CustomRecipe+anvil.colorize+ability to colorize name using anvil
 CustomRecipe+anvil.command+ability to add command to an item using anvil
 CustomRecipe+customrecipe.clear+ability to clear recipes+/customrecipe clear
@@ -1930,7 +1928,7 @@ DeathManager+deathmanager.death.compass+Allows players to acquire a Death Compas
 DeathManager+deathmanager.death.messages+Allows messages to be altered for the player.
 DeathManager+deathmanager.death.totem.give+Gives a player a totem when they join the server.
 DeathManager+deathmanager.death.totem+Allows a player to be revived by a Totem.
-DeluxeChat+chatformat.[chatformat]+Allows the player to use a specified chat format.
+DeluxeChat+chatformat.[chat_format]+Allows the player to use a specified chat format.
 DeluxeChat+chatformat.default+Allows the player to use the default chat format.
 DeluxeChat+deluxechat.*+Grants the player all permissions of the plugin.
 DeluxeChat+deluxechat.admin+Allows the player to use all commands of the plugin.+/dchat,/dchat reload,/gtoggle,/msg <player> <message>,/reply <message>,/socialspy
@@ -1983,10 +1981,6 @@ DeluxePlayerOptions+playeroptions.speed+Enable/Disable speed mode.+/Speed
 DeluxePlayerOptions+playeroptions.stacker+Enable/Disable stacker mode.+/Stacker
 DeluxePlayerOptions+playeroptions.use+Opens Options Menu+/options
 DeluxePlayerOptions+playeroptions.visibility+Enable/Disable visibility mode.+/Visibility
-# PLUGIN: DeluxeVoidWorld
-# LINK: https://songoda.com/marketplace/product/deluxe-void-world-188-116-fall-into-the-void-with-effects-unique-to-this-plugin.532
-# PERMISSIONS: https://songoda.com/marketplace/product/deluxe-void-world-188-116-fall-into-the-void-with-effects-unique-to-this-plugin.532
-DeluxeVoidWorld+deluxevoidworld.manager+Allows the player to use the GUI to select the teleport.
 DeluxeVoidWorld+deluxevoidworld.toggle.jumping+Allows the player to use high jumping.
 DeluxeVoidWorld+deluxevoidworld.toggle.lightning+Allows the player to use normal teleportation with a lightning.
 DeluxeVoidWorld+deluxevoidworld.toggle.particles+Allows the player to use normal teleportation with particles and fireworks.
@@ -2207,9 +2201,6 @@ EpicFurnaces+EpicFurnaces.Remote+Wireless access to a paired furnace that you ha
 EpicFurnaces+EpicFurnaces.Upgrade.*+Upgrading of furnaces with economy and xp
 EpicFurnaces+EpicFurnaces.Upgrade.ECO+Upgrading of furnaces with economy
 EpicFurnaces+EpicFurnaces.Upgrade.XP+Upgrading of furnaces with experience
-# PLUGIN: EpicLevels
-# LINK: https://songoda.com/marketplace/product/epiclevels-gain-levels-by-fighting.44
-# PERMISSIONS: https://wiki.songoda.com/Epic_Levels
 EpicLevels+epiclevels.addexp+Allows the player to add experience to another player.+/levels addexp <player> <amount>
 EpicLevels+epiclevels.admin+Allows the player to open the in-game settings editor and reload the plugin.+/levels settings,/levels reload
 EpicLevels+epiclevels.boost+Allows the player to boost another player's experience gained by a certain multiplier for a limited amount of time, remove a boost from a player, boost the experience gained by all players on the server and remove a global boost from the server.+/levels boost <player> <multiplier> <time>,/levels removeboost <player>,/levels globalboost <multiplier> <time>,/levels removeglobalboost
@@ -2248,7 +2239,7 @@ Essentials+essentials.afk.others+Allows you to AFK other players.
 Essentials+essentials.antioch+Allow access to the /antioch command.+/antioch
 Essentials+essentials.anvil+Allow access to the /anvil command.+/anvil
 Essentials+essentials.back+Allow access to the /back command.+/back
-Essentials+essentials.back.into.[worldname]+Allows access to /back when the destination location is within the specified world
+Essentials+essentials.back.into.[world_name]+Allows access to /back when the destination location is within the specified world
 Essentials+essentials.back.ondeath+Give this permission to allow players to use /back to go to their death spot
 Essentials+essentials.back.onteleport+Players with this permission will have back location stored during any teleportation
 Essentials+essentials.back.others+Allows the user to execute the /back command for other players
@@ -2300,7 +2291,7 @@ Essentials+essentials.editsign.color+This allows you to use any color code withi
 Essentials+essentials.editsign.rgb+Allows access to hex colors in the /editsign command using the &#RRGGBB format.
 Essentials+essentials.editsign.unlimited+Allows access to exceed the 15-character-per-line limit.
 Essentials+essentials.enchant+The command will add an enchantment to the item the user is currently holding. Using the command without an enchantment name will return a list of available enchantments+/enchant
-Essentials+essentials.enchantments.[enchantmentname]+Allows access to each enchantment type.
+Essentials+essentials.enchantments.[enchantment_name]+Allows access to each enchantment type.
 Essentials+essentials.enchantments.allowunsafe+If enabled in the config, this permission allows unsafe enchantments.
 Essentials+essentials.enderchest+Allow access to the /enderchest command.+/enderchest
 Essentials+essentials.enderchest.modify+Allows you to modify the contents of another players enderchest.
@@ -4544,9 +4535,6 @@ MysqlPlayerDataBridge+MPDB.moderator.armor+Allows to open and edit others armor.
 MysqlPlayerDataBridge+MPDB.moderator.enderchest+Allows to open and edit others enderchest.
 MysqlPlayerDataBridge+MPDB.moderator.inventory+Allows to open and edit others inventory.
 MysqlPlayerDataBridge+MPDB.moderator+Allow the use of inventory, armor and enderchest edit commands and also check and set balance commands.+/mpdb,/mpdb help
-# PLUGIN: Mythical Races
-# LINK: https://www.spigotmc.org/resources/mythical-races-elfs-dwarfs-and-so-forth-1-17-x.92564/
-# PERMISSIONS:
 MythicalRaces+mythicalraces.race.[race]+Allows the user to choose a race.+/races choose <race>
 MythicalRaces+mythicalraces.info.races+Gives informations about the races.+/races info <race>
 MythicalRaces+mythicalraces.help+Allow access to the "/races help" command.+/races help
@@ -5297,9 +5285,6 @@ ProdigyXray+prodigy.xray.gold+Allows player to see gold ore.+/px gold,/prodigyxr
 ProdigyXray+prodigy.xray.lapis+Allows player to see lapis ore.+/px lapis,/prodigyxray lapis
 ProdigyXray+prodigy.xray.redstone+Allows player to see redstone ore.+/px redstone,/prodigyxray redstone
 ProdigyXray+prodigy.xray+Allows player to use /prodigyxray or /px command.+/px,/prodigyxray
-# PLUGIN NAME: ProHub
-# PLUGIN LINK: https://www.spigotmc.org/resources/prohub-1-16.94324/
-# PERMISSIONS
 ProHub+prohub.spawn+desc+/spawn,/lobby,/spawn
 ProHub+prohub.command.setspawn+Allows to set spawn+/prohub setspawn
 ProHub+prohub.command.reload+Allows to reload+/prohub reload
@@ -6594,9 +6579,6 @@ UltraSkyWars+ultraskywars.votes.chest.op+Give permission to vote for OP Chest in
 UltraSkyWars+ultraskywars.multiplier.coins.[amount]+Give multiplier permission for coins.+/sw multiplier coin <player> <amount> <time>
 UltraSkyWars+ultraskywars.multiplier.souls.[amount]+Give multiplier permission for souls.+/sw multiplier souls <player> <amount> <time>
 UltraSkyWars+ultraskywars.multiplier.xp.[amount]+Give multiplier permission for xp.+/sw multiplier xp <player> <amount> <time>
-# PLUGIN: UltraStaffChatPro
-# LINK: https://www.spigotmc.org/resources/ultrastaffchatpro.80461/
-# PERMISSIONS: https://docs.hypera.dev/en/docs/ultrastaffchatpro#UltraStaffChatPro-default-permissions
 UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
 UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
 UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
@@ -6840,9 +6822,7 @@ WarpSystem+warpsystem.use.spawn+Allows the player to use spawn.+/spawn
 WarpSystem+warpsystem.use.warpgui+Allows the player to access the warp GUI.+/warps
 WarpSystem+warpsystem.use.warpsigns+Allows the player to use warp signs.
 WarpSystem+warpsystem.warpgui.other+Allows the player to open the warp GUI for another player.+/warps <player>
-# PLUGIN: WaveGuard By GamingLPyt
-# LINK: https://www.mc-market.org/resources/20303/
-# PERMISSIONS: 
+
 WaveGuard+waveguard.anticrash.notification+Get notified when a player try to crash the Server
 WaveGuard+waveguard.command.admin+Access to all Commands
 WaveGuard+waveguard.command.blacklist+Access to the Blacklist command+/waveguard blacklist
@@ -6852,9 +6832,6 @@ WaveGuard+waveguard.command.use+Access to use a Command from WaveGuard
 WaveGuard+waveguard.command.whitelist+Access to the Whitelist command+/waveguard whitelist
 WaveGuard+waveguard.message.staff+Access to Staff alerts
 WorldBorder+worldborder.use+Allow the player to set the worldborder radius.+/wb <Radius>
-# PLUGIN: WorldEdit
-# LINK: https://dev.bukkit.org/projects/worldedit
-# PERMISSIONS: https://worldedit.enginehub.org/en/latest/permissions/
 WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.analysis.count+Counts the number of a certain type of block+//count
 WorldEdit+worldedit.analysis.distr+Get the distribution of blocks in the selection+//distr
@@ -6965,9 +6942,6 @@ WorldEdit+worldedit.tool.replacer+Block replacer tool+/repl
 WorldEdit+worldedit.tool.tree+Tree generator tool+/tree
 WorldEdit+worldedit.wand.toggle+Toggle functionality of the edit wand+/toggleeditwand
 WorldEdit+worldedit.wand+Get the wand object+//wand
-# PLUGIN: WorldGuard
-# LINK: https://dev.bukkit.org/projects/worldguard
-# PERMISSIONS: https://worldguard.enginehub.org/en/latest/permissions/
 WorldGuard+worldguard.chest_protection.override+override chest protection.
 WorldGuard+worldguard.fire_toggle+An unknown description
 WorldGuard+worldguard.halt_activity+An unknown description+/halt-activity,/halt-activity -c
@@ -7024,9 +6998,6 @@ Wormholes+wormholes.destroy+Grants the permission to destroy portals (or via the
 Wormholes+wormholes.list+Grants the permission to list portals and teleport to them (or any location in the world technically)+/wormholes list
 Wormholes+wormholes.reload+Grants the permission to reload the plugin+/wormholes reload
 Wormholes+wormholes.use+Grants the permission to enter portals (actually use them) all players should have this if you plan on players using the portals you create.
-# PLUGIN: XProtect
-# LINK: https://www.spigotmc.org/resources/xprotect-the-best-protection-plugin-stops-bots-attacks-vpns-more-mysql-1-8-1-16.67863/
-# PERMISSIONS: https://github.com/LagBug/XProtect/wiki/Commands-&-Permissions
 XProtect+xprotect.use+The main command for this plugin.+/p <add|remove|check|test|reload>
 XProtect+xprotect.add+Force verifies a playe.r+/p verify <player>
 XProtect+xprotect.blacklist+Blacklists a player.+/p blacklist <player>
