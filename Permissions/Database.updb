@@ -6821,7 +6821,6 @@ WarpSystem+warpsystem.use.spawn+Allows the player to use spawn.+/spawn
 WarpSystem+warpsystem.use.warpgui+Allows the player to access the warp GUI.+/warps
 WarpSystem+warpsystem.use.warpsigns+Allows the player to use warp signs.
 WarpSystem+warpsystem.warpgui.other+Allows the player to open the warp GUI for another player.+/warps <player>
-
 WaveGuard+waveguard.anticrash.notification+Get notified when a player try to crash the Server
 WaveGuard+waveguard.command.admin+Access to all Commands
 WaveGuard+waveguard.command.blacklist+Access to the Blacklist command+/waveguard blacklist
