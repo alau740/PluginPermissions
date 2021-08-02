@@ -2,7 +2,6 @@
 # Github: https://github.com/TechsCode-Team/PluginPermissions
 # Format: https://github.com/TechsCode-Team/PluginPermissions/blob/master/README.md#formatting
 #
-
 AAC+aac.*+Grants the player all permissions of the plugin.
 AAC+aac.alerts+Allows the player to receive alerts from checks and to set the alert level.+/aac alerts [off|normal|reduced]
 AAC+aac.bypass+Allows the player to bypass all checks.
