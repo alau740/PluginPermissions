@@ -898,6 +898,9 @@ Bukkit+minecraft.nbt.copy+Allows copying of blocks with their NBT data via ctrl 
 Bukkit+minecraft.nbt.place+Allows placing of blocks which's item have NBT data associated with them.
 BungeeHub+bungeehub.hub+Allows people to do /hub+/hub
 BuycraftX+buycraft.admin+This is the only permission of Buycraft and give you permission to al these commands. (the last permission is only able to use in the console!)+/buycraft refresh,/buycraft forcecheck,/buycraft report,/buycraft signupdate,/buycraft coupon,/buycraft secret
+Cameras+cameras.command+Take a picture using the command+/takepicture
+Cameras+cameras.craft+Allow the player to craft camera items
+Cameras+cameras.useitem+Allow the player to use camera items
 CanonHealth+CanonHealth.bypass+Allows the player to have more than the configured amount of canon lives.
 Captcha+captcha.notify+Allowed you to get notified when someone fails the Captcha
 Captcha+captcha.open.others+Opens a Captcha to a certain player+/captcha PLAYER
