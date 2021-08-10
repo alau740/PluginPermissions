@@ -466,6 +466,56 @@ AutoCast+ac.list+Show all the messages in a list+/autocast list
 AutoCast+ac.preview+Previews a message for the sender only+/autocast preview
 AutoCast+ac.reload+Reinitializes the plugin+/autocast reload
 AutoCast+ac.toggle+This will turn the autobroadcasting messages either on or off+/autocast on,/autocast off,/autocast enable,/autocast disable,/autocast toggle
+Bank+bank.admin.add.block+Add the block you are looking at as a Bank block+/bank admin add block
+Bank+bank.admin.add+Allow access to Bank add command+/bank admin add
+Bank+bank.admin.fix.usernames+Fix missing usernames in the database+/bank admin fix usernames
+Bank+bank.admin.fix+Allow access to the admin Fix command+/bank admin fix
+Bank+bank.admin.inventory.open+Allow a group or player to open the Bank of other players
+Bank+bank.admin.item.blacklist+Allow player to blacklist certain items+/bank admin item blacklist
+Bank+bank.admin.item+Allow access to admin item command+/bank admin item
+Bank+bank.admin.lock+Lock or unlock a players bank account+/bank admin lock <player> <truefalse>
+Bank+bank.admin.lookup+Lookup the UUID for a player+/bank admin lookup <player>
+Bank+bank.admin.open+Open another players bank account+/bank admin open <player>
+Bank+bank.admin.permission.history+See the Bank permission history of a player+/bank admin permission history <player>
+Bank+bank.admin.permission.update+Update the Bank permissions of a player+/bank admin permission update <player>
+Bank+bank.admin.permission+Allow access to Bank permission command/bank admin permission
+Bank+bank.admin.pin.reset+Reset another players PIN code
+Bank+bank.admin.pin+Access to the admin PIN command+/bank admin pin
+Bank+bank.admin.reload+Reload the Bank configuration+/bank admin reload
+Bank+bank.admin.remove.block+Remove the block you are looking at as a Bank block+/bank admin remove block
+Bank+bank.admin.remove+Allow access to Bank remove command+/bank admin remove
+Bank+bank.admin.reset+Reset a player's bank account+/bank admin reset <player>
+Bank+bank.admin.save+Save the current state of config/accounts+/bank admin save
+Bank+bank.admin.slots.add+Add slots to a players bank account+/bank admin slots add <player> <amount>
+Bank+bank.admin.slots.set+Set the number of slots in a players Bank+/bank admin slots set <player> <amount>
+Bank+bank.admin.slots+Allow access to to Bank slots command+/bank admin slots
+Bank+bank.admin+Administrator access+/bank admin
+Bank+bank.exp.balance+View your exp balance+/bank exp balance
+Bank+bank.exp.deposit.all+Deposit all exp to your bank account+/bank exp deposit all
+Bank+bank.exp.deposit+Deposit exp to your bank account+/bank exp deposit <amount>
+Bank+bank.exp.send+Send another player exp to their bank account+/bank exp send <player> <amount>
+Bank+bank.exp.withdraw.all+Withdraw all exp from your bank account+/bank exp withdraw all
+Bank+bank.exp.withdraw+Withdraw exp from your bank account+/bank exp withdraw <amount>
+Bank+bank.exp+Allow access to Bank exp command+/bank exp
+Bank+bank.info+See bank account info (money, exp, interest etc.)+/bank info
+Bank+bank.item.slots.[value]+Set the item slot amount for a group or player (e.g. 1000 for 1000 slots)
+Bank+bank.loan.amount.[value]+Set the maximum loan value for a group or player (e.g. 1000.5 for $1000.50 maximum loans)
+Bank+bank.loan.interest.[value]+Set the loan interest for a group or player (e.g. 0.05 for 5% interest)
+Bank+bank.money.balance+View money balance in your bank account+/bank money balance
+Bank+bank.money.deposit.all+Deposit all money to your bank account+/bank money deposit all
+Bank+bank.money.deposit+Deposit money to your bank account+/bank money deposit <amount>
+Bank+bank.money.pay+Send money from yours to another players bank account+/bank money pay <player> <amount>
+Bank+bank.money.withdraw.all+Withdraw all money from your bank account+/bank money withdraw all
+Bank+bank.money.withdraw+Withdraw money from your bank account+/bank money withdraw <amount>
+Bank+bank.money+Allow access to Bank money command+/bank money
+Bank+bank.open.block+Allow a player to open the Bank by right-clicking a Bank block
+Bank+bank.open.citizens+Allow a player to open the Bank by right-clicking Citizens NPCs
+Bank+bank.open.command+Allow a player to open the Bank using commands+/bank open
+Bank+bank.open.sign+Allow a player to open the Bank by right-click signs
+Bank+bank.sign.place+Allow a player to place a bank sign
+Bank+bank.top.exp+View the Bank experience leaderboard+/bank top exp <page>
+Bank+bank.top.money+View the Bank balances leaderboard+/bank top money <page>
+Bank+bank.top+Access to the Bank leaderboards command+/bank top
 BannerBoard+bannerboard.create+Use the command /bannerboard create. This will give you two redstone blocks. There is no permission for the command, however it does require you to be a server operator. Place both blocks at an opposite corner (e.g. left bottom and right top). Please don't make your banner too big, BannerBoard might refuse to make it. Make sure to have a solid wall behind the banner and no blocks placed around the edges, these blocks should be placed later to prevent misplaced itemframes. Your wall should look something like this.+/bb create,/bannerboard create
 BannerBoard+bannerboard.delete+If you misplace a redstone block or you want to redo the placing, use the command /bb delete twice while you're looking at the banner to delete the banner. You can now start over again.+/bb delete,/bannerboard delete
 BannerBoard+bannerboard.fontlist+**COMING SOON**
