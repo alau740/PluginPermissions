@@ -3155,6 +3155,13 @@ Friends3_0+Friends.Commands.Toggle.Msg+Allow or disallow friends to send private
 Friends3_0+Friends.Commands.Toggle.Requests+Enable or Disable requests.+/friends toggle request,/f toggle request
 Friends3_0+Friends.Commands.Unblock+Unblocks a player.+/friends unblock,/f unblock
 Friends3_0+Friends.Use+Opens the Gui.+/friends,/friends help,/f,/f help
+GUIPlus+gui.create+Create a new GUI+/gui create <name>
+GUIPlus+gui.delete+Delete a GUI+/gui delete <name>
+GUIPlus+gui.edit+Edit a GUI+/gui edit <name>
+GUIPlus+gui.list+Shows the available GUI’s+/gui list
+GUIPlus+gui.open.others+Open a GUI for a Player.+/gui openfor <player> <name>
+GUIPlus+gui.open+Open a specific GUI.+/gui open <name>
+GUIPlus+gui.reload+Reload the Plugin+/gui reload
 Gravestones+gravestones.infinite+Get a grave when you die which will never expire.
 Gravestones+gravestones.none+Don't get a gravestone when you die.
 gravy+gravy.break+Allows to break any grave
