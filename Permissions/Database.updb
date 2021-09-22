@@ -3604,6 +3604,7 @@ InsaneShops+insaneshops.commands.shops+Allows the player to use the main command
 InsaneShops+insaneshops.create.sellshop+Allows the player to create a sell shop.
 InsaneShops+insaneshops.create+Allows the player to create a shop.
 InsaneShops+insaneshops.limit.[limit]+Defines the maximum amount of shops a player can own.
+InsaneShops+insaneshops.teleportToShop+Allows the player to teleport to the shop
 InventorySaver+inferno.events.*+Allows the player to access all events and menu interactions.
 InventorySaver+invsave.*+Grants the player all permissions of the plugin.
 InventorySaver+invsave.command.invsave.edit+Allows the player to edit another player's inventory.+/invsave edit <player>
