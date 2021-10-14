@@ -1,4 +1,3 @@
-#
 # Format: https://github.com/TechsCode-Team/PluginPermissions/blob/master/README.md#formatting
 # Github: https://github.com/TechsCode-Team/PluginPermissions
 # Ultra Permissions Database
@@ -2756,6 +2755,27 @@ EssentialsSpawn+essentials.spawn+Allow access to the "/spawn" command.+/spawn
 EssentialsXMPP+essentials.setxmpp+Allow access to the "/setxmpp" command.+/setxmpp
 EssentialsXMPP+essentials.xmpp+Allow access to the "/xmpp" command.+/xmpp
 EssentialsXMPP+essentials.xmppspy+Allow access to the "/xmppspy" command.+/xmppspy
+ExecutableItems+ei.*+Gives all permissions of ExecutableItems.
+ExecutableItems+ei.cmd.actionbar+Activate/Desactivate actionbar+/ei actionbar <on|off>
+ExecutableItems+ei.cmd.clear+Clear all delayed commands of a player+/ei clear,/ei clear <PlayerName>
+ExecutableItems+ei.cmd.create+Create new ExecutableItem.+/ei create
+ExecutableItems+ei.cmd.delete+Delete an ExecutableItem.+/ei delete
+ExecutableItems+ei.cmd.drop+Drop EI items at custom location.+/ei drop <Item> <Quantity> <World> <x> <y> <z>
+ExecutableItems+ei.cmd.edit+Open the editor for the item with ID+/ei edit <itemID>
+ExecutableItems+ei.cmd.editor+Show available items.+/ei editor
+ExecutableItems+ei.cmd.give+Give command+/ei give <PlayerName> <ItemID> <Quantity>
+ExecutableItems+ei.cmd.giveall+Giveall command. [world] is optional.+/ei giveall <ItemID> <Quantity> [world]
+ExecutableItems+ei.cmd.giveallusage+Giveallusage command. [world] is optional.+/ei giveallusage <ItemID> <Quantity> [world] <Usage>
+ExecutableItems+ei.cmd.giveslot+Give Executable in specific slot. [Premium Only]+/ei giveslot <PlayerName> <ID> <Quantity> <Slot> <Usage>
+ExecutableItems+ei.cmd.giveusage+Give usage command.+/ei giveusage <PlayerName> <ItemID> <Quantity> <Usage>
+ExecutableItems+ei.cmd.inspect+Show the information of the ExecutableItems in your hand (owner, blocks break, kills, id, usage).+/ei inspect
+ExecutableItems+ei.cmd.reload+Reload command.+/ei reload
+ExecutableItems+ei.cmd.show+Show available items.+/ei show
+ExecutableItems+ei.cmd.take+Deletes specific Executable Items in your inventory.+/ei take <PlayerName> <ItemID> [Quantity]
+ExecutableItems+ei.cmd.unowned+To remove the propriety of the ExecutableItem in your hand. and after that the next player who click on this item will become the new owner (the player must be not op)+/ei unowned
+ExecutableItems+ei.cmds+All permissions for the commands of ExecutableItems.
+ExecutableItems+ei.item.[id]+Unknown Description
+ExecutableItems+ei.nocd.[id]+Give this custom permission to disable the cooldown for your vip players [Premium Only]
 ExploitFixer+exploitfixer.admin+Grants the player all permissions of the plugin.+/ef help,/ef reload,/ef notifications,/ef stats
 ExploitFixer+exploitfixer.notifications+Allows the player to toggle notifications.+/ef notifications
 EZColors+ezcolors.*+Grants the player all permissions of the plugin.
@@ -4484,6 +4504,12 @@ MiniBoardGames+miniboardgames.reload+Reload the games/config/database.+/mbg relo
 MiniBoardGames+miniboardgames.spectate+Spectate a players game.+/mbg spectate,/miniboardgames spectate,/games spectate
 MiniBoardGames+miniboardgames.stats+See your stats.+/mbg stats,/miniboardgames stats,/games stats
 MiniBoardGames+miniboardgames.top+See the top stats for a game.+/mbg top <game> [page] [stats],/miniboardgames top <game> [page] [stats],/games top <game> [page] [stats]
+MMOItems+mmoitems.admin+Permission for admin commands
+MMOItems+mmoitems.bypass.ability+Bypasses the ability permission restriction
+MMOItems+mmoitems.bypass.class+Bypasses the MMOCore class restriction
+MMOItems+mmoitems.bypass.item+Bypasses the item permission restriction
+MMOItems+mmoitems.bypass.level+Bypasses the item level restriction
+MMOItems+mmoitems.update+Allows use of the /updateitem command
 MoneyFromMobs+MoneyFromMobs.clear+Removes all money drops off the ground+/MfmClear
 MoneyFromMobs+MoneyFromMobs.drop+Drops a specified amount of money on the ground+/MfmDrop <AmountToDrop> [NumberOfDrops]
 MoneyFromMobs+MoneyFromMobs.event+Starts/Stops an event that increases the amount of money dropped by mobs for a certain amount of time.+/MfmEvent <Start|Stop> [Percentage Increase] [Hours] [Minutes] [Seconds]
@@ -6571,6 +6597,19 @@ UltraEditor+ultraeditor.info+Get some info on the plugin.+/ultraeditor info
 UltraEditor+ultraeditor.newauth+Generate a new auth key.+/ultraeditor newauth
 UltraEditor+ultraeditor.reload+Reload the config.+/ultraeditor reload
 UltraEditor+ultraeditor.use+Allows usage of commands.
+UltraPrisonCore+ultraprison.admin+Admin permission to reload plugin or reset databases.+/prison reload,/prison cleardb
+UltraPrisonCore+ultraprison.autominer.admin+Admin permission to manage auto-miner things.+/adminautominer give <player> <time> <time_unit>
+UltraPrisonCore+ultraprison.autosell.admin+Admin permission to set sell price of item for specific mine and other auto-sell related things.
+UltraPrisonCore+ultraprison.autosell.toggle+Player permission to toggle /autosell+/autosell
+UltraPrisonCore+ultraprison.gangs.admin+Admin permission to manage gangs.+/gang admin add <player> <gang>,/gang admin remove <player> <gang>,/gang admin disband <gang>
+UltraPrisonCore+ultraprison.gems.admin+Admin permission to manage gems.
+UltraPrisonCore+ultraprison.mines.admin+Admin permission to manage mines.
+UltraPrisonCore+ultraprison.mines.tp.[name]+Teleports you to a mine+/mines tp <name>
+UltraPrisonCore+ultraprison.multiplier.[number]+Player permission to receive rank multipliers.
+UltraPrisonCore+ultraprison.multipliers.admin+Admin permission to manage multipliers (global/personal).
+UltraPrisonCore+ultraprison.ranks.admin+Admin permission to manage ranks & prestiges.+/setrank <player> <rank_id>,/prestigeadmin add <player> <amount>,/prestigeadmin set <player> <amount>,/prestigeadmin remove <player> <amount>
+UltraPrisonCore+ultraprison.tokens.admin+Admin permission to manage tokens.+/tokens give <player> <amount>,/tokens remove <player> <amount>,/tokens set <player> <amount>
+UltraPrisonCore+ultraprison.value+Player permission to display value of his pickaxe.
 UltraPunishments+ultrapunishments.access.details+Allows a player to access the player details of a specific player.
 UltraPunishments+ultrapunishments.admin+Allows the player to use all features of the plugin.
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
