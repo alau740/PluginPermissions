@@ -59,6 +59,45 @@ Actionbar+actionbar.reload+Allows you to reload the config+/actionbar reload
 Actionbar+actionbar.world+Allows you to send a world message via actionbar+/actionbar <world> <name> <message>
 ActionHealth+ActionHealth.Health+This will send the player the health message only if 'Use Permission' is enabled in the config.
 ActionHealth+ActionHealth.Reload+Reloads config.+/Actionhealth reload
+Admin-GUI+admingui.admin+To open Admin GUI
+Admin-GUI+admingui.ban.bypass+Bypass the ban command
+Admin-GUI+admingui.ban+Ban players
+Admin-GUI+admingui.burn.other+Burns other players
+Admin-GUI+admingui.burn+Burns the player
+Admin-GUI+admingui.fakeop+Gives people fake OP
+Admin-GUI+admingui.feed.other+Feeds other players
+Admin-GUI+admingui.feed+Feeds the player
+Admin-GUI+admingui.firework.other+Sets a firework on others
+Admin-GUI+admingui.firework+Sets a firework on the player
+Admin-GUI+admingui.gamemode.other+Sets the gamemode of other players
+Admin-GUI+admingui.gamemode+Sets the gamemode of the player
+Admin-GUI+admingui.god.other+Sets other players into godmode
+Admin-GUI+admingui.god+Sets the player into godmode
+Admin-GUI+admingui.heal.other+Heals other players
+Admin-GUI+admingui.heal+Heals the player
+Admin-GUI+admingui.info+Information about the plugin
+Admin-GUI+admingui.inventory.edit+Edits inventory of others
+Admin-GUI+admingui.inventory+Sees inventory of others
+Admin-GUI+admingui.kick.bypass+Bypass the kick command
+Admin-GUI+admingui.kick.other+Kick players
+Admin-GUI+admingui.kill.other+Kills other players
+Admin-GUI+admingui.kill+Kills the player
+Admin-GUI+admingui.lightning.other+Spawns lightning on others
+Admin-GUI+admingui.lightning+Spawns lightning on the player
+Admin-GUI+admingui.maintenance.manage+Unknown Description
+Admin-GUI+admingui.maintenance+Unknown Description
+Admin-GUI+admingui.money.other+Access to money commands of others
+Admin-GUI+admingui.money+Access to money commands
+Admin-GUI+admingui.potions.other+Applies the set potion effect to other players
+Admin-GUI+admingui.potions+Applies the set potion effects
+Admin-GUI+admingui.spawner.other+Spawns the set entity onto a different player
+Admin-GUI+admingui.spawner+Spawns the set entity onto the player
+Admin-GUI+admingui.teleport.other+Teleports to other players
+Admin-GUI+admingui.teleport+Teleport to other players
+Admin-GUI+admingui.time+Sets the time of the world
+Admin-GUI+admingui.vanish.other+Sets others in vanish
+Admin-GUI+admingui.vanish+Sets the player in vanish
+Admin-GUI+admingui.weather+Sets the weather of the world
 AdminAnything+aa.allowaddperm+Allows the player to add a virtual permission to a command to restrict access.+/aa_addperm
 AdminAnything+aa.allowchatnickclick+Allows the player to click on names in the chat to perform actions set in the config.
 AdminAnything+aa.allowjoinleaveclick+Allows the player to get administrative links to click in the chat when a player joins or leaves the server.
