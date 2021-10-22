@@ -6730,7 +6730,7 @@ UltraStaffChatPro+staffchat.global-mute.read+Permission required to receive the 
 UltraStaffChatPro+staffchat.list.view+Permission required to view the staff list.+/stafflist
 UltraStaffChatPro+staffchat.list.view-vanished+Permission required to view vanished players on the staff list.
 UltraStaffChatPro+staffchat.list+Permission required to display on the staff list.
-UltraStaffChatPro+staffchat.afk+Permission required to toggle afk status.
+UltraStaffChatPro+staffchat.afk+Permission required to toggle afk status.+/scafk
 UltraStaffChatPro+staffchat.afk.read+Permission required to receive afk broadcasts.
 UltraStaffChatPro+staffchat.join+Permission required to cause a staff join broadcast.
 UltraStaffChatPro+staffchat.join.read+Permission required to receive join broadcasts.
