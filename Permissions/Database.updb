@@ -6720,6 +6720,20 @@ UltraSkyWars+ultraskywars.wineffects.[name]+Grants you permission to buy vip Win
 UltraSkyWars+usw.admin+Grants you administrator permission to configure.
 UltraSkyWars+usw.forcestart+Force start a game.+/sw forcestart
 UltraSkyWars+usw.spectate+Spectate a game.+/sw spect <name>
+UltraStaffChat+staffchat.talk+Permission required to send a message in staff chat.+/staffchat <message>,/sc <message>
+UltraStaffChat+staffchat.read+Permission required to receive staff chat messages.
+UltraStaffChat+staffchat.toggle+Permission required to toggle sending staff chat messages.+/sctoggle
+UltraStaffChat+staffchat.mute+Permission required to toggle receiving staff chat messages.+/scmute
+UltraStaffChat+staffchat.globalmute+Permission required to globally mute and unmute staff chat.+/mutesc
+UltraStaffChat+staffchat.mutebypass+Permission required to bypass global mute.
+UltraStaffChat+staffchat.list+Permission required to view the staff list.+/stafflist
+UltraStaffChat+staffchat.staff+Permission required to display on the staff list.
+UltraStaffChat+staffchat.afk+Permission required to toggle afk status.+/scafk
+UltraStaffChat+staffchat.join+Permission required to cause a staff join broadcast.
+UltraStaffChat+staffchat.switch+Permission required to cause a server switch broadcast.
+UltraStaffChat+staffchat.leave+Permission required to cause a staff leave broadcast.
+UltraStaffChat+ultrastaffchat.reload+Permission required to reload the configuration files.+/ultrastaffchat reload,/usc reload
+UltraStaffChat+ultrastaffchat.update+Permission required to receive update notifications.
 UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
 UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
 UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
