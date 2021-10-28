@@ -6734,22 +6734,27 @@ UltraStaffChat+staffchat.switch+Permission required to cause a server switch bro
 UltraStaffChat+staffchat.leave+Permission required to cause a staff leave broadcast.
 UltraStaffChat+ultrastaffchat.reload+Permission required to reload the configuration files.+/ultrastaffchat reload,/usc reload
 UltraStaffChat+ultrastaffchat.update+Permission required to receive update notifications.
-UltraStaffChatPro+helperchat.mute+Allows the player to mute another player in the helper chat.
-UltraStaffChatPro+helperchat.read+Allows the player to read messages in the helper chat.
-UltraStaffChatPro+helperchat.talk+Allows the player to talk in the helper chat.
-UltraStaffChatPro+helperchat.toggle+Allows the player to toggle the helper chat.
-UltraStaffChatPro+staffchat.join+Allows the player to join the staff chat.
-UltraStaffChatPro+staffchat.leave+Allows the player to leave the staff chat.
-UltraStaffChatPro+staffchat.list.exempt+Allows the player to be exempt from the staff list.
-UltraStaffChatPro+staffchat.list+Allows the player to see the staff list.+/sclist
-UltraStaffChatPro+staffchat.mute+Allows the player to mute another player in the staff chat.+/scmute
-UltraStaffChatPro+staffchat.read+Allows the player to read messages in the staff chat.
-UltraStaffChatPro+staffchat.switch+Allows the player to switch channels in the staff chat.
-UltraStaffChatPro+staffchat.talk+Allows the player to talk in the staff chat.
-UltraStaffChatPro+staffchat.toggle+Allows the player to toggle the staff chat.+/sctoggle
-UltraStaffChatPro+ultrastaffchatpro.debug+Allows the player to debug the plugin.
-UltraStaffChatPro+ultrastaffchatpro.reload+Allows the player to reload the plugin.
-UltraStaffChatPro+ultrastaffchatpro.update+Allows the player to receive update notifications.
+UltraStaffChatPro+staffchat.talk+Permission required to send a message in staff chat.+/staffchat <message>
+UltraStaffChatPro+staffchat.read+Permission required to receive staff chat messages.
+UltraStaffChatPro+staffchat.toggle+Permission required to toggle sending messages in staff chat.+/sctoggle
+UltraStaffChatPro+staffchat.mute+Permission required to toggle receiving staff chat messages.+/scmute
+UltraStaffChatPro+staffchat.global-mute+Permission required to globally mute and unmute staff chat.+/mutesc
+UltraStaffChatPro+staffchat.global-mute.bypass+Permission required to bypass global mute.
+UltraStaffChatPro+staffchat.global-mute.read+Permission required to receive the global mute broadcast.
+UltraStaffChatPro+staffchat.list.view+Permission required to view the staff list.+/stafflist
+UltraStaffChatPro+staffchat.list.view-vanished+Permission required to view vanished players on the staff list.
+UltraStaffChatPro+staffchat.list+Permission required to display on the staff list.
+UltraStaffChatPro+staffchat.afk+Permission required to toggle afk status.+/scafk
+UltraStaffChatPro+staffchat.afk.read+Permission required to receive afk broadcasts.
+UltraStaffChatPro+staffchat.join+Permission required to cause a staff join broadcast.
+UltraStaffChatPro+staffchat.join.read+Permission required to receive join broadcasts.
+UltraStaffChatPro+staffchat.switch+Permission required to cause a server switch broadcast.
+UltraStaffChatPro+staffchat.switch.read+Permission required to receive switch broadcasts.
+UltraStaffChatPro+staffchat.leave+Permission required to cause a staff leave broadcast.
+UltraStaffChatPro+staffchat.leave.read+Permission required to receive leave broadcasts.
+UltraStaffChatPro+ultrastaffchatpro.debug+Permission required to execute debug commands.+/ultrastaffchatpro debug,/uscp debug
+UltraStaffChatPro+ultrastaffchatpro.reload+Permission required to reload the configuration files.+/ultrastaffchatpro reload,/uscp reload
+UltraStaffChatPro+ultrastaffchatpro.update+Permission required to receive update notifications.
 UltraTags+ultratags.reload+Ability to use the reload command (reloads the plugin configuration)+/ultratags reload,/ut reload,/uts reload
 uSkyBlock+usb.admin.*+Controls player-cooldowns+/usb cooldown,/usb cd clear,/usb cd c
 uSkyBlock+usb.admin.addmember+Adds the player to the island+/usb is addmember [player] [islandleader]
