@@ -2551,6 +2551,7 @@ Essentials+essentials.pay+Allow access to the "/pay" command.+/pay <name> <amoun
 Essentials+essentials.payconfirmtoggle+Allow access to the "/payconfirmtoggle" command.+/payconfirmtoggle
 Essentials+essentials.paytoggle+Allow access to the "/paytoggle" command.+/paytoggle
 Essentials+essentials.ping+Allow access to the "/ping" command.+/ping
+Essentials+essentials.playtime+Shows a player's time played in game+/playtime
 Essentials+essentials.potion.[potionName]+Allow access to the "/potion [potionName]" command.
 Essentials+essentials.potion.apply+Allow access to the "/potion apply" command.+/potion apply
 Essentials+essentials.powertool.append+Allows adding multiple commands to a single powertool.
