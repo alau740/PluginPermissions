@@ -5004,6 +5004,51 @@ PluginManager+pluginmanager.reload+Unloads and then loads the plugin+/plm reload
 PluginManager+pluginmanager.show+Show's detailed information about the plugin+/plm show <plugin>
 PluginManager+pluginmanager.sreload+Disables and then enables the plugin+/plm sreload <plugin>
 PluginManager+pluginmanager.unload+Disables a plugin, then unloads it from the server+/plm unload <plugin>
+PremiumVanish+pv.help+Unknown Description+/pv help
+PremiumVanish+pv.use+Unknown Description+/pv [on|off]
+PremiumVanish+pv.use.level[level]+Unknown Description
+PremiumVanish+pv.others+Unknown Description+/pv [on|off] <player>
+PremiumVanish+pv.list+Unknown Description+/pv list
+PremiumVanish+pv.login+Unknown Description+/pv login
+PremiumVanish+pv.logout+Unknown Description+/pv logout
+PremiumVanish+pv.toggleitems+Unknown Description+/pv tipu
+PremiumVanish+pv.recreatefiles+Unknown Description+/pv recreatefiles
+PremiumVanish+pv.reload+Unknown Description+/pv reload
+PremiumVanish+pv.target+Unknown Description+/pv target <player>
+PremiumVanish+pv.unlock+Unknown Description+/pv unlock
+PremiumVanish+pv.tptg+Unknown Description+/pv tptg
+PremiumVanish+pv.printstacktrace+Unknown Description+/pv printstacktrace
+PremiumVanish+pv.setlevel+Unknown Description+/pv setlevel
+PremiumVanish+pv.togglescoreboard+Unknown Description+/pv scoreboard
+PremiumVanish+pv.*+Grants you all PremiumVanish permissions
+PremiumVanish+pv.keepfly+You can always keep flying when you reappear.
+PremiumVanish+pv.notoggle+Other players cannot hide/show you if you're online.
+PremiumVanish+pv.see+You can see other vanished players.
+PremiumVanish+pv.joinvanished+You always join vanished (must be enabled in config).
+PremiumVanish+pv.spectatoreditinv+You can edit inventories in spectator mode
+PremiumVanish+pv.switch+You can toggle spectator mode by pressing shift twice.
+PremiumVanish+pv.openplayerinv+You can open a player's inventory by right-clicking the player.
+PremiumVanish+pv.silentchest+You can open chests silently.
+PremiumVanish+pv.setlevel.level[LEVEL]+Players can see a vanished player if their see level is higher or equal to the other player's use level+/pv setlevel <level>
+PremiumVanish+pv.bypassteleportback+Should vanished players be teleported back to where they vanished when they reappear?
+PremiumVanish+pv.breakblocks+Should invisible players not be able to break blocks?
+PremiumVanish+pv.placeblocks+Should invisible players not be able to place blocks?
+PremiumVanish+pv.useblocks+Should invisible players not be able to interact with doors, levers, buttons, note blocks, etc?
+PremiumVanish+pv.interact+Should invisible players not be able to interact with anything?
+PremiumVanish+pv.damage+Should invisible players not be able to damage players or mobs?
+PremiumVanish+pv.dropitems+Should invisible players not be able to drop items?
+PremiumVanish+pv.modifyowninv+Should invisible players not be able to modify their own inventory?
+PremiumVanish+pv.modifyotherinv+Should invisible players not be able to modify containers or other player's inventories?
+PremiumVanish+pv.spectatortp+Should invisible players not be able to tp to other players using the spectator menu?
+PremiumVanish+pv.creativeitems+Should invisible players in creative mode not be able to cheat items?
+PremiumVanish+pv.viewcoords+Should invisible players not be able to view their coordinates? (client-side)
+PremiumVanish+pv.bypasscmd+Which commands should vanished players not be able to use?
+PremiumVanish+pv.scoreboard+Unknown Description+/pv scoreboard
+PremiumVanish+pv.exempttarget+Should the scoreboard show information about the closest player automatically?
+PremiumVanish+pv.bypassspam+Should PV prevent spamming commands which can cause lag or spam the console?
+PremiumVanish+pv.notify+Should players get notified if the current version of PV is outdated?
+PremiumVanish+pv.showintab+Unknown Description
+PremiumVanish+pv.silent+Unknown Description
 ProCosmetics+ProCosmetics.Arrow-Effects.Bloody-Arrows+Arrow-Effect
 ProCosmetics+ProCosmetics.Arrow-Effects.Bloody-Arrows+Arrow-Effect
 ProCosmetics+ProCosmetics.Arrow-Effects.Candy-Cane-Arrows+Arrow-Effect
