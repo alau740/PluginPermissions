@@ -1857,41 +1857,36 @@ Coins+coins.admin+Give access to all admin commands.
 CommandDoesNotExist+cdne.[command]+Ability to bypass the command block
 CommandDoesNotExist+cdne.list.list+Ability to use the list command (lists all currently blocked commands and words)+/cdne list
 CommandDoesNotExist+cdne.list.modify+Ability to use the add and remove command (adds and removes commands and words from the blocked list)+/cdne add,/cdne remove
+Confiscate+confiscate.command.list+View all available commands.+/c list
+Confiscate+confiscate.command.reload+Reload the configuration.+/c reload
+Confiscate+confiscate.command.room+Access the /c room command.+/c room
+Confiscate+confiscate.command.room.tool+Obtain the room tool that sets room's foundation.+/c room tool
+Confiscate+confiscate.command.room.tp+Teleport to the chest room, or to chest of a specified player.+/c room tp [player]
+Confiscate+confiscate.command.inv+Access the /c inv command.+/c inv
+Confiscate+confiscate.command.inv.view+View inventories of other online and offline players.+/c inv view [player]
+Confiscate+confiscate.command.inv.enderview+View ender chest of other online and offline players.+/c inv enderview [player]
+Confiscate+confiscate.command.inv.armor+View armor content of other online and offline players.
+Confiscate+confiscate.command.inv.write+Permission to manipulate with the content of inventories or armor.
+Confiscate+confiscate.command.log+Access the /c log command.+/c log
+Confiscate+confiscate.command.log.browse+View player's log.+/c log view [type]
+Confiscate+confiscate.command.log.stats+View statistical information about the log file.+/c log stats [type]
+Confiscate+confiscate.bypass.container.[inventoryType]+Permission to bypass scanning when opening a specified container.
 Confiscate+confiscate.bypass.inventory+Permission to bypass inventory scan, e.g. when they log in or change world.
 Confiscate+confiscate.bypass.stacks+Permission to allow items stacked unnaturally (e.g. 64x minecarts).
-Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations. Since some  operations work with thousands of items, we do not allow only certain items  to be bypassed because of the performance impact could freeze the server.
-Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations. Since some operations work with thousands of items, we do not allow only certain items to be bypassed because of the performance impact could freeze the server.
-Confiscate+confiscate.commands.inv.armor+View armor content of other online and offline players.
-Confiscate+confiscate.commands.inv.enderview+View ender chest of other online and offline players.
-Confiscate+confiscate.commands.inv.enderview+View ender chest of other online and offline players.+/c inv enderview
-Confiscate+confiscate.commands.inv.view+View inventories of other online and offline players.
-Confiscate+confiscate.commands.inv.view+View inventories of other online and offline players.+/c inv view
-Confiscate+confiscate.commands.inv.write+Permission to manipulate with the content of inventories or armor. Defaults to false, that means that the viewer only sees the content as it is.
-Confiscate+confiscate.commands.inv+Access the /c inv command.
-Confiscate+confiscate.commands.inv+Access the /c inv command+/c inv
-Confiscate+confiscate.commands.list+Access the /c list command to browse all commands of this plugin.
-Confiscate+confiscate.commands.list+Access the /c list command to browse all commands of this plugin.+/c list
-Confiscate+confiscate.commands.log.browse+Browse players' log.
-Confiscate+confiscate.commands.log.browse+View player's log.+/c log view
-Confiscate+confiscate.commands.log.stats+View stored log statistics.+/c log stats
-Confiscate+confiscate.commands.log+Access the /c log command.
-Confiscate+confiscate.commands.log+Access the /c log command.+/c log
-Confiscate+confiscate.commands.reload+Access the /c reload command to reload the configuration.
-Confiscate+confiscate.commands.reload+Access the /c reload command to reload the configuration.+/c reload
-Confiscate+confiscate.commands.room.tool+Obtain the room tool that sets room's foundation.
-Confiscate+confiscate.commands.room.tool+Obtain the room tool that sets room's foundation.+/c room tool
-Confiscate+confiscate.commands.room.tp+Be teleported to the chest room.
-Confiscate+confiscate.commands.room.tp+Be teleported to the chest room.+/c room tp
-Confiscate+confiscate.commands.room+Access the /c room command.
-Confiscate+confiscate.commands.room+Access the /c room command.+/c room
-Confiscate+confiscate.commands.stats+View stored log statistics.
-Confiscate+confiscate.exempt.commandspy+Player will be ignored from command spy.
-Confiscate+confiscate.notify.commandspy+Permission to receive alerts when a command is executed.
+Confiscate+confiscate.bypass.potion.[potion_type]+Permission to allow holding of illegal potions (infinite, killer potions etc) of specified type.
+Confiscate+confiscate.bypass.item.[material]+Permission to allow holding of banned items of specific material.
+Confiscate+confiscate.bypass.item_creative.[material]+Permission to allow holding of banned items in survival of specific material.
+Confiscate+confiscate.bypass.limit.[material]+Permission to bypass item amount restriction for specific item.
+Confiscate+confiscate.bypass.limit_newcomers.[material]+Permission to bypass item amount restriction for specific item for newcomers.
+Confiscate+confiscate.bypass.worldedit+Permission to bypass item limit for WorldEdit operations.
 Confiscate+confiscate.notify.confiscate+Permission to be notified when something is confiscated.
+Confiscate+confiscate.notify.commandspy+Permission to receive alerts when a command is executed.
 Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a new version is available.
 Confiscate+confiscate.room.open+Permission to open chests in the chest room.
 Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
 Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
+Confiscate+confiscate.exempt.log.[log_type]+Player will be ignored from logging.
+Confiscate+confiscate.exempt.commandspy+Player will be ignored from command spy.
 CoreProtect+coreprotect.*+Allows the player to use all commands of the plugin.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co status,/co near,/co undo
 CoreProtect+coreprotect.co+Allows the player to use the /co command handler.+/co
 CoreProtect+coreprotect.core+Allows the player to use the /core command handler.+/core
