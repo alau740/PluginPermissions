@@ -7023,6 +7023,10 @@ WaveGuard+waveguard.command.status+Access to the Status command+/waveguard statu
 WaveGuard+waveguard.command.use+Access to use a Command from WaveGuard
 WaveGuard+waveguard.command.whitelist+Access to the Whitelist command+/waveguard whitelist
 WaveGuard+waveguard.message.staff+Access to Staff alerts
+Winter+winter.chest.gift+Create gift chests (public and private).
+Winter+winter.chest.dated+Create dated infinite chests.
+Winter+winter.chest.timed+Create timed infinite chests.
+Winter+winter.command.reload+Reload the Winter's configuration.​+/winter reload
 WorldBorder+worldborder.use+Allow the player to set the worldborder radius.+/wb <Radius>
 WorldEdit+worldedit.*+Grants a user all WorldEdit permissions
 WorldEdit+worldedit.analysis.count+Counts the number of a certain type of block+//count
