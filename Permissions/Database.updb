@@ -1045,6 +1045,11 @@ ChatControlRed+chatcontrol.channel.send.[channel]+Send messages to channel with 
 ChatControlRed+chatcontrol.chat.read+See game chat messages.
 ChatControlRed+chatcontrol.chat.write+Write messages to game chat.
 ChatControlRed+chatcontrol.color.[color]+Enable to use & color codes for colors and decoration.
+ChatControlRed+chatcontrol.color.bold+Enable to use bold formatting.
+ChatControlRed+chatcontrol.color.obfuscated+Enable to use obfuscated formatting.
+ChatControlRed+chatcontrol.color.strikethrough+Enable to use strikethrough formatting.
+ChatControlRed+chatcontrol.color.underline+Enable to use underline formatting.
+ChatControlRed+chatcontrol.color.italic+Enable to use italic formatting.
 ChatControlRed+chatcontrol.command.announce.[type]+Announce important messages to everyonevia "/chc announce". Replace "type" with: chat, title, actionbar, bossbar, toast.+/chc announce <type> <message>
 ChatControlRed+chatcontrol.command.book+Read or save books you can use in rules etc "/chc book".+/chc book
 ChatControlRed+chatcontrol.command.bungee+Forwards commands to BungeeCord.
