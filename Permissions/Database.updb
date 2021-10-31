@@ -4918,17 +4918,29 @@ PickUpSpawners+pickupspawners.zombie+Enables a player to get/buy a zombie spawne
 PigmanAttention+pigmanattention.admin+Gives access to Admin GUI
 PigmanAttention+pigmanattention.bypass+Let's players bypass pigman aggro
 PingNachricht+pingnachricht.main+Gives access to all /pingnachricht [/pn] commands+/pingnachricht reload,/pingnachricht setcounter <args>
-PlaceholderAPI+placeholderapi.*+Grants all permissions from the plugin
-PlaceholderAPI+placeholderapi.admin+Ability to use admin commands+/papi parse,/papi bcparse,/papi parserel,/papi register,/papi unregister,/papi reload,/papi disablecloud,/papi ecloud
-PlaceholderAPI+placeholderapi.ecloud+Ability to use ecloud commands+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
-PlaceholderAPI+placeholderapi.injector.anvil.bypass+Ability to use placeholders in anvils
-PlaceholderAPI+placeholderapi.injector.chat.bypass+Ability to use placeholders in chat messages
-PlaceholderAPI+placeholderapi.injector.signs.bypass+Ability to use placeholders in signs
-PlaceholderAPI+placeholderapi.list+Ability to use the list command (lists all placeholder expansions that are currently active)+/papi list
-PlaceholderAPI+placeholderapi.parse+Ability to use the parse command (parses a string with placeholders)+/papi parse
-PlaceholderAPI+placeholderapi.register+Ability to use the register and unregister command (registers or unregisters placeholder expansions)+/papi register,/papi unregister
-PlaceholderAPI+placeholderapi.reload+Ability to use the reload command (reloads the plugin config)+/papi reload
-PlaceholderAPI+placeholderapi.updatenotify+Specifies the users that are notified when there is a new plugin version
+PlaceholderAPI+placeholderapi.admin+Ability to use admin commands+/papi bcparse <player|me> <string>,/papi parserel <player> <player> <string>,/papi cmdparse <player|me> <string>,/papi disablecloud,/papi dump
+PlaceholderAPI+placeholderapi.ecloud.clear+Allows you to clear the local eCloud expansion cache.+/papi ecloud clear
+PlaceholderAPI+placeholderapi.ecloud.download+Allows you to download an expansion from the eCloud.+/papi ecloud download <expansion> [version]
+PlaceholderAPI+placeholderapi.ecloud.info+Gives information about a specific Expansion.+/papi ecloud info <expansion> [version]
+PlaceholderAPI+placeholderapi.ecloud.list+Allows you to list eCloud expansions.+/papi ecloud list <all|author|installed>
+PlaceholderAPI+placeholderapi.ecloud.placeholders+Allows you to view the placeholders of a eCloud expansion.+/papi ecloud placeholders <expansion>
+PlaceholderAPI+placeholderapi.ecloud.refresh+Allows you to refresh the local eCloud expansion cache.+/papi ecloud refresh
+PlaceholderAPI+placeholderapi.ecloud.status+Allows you to view the status of eCloud expansions.+/papi ecloud status
+PlaceholderAPI+placeholderapi.ecloud.toggle+Allows you to toggle/enable/disable the eCloud manager.+/papi ecloud toggle,/papi ecloud enable,/papi ecloud disable
+PlaceholderAPI+placeholderapi.ecloud.update+Allows you to update registered eCloud expansions.+/papi ecloud update <all|Bungee>
+PlaceholderAPI+placeholderapi.ecloud+Allows you to access PAPI eCloud+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
+PlaceholderAPI+placeholderapi.help+Displays all the commands PlaceholderAPI currently offers.+/papi help
+PlaceholderAPI+placeholderapi.info+Allows you to view expansion information.+/papi info <expansion>
+PlaceholderAPI+placeholderapi.injector.anvil.bypass+Ability to use placeholders in anvils.
+PlaceholderAPI+placeholderapi.injector.chat.bypass+Ability to use placeholders in chat messages.
+PlaceholderAPI+placeholderapi.injector.signs.bypass+Ability to use placeholders in signs.
+PlaceholderAPI+placeholderapi.list+Allows you to list active expansions.+/papi list
+PlaceholderAPI+placeholderapi.parse+Allows you to parse placeholders.+/papi parse <player|me> <string>
+PlaceholderAPI+placeholderapi.register+Allows you to register expansions.+/papi register <jar file>
+PlaceholderAPI+placeholderapi.reload+Allows you to reload PAPI and its configuration.+/papi reload
+PlaceholderAPI+placeholderapi.unregister+Allows you to unregister expansions.+/papi unregister <jar file>
+PlaceholderAPI+placeholderapi.updatenotify+Notifies you when there is a PAPI update.
+PlaceholderAPI+placeholderapi.version+Shows the current version and authors of PlaceholderAPI.+/papi version
 PlayerPoints+PlayerPoints.give+Give points to players.+/points give
 PlayerPoints+PlayerPoints.lead+Leader board.+/points me
 PlayerPoints+PlayerPoints.look+Look, how many points other players have.+/points look
