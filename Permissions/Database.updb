@@ -1892,6 +1892,29 @@ Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a
 Confiscate+confiscate.room.open+Permission to open chests in the chest room.
 Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
 Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
+CoreArena+corearena.command.join.+Gives the player the ability to join an arena using "/ca join". You need both corearena.command.join and the other version with [arena] replaced with arenas you want the player to be able to join into.+/ca join
+CoreArena+corearena.command.join.[arena]+Gives the player the ability to join an arena using "/ca join". You need both corearena.command.join and the other version with [arena] replaced with arenas you want the player to be able to join into.+/ca join
+CoreArena+corearena.command.leave+Gives the player the ability to leave an arena.+/ca leave
+CoreArena+corearena.command.list+Gives the player the ability to see the available arenas.+/ca list
+CoreArena+corearena.command.rewards+Gives the player the ability to open the Rewards menu.+/ca rewards
+CoreArena+corearena.command.class+Gives the player the ability to open the Classes menu.+/ca class
+CoreArena+corearena.command.edit+Toggle an arena's edit mode.+/ca edit
+CoreArena+corearena.command.items+Open the Items menu to keep editing the arena.+/ca items
+CoreArena+corearena.command.tools+Open the Tools menu to keep editing the arena.+/ca tools
+CoreArena+corearena.command.menu+Open the Admins menu.+/ca menu
+CoreArena+corearena.command.nugget+Manage player nuggets+/ca nugget
+CoreArena+corearena.command.reload+Reload the plugin.+/ca reload
+CoreArena+corearena.command.start+Forces an arena to start.+/ca start <name>
+CoreArena+corearena.command.stop+Forces arenas to finish.+/ca stop <name>
+CoreArena+corearena.command.new+Create new arenas.+/ca new <name>
+CoreArena+corearena.command.find+Find arenas at player's location.+/ca find <player>
+CoreArena+corearena.command.conversation+Reply to server's conversation.+/ca conversation
+CoreArena+corearena.command.tp+Teleport to an arena.+/ca tp
+CoreArena+corearena.chat.global+Begin a message with '!' to send it to everyone on the server instead of only players in your arena.
+CoreArena+corearena.chat.color.red+Permission to have a red name in the arena chat. (Not customizable).
+CoreArena+corearena.bypass.arenacommands+Allow running commands while playing in an arena.
+CoreArena+corearena.tools+Grants permission to right click with tools as specified in the tools menu and use them.
+CoreArena+corearena.class.[class_name]+Permission to allow or deny a specific CoreArena class to a group or user.
 CoreProtect+coreprotect.*+Allows the player to use all commands of the plugin.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co status,/co near,/co undo
 CoreProtect+coreprotect.co+Allows the player to use the /co command handler.+/co
 CoreProtect+coreprotect.core+Allows the player to use the /core command handler.+/core
