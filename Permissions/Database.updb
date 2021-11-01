@@ -3681,8 +3681,8 @@ Industrial-MC+industrial.master.setrecipe+set an Industrial-MC item's recipe wit
 Industrial-MC+industrial.mymachines+Lists Your Owned Machines.+/mymachines
 Industrial-MC+industrial.trust+allows players to add friends that can use their machines.+/indtrust <player-name> <all|break|use|remove>
 Industrial-MC+industrial.wrench+Gives you a Wrench.+/wrench
-InsaneAnnouncer+insaneannouncer.admin+Allows the player to open the Announcer GUI.
-InsaneShops+insaneshops.admin+Allows the player to open shops as a seller in order to manage them.
+InsaneAnnouncer+insaneannouncer.admin+Allows the player to open the Announcer GUI.+/announcer
+InsaneShops+insaneshops.admin+Allows the player to open shops as a seller in order to manage them.+/insaneshops
 InsaneShops+insaneshops.commands.shops+Allows the player to use the main command of the plugin.+/shops
 InsaneShops+insaneshops.create.sellshop+Allows the player to create a sell shop.
 InsaneShops+insaneshops.create+Allows the player to create a shop.
@@ -4918,7 +4918,7 @@ PickUpSpawners+pickupspawners.zombie+Enables a player to get/buy a zombie spawne
 PigmanAttention+pigmanattention.admin+Gives access to Admin GUI
 PigmanAttention+pigmanattention.bypass+Let's players bypass pigman aggro
 PingNachricht+pingnachricht.main+Gives access to all /pingnachricht [/pn] commands+/pingnachricht reload,/pingnachricht setcounter <args>
-PlaceholderAPI+placeholderapi.admin+Ability to use admin commands+/papi bcparse <player|me> <string>,/papi parserel <player> <player> <string>,/papi cmdparse <player|me> <string>,/papi disablecloud,/papi dump
+PlaceholderAPI+placeholderapi.admin+Ability to use admin commands.+/papi bcparse <player|me> <string>,/papi parserel <player> <player> <string>,/papi cmdparse <player|me> <string>,/papi disablecloud,/papi dump
 PlaceholderAPI+placeholderapi.ecloud.clear+Allows you to clear the local eCloud expansion cache.+/papi ecloud clear
 PlaceholderAPI+placeholderapi.ecloud.download+Allows you to download an expansion from the eCloud.+/papi ecloud download <expansion> [version]
 PlaceholderAPI+placeholderapi.ecloud.info+Gives information about a specific Expansion.+/papi ecloud info <expansion> [version]
@@ -4928,7 +4928,7 @@ PlaceholderAPI+placeholderapi.ecloud.refresh+Allows you to refresh the local eCl
 PlaceholderAPI+placeholderapi.ecloud.status+Allows you to view the status of eCloud expansions.+/papi ecloud status
 PlaceholderAPI+placeholderapi.ecloud.toggle+Allows you to toggle/enable/disable the eCloud manager.+/papi ecloud toggle,/papi ecloud enable,/papi ecloud disable
 PlaceholderAPI+placeholderapi.ecloud.update+Allows you to update registered eCloud expansions.+/papi ecloud update <all|Bungee>
-PlaceholderAPI+placeholderapi.ecloud+Allows you to access PAPI eCloud+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
+PlaceholderAPI+placeholderapi.ecloud.*+Ability to use all PAPI eClouds commands.+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
 PlaceholderAPI+placeholderapi.help+Displays all the commands PlaceholderAPI currently offers.+/papi help
 PlaceholderAPI+placeholderapi.info+Allows you to view expansion information.+/papi info <expansion>
 PlaceholderAPI+placeholderapi.injector.anvil.bypass+Ability to use placeholders in anvils.
@@ -6718,8 +6718,8 @@ UltraEconomy+ultraeconomy.balance.others+Allows the player to see the balance of
 UltraEconomy+ultraeconomy.balance.self+Allows the player to see their own balance.+/balance
 UltraEconomy+ultraeconomy.balancetop+Allows the player to view the top 10 players balance for the selected currency.+/balancetop <currency>,/baltop <currency>
 UltraEconomy+ultraeconomy.cheat+Allows the player to open the balance view.+/balance
-UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> <currency> <value>
-UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>
+UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> [currency] <value>
+UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-accept <player>,/trade-decline <player>
 UltraEditor+ultraeditor.editor+Get a link to the editors.+/ultraeditor editor
 UltraEditor+ultraeditor.getauth+Get current auth key.+/ultraeditor getauth
 UltraEditor+ultraeditor.help+Show a list of commands.+/ultraeditor help
