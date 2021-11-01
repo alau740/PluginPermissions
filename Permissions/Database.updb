@@ -4433,6 +4433,24 @@ LoginSecurity+ls.admin+Allows the player to use admin commands.+/lac rmpass <pla
 LoginSecurity+ls.update+Allows the player to receive update notifications of the plugin.
 LongerMessages+longermessages.use+Permission to write longer messages
 Lovey+lovey.admin+Allow to reload the config and turn on/off the hearts.+/lovey admin reload,/lovey admin on,/lovey admin off
+Maintenance+maintenance.admin+Super permission that grants access to all perms.
+Maintenance+maintenance.bypass+Join the server during maintenance.
+Maintenance+maintenance.command+Use the "/maintenance" command (also required to use the subcommands).+/maintenance
+Maintenance+maintenance.dump+Dumps some server information, used for bug reports.+/maintenance dump
+Maintenance+maintenance.joinnotification+If enabled: sends a notification to you if a player tries to join the server while maintenance is enabled.
+Maintenance+maintenance.motd+Lists the currently set maintenance motds.+/maintenance motd
+Maintenance+maintenance.reload+Reloads the config and maintenance-icon file.+/maintenance reload
+Maintenance+maintenance.setmotd+Sets a motd for maintenance mode.+/maintenance setmotd <index> <1|2> <message>
+Maintenance+maintenance.singleserver.bypass.[server]+Join the proxied server during maintenance.
+Maintenance+maintenance.singleserver.status+Use the "/maintenance status" command.+/maintenance status
+Maintenance+maintenance.singleserver.timer+Will enable maintenance mode after the time is up.+/maintenance starttimer [server] <minutes>,/maintenance endtimer [server] <minutes>,/maintenance aborttimer
+Maintenance+maintenance.singleserver.toggle+Will set the status of the maintenance mode.+/maintenance <on|off> [server]
+Maintenance+maintenance.timer+Will enable maintenance mode after the time is up.+/maintenance starttimer [server] <minutes>,/maintenance endtimer [server] <minutes>,/maintenance aborttimer
+Maintenance+maintenance.toggle+Will set the status of the maintenance mode.+/maintenance <on|off> [server]
+Maintenance+maintenance.update+Remotely downloads the newest version of the plugin onto your server.+/maintenance update
+Maintenance+maintenance.whitelist.add+Allows player to join when maintenance is enabled.+/maintenance add <player|uuid>
+Maintenance+maintenance.whitelist.list+Returns a list of all players on the maintenance whitelist.+/maintenance whitelist
+Maintenance+maintenance.whitelist.remove+Removes players from the whitelist.+/maintenance remove <player|uuid>
 MakeYourOwnCommands+myoc.list+Permission to list the commands+/myoc list
 MakeYourOwnCommands+myoc.reload+Permission to reload the config+/myoc reload
 Marriage+marry.*+Allows all permissions.
