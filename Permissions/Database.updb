@@ -1150,6 +1150,21 @@ ChunkBuster+chunkbuster.admin+Chunk Buster Admin+/chunkbuster
 ChunkBuster+chunkbuster.give+Gives a chunkbuster+/cb give
 ChunkBuster+chunkbuster.reload+Reloads the plugin+/cb reload
 ChunkBuster+chunkbuster.use+use a chunkbuster
+Chunky+chunky.command.cancel+Stop and delete current or saved tasks.+/chunky cancel [world]
+Chunky+chunky.command.center+Set the center block location.+/chunky center [<x> <z>]
+Chunky+chunky.command.continue+Continue current or saved tasks.+/chunky continue [world]
+Chunky+chunky.command.corners+Set the center and radius automatically based on the set of XZ coordinates provided.+/chunky corners <x1> <z1> <x2> <z2>
+Chunky+chunky.command.pattern+Set the generation pattern.+/chunky pattern
+Chunky+chunky.command.pause+Pause current tasks and save progress. These tasks can be resumed via the continue command.+/chunky pause [world]
+Chunky+chunky.command.quiet+Set the quiet interval for update messages from pre-generation tasks.+/chunky quiet <interval>
+Chunky+chunky.command.radius+Set the radius.+/chunky radius <radius> [radius]
+Chunky+chunky.command.shape+Set the shape to generate.+/chunky shape <shape>
+Chunky+chunky.command.silent+Toggle displaying update messages from pre-generation tasks.+/chunky silent
+Chunky+chunky.command.spawn+Set the center to the default vanilla spawn point in the currently selected world.+/chunky spawn
+Chunky+chunky.command.start+Start a new chunk generation task.+/chunky start [world] [shape] [<centerX> <centerZ>] [radius] [radius]
+Chunky+chunky.command.trim+Delete chunks outside the selection.+/chunky trim <world> <shape> <centerX> <centerZ> [radius] [radius]
+Chunky+chunky.command.world+Set the world target.+/chunky world <world>
+Chunky+chunky.command.worldborder+Set the center and radius to that used by the world border in the currently selected world.+/chunky worldborder
 citizens+citizens.admin.*+Allow all commands.+/citizens,/citizens reload,/citizens save
 citizens+citizens.admin.remove.all+Remove all NPCs+/npc remove all
 citizens+citizens.admin+This allows players to edit 'server' owned NPCs.
