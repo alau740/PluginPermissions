@@ -1165,6 +1165,9 @@ Chunky+chunky.command.start+Start a new chunk generation task.+/chunky start [wo
 Chunky+chunky.command.trim+Delete chunks outside the selection.+/chunky trim <world> <shape> <centerX> <centerZ> [radius] [radius]
 Chunky+chunky.command.world+Set the world target.+/chunky world <world>
 Chunky+chunky.command.worldborder+Set the center and radius to that used by the world border in the currently selected world.+/chunky worldborder
+ChunkyBorder+chunkyborder.bypass.move+Bypass border movement checks.
+ChunkyBorder+chunkyborder.bypass.place+ypass border block placement checks.
+ChunkyBorder+chunkyborder.chunkyborder+Gives permission to all chunkyborder commands.+/chunkyborder add,/chunkyborder remove,/chunkyborder wrap,/chunkyborder list,/chunkyborder load,/chunkyborder bypass
 citizens+citizens.admin.*+Allow all commands.+/citizens,/citizens reload,/citizens save
 citizens+citizens.admin.remove.all+Remove all NPCs+/npc remove all
 citizens+citizens.admin+This allows players to edit 'server' owned NPCs.
