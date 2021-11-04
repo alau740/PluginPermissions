@@ -6359,16 +6359,23 @@ SuperLobby+superlobby.admin+To use administrative commands+/sl reload,/sl remspa
 SuperLobby+superlobby.menu+To be able to use the menu
 SuperLobby+superlobby.staff+Used to bypass protection plugin
 SuperLobby+superlobby.use+To use the plugin.
-SuperVanish+sv.fly+Players without this permission will lose the ability to fly when they reappear and aren't in creative mode​.
+SuperVanish+sv.keepfly+Players without this permission will lose the ability to fly when they reappear and aren't in creative mode​.
 SuperVanish+sv.list+Shows a list of invisible players.+/sv list
 SuperVanish+sv.login+Broadcasts a login message.+/vlogin
 SuperVanish+sv.logout+Broadcasts a logout message.+/vlogout
 SuperVanish+sv.others+Hides/shows an other player.+/sv on <player>,/sv off <player>
 SuperVanish+sv.reload+Reloads the config.+/sv reload
 SuperVanish+sv.see+Players with this permission can see invisible players. (if it's enabled in the config)
-SuperVanish+sv.toggleitempickups+Toggles picking up items per player.+/sv tipu
-SuperVanish+sv.updatecfg+Adjusts the version of the config files.+/sv updatecfg,/sv updatecfg confirm
+SuperVanish+sv.toggleitems+Toggles picking up items per player.+/sv tipu
+SuperVanish+sv.recreatefiles+Recreates outdated config files.+/sv recreatefiles,/sv rccfg
+SuperVanish+sv.notoggle+Other players cannot hide/show you if you're online.
 SuperVanish+sv.use+Hides/shows you.+/sv on,/sv off
+SuperVanish+sv.joinvanished+You always join vanished (must be enabled in config).
+SuperVanish+sv.use.level[level]+Vanish use permission on level based (if enabled in config)
+SuperVanish+sv.see.level[level]+See vanish players based on your level (level 1 can't see players with level 5 use)
+SuperVanish+sv.damage+Bypass permisison for hitting entities prevention
+SuperVanish+sv.stacktrace+Debug permission purpose+/sv printstacktrace
+SuperVanish+sv.notify+Receive update notifications, if there is a new version to download
 SurvivalGames+sg.adddeathmatch+Allow the player to add a death match.+/sg Adddeathmatch
 SurvivalGames+sg.addspawn+Allow the player to add a spawn.+/sg Addspawn
 SurvivalGames+sg.admin+Allow the player to use all commands of SurvivalGames.+/sg Admin
