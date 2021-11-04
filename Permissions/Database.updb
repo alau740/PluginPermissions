@@ -4433,6 +4433,36 @@ LoginSecurity+ls.admin+Allows the player to use admin commands.+/lac rmpass <pla
 LoginSecurity+ls.update+Allows the player to receive update notifications of the plugin.
 LongerMessages+longermessages.use+Permission to write longer messages
 Lovey+lovey.admin+Allow to reload the config and turn on/off the hearts.+/lovey admin reload,/lovey admin on,/lovey admin off
+LWC+lwc.*+Full administrative access to LWC
+LWC+lwc.protect+Gives the ability to basic LWC usage (almost everything except LWC admin.)
+LWC+lwc.admin+Gives you absolutely power over LWC. As an LWC admin, you have no restrictions.
+LWC+lwc.allcommands+Gives you access to every LWC command. Without lwc.admin or lwc.mod, you cannot open protections you do not own.
+LWC+lwc.shownotices+Shows LWC notices
+LWC+lwc.mod+Allows you to open anyone's protection but not remove them
+LWC+lwc.deny+Denys you access to any block LWC can protect. For example, with this permission set, you cannot open even unprotected chests (if protectable.)
+LWC+lwc.create.*+Allows you to create every basic protection (public, private, password.)+/lwc create <protection-type> [users]
+LWC+lwc.create.public+Allows you to create a public protection.+/lwc create public [users],/cpublic
+LWC+lwc.create.password+Allows you to create a password protection.+/lwc create password <password>,/cpassword <password>
+LWC+lwc.create.private+Allows you to create a private protection.+/lwc create private [users],/cprivate
+LWC+lwc.create.donation+Allows you to create a donation protection.+/lwc create donation [users],/cdonation
+LWC+lwc.create.display+Allows you to create a display protection.+/lwc create display [users],/cdisplay
+LWC+lwc.modify+Allows you to modify protections you own.+/lwc modify <usernames|groups|protection-type>,/cmodify <usernames|groups|protection-type>
+LWC+lwc.unlock+Allows you to unlock password-protected protections.+/lwc unlock <password>,/cunlock <password>
+LWC+lwc.info+Allows you to view the owner and other misc data on a protection.+/lwc info,/cinfo
+LWC+lwc.remove+Allows you to remove protections you own.+/lwc remove [protection|modes],/cremove
+LWC+lwc.flag.*+Gives you access to every usable flag.+/lwc flag <flag> <on|off>
+LWC+lwc.allflags+Gives you access to every usable flag.+/lwc flag <flag> <on|off>
+LWC+lwc.flag.redstone+Allows you to use the redstone flag, which enables or disables the use of redstone on a protection depending on plugin settings.+/credstone <on|off>,/lwc flag redstone <on|off>
+LWC+lwc.flag.magnet+Allows you to use the magnet flag, which makes a protection such as a chest suck up dropped items in a specific radius around it.+/cmagnet <on|off>,/lwc flag magnet <on|off>
+LWC+lwc.flag.autoclose+Allows a door to automatically close itself after 3 seconds (configurable.)+/cautoclose <on|off>,/lwc flag autoclose <on|off>
+LWC+lwc.flag.allowexplosions+Flag to allow a given protection to explode from explosions.
+LWC+lwc.mode.*+Gives you access to every usable mode, provided they are already disabled.+/lwc mode <mode>
+LWC+lwc.allmodes+Gives you access to every mode, provided they are already disabled.+/lwc mode <mode>
+LWC+lwc.mode.persist+Allows you to use the persist flag, which allows you to use commands repeatably.+/cpersist,/lwc mode persist
+LWC+lwc.mode.droptransfer+Allows you to use the drop transfer flag, which allows you to "drop" items into your chest from far away+/cdroptransfer <on|off|select|status>,/lwc mode droptransfer <on|off|select|status>
+LWC+lwc.mode.nospam+Toggle the ability to hide protection creation messages+/cnospam,/lwc mode nospam
+LWC+lwc.mode.nolock+Toggle the ability to create protections+/cnolock,/lwc mode nolock
+LWC+lwc.autoprotect+Allows you to auto protect LWC protections regardless of how LWC is configured
 Maintenance+maintenance.admin+Super permission that grants access to all perms.
 Maintenance+maintenance.bypass+Join the server during maintenance.
 Maintenance+maintenance.command+Use the "/maintenance" command (also required to use the subcommands).+/maintenance
