@@ -817,6 +817,10 @@ BkTeleport+bkteleport.tpdeny+Refuses a teleport request.+/tpdeny
 BkTeleport+bkteleport.tphere+Sends a clickable TPHERE request to another player.+/tphere <player>
 BkTeleport+bkteleport.warp.others+eleports another player to a warp, even if the target player doesn't have the permission to go to that warp.+/warp <name> <player>
 BkTeleport+kteleport.warp.[warp-name]+Teleports you to a warp. You need to grant per warp permissions or use the global permission.+/warps,/warp <name>
+BlockLocker+blocklocker.protect+Protect containers and doors.+/blocklocker <linenumber> <value>
+BlockLocker+blocklocker.bypass+Bypass someone else's protection.
+BlockLocker+blocklocker.reload+Reload the plugin using /blocklocker reload.+/blocklocker reload
+BlockLocker+blocklocker.wilderness+Place chests in the wilderness (outside of Towny claims)
 BossShopPro+BossShop.bypass+Bypass the anti click spam delay.
 BossShopPro+BossShop.close+Allows to close the currently opened inventory of a player via command.+/shop close
 BossShopPro+BossShop.createSign+Allows to create BossShop signs.
