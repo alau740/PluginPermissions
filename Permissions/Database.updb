@@ -1048,7 +1048,7 @@ ChatControlRed+chatcontrol.channel.list.options+Mute or Kick players from channe
 ChatControlRed+chatcontrol.channel.send.[channel]+Send messages to channel with "/ch send".+/ch send <channel> <message>
 ChatControlRed+chatcontrol.chat.read+See game chat messages.
 ChatControlRed+chatcontrol.chat.write+Write messages to game chat.
-ChatControlRed+chatcontrol.color.[color]+Enable to use & color codes for colors and decoration.
+ChatControlRed+chatcontrol.color.[color]+Enable to use color codes & hex codes for colors and decoration.
 ChatControlRed+chatcontrol.color.bold+Enable to use bold formatting.
 ChatControlRed+chatcontrol.color.obfuscated+Enable to use obfuscated formatting.
 ChatControlRed+chatcontrol.color.strikethrough+Enable to use strikethrough formatting.
@@ -1098,7 +1098,6 @@ ChatControlRed+chatcontrol.command.tour+Discoer what ChatControlRed is and how i
 ChatControlRed+chatcontrol.command.update+Reload player's tab list name.+/chc update
 ChatControlRed+chatcontrol.group.[group]+Automatically assign a certain group to player.
 ChatControlRed+chatcontrol.guicolor.[color]+Enable to use certain colors or decoration.
-ChatControlRed+chatcontrol.hexcolor.[color]+Enable to use hex colors or decoration, also via "/chc color". Replace color with the code without #.
 ChatControlRed+chatcontrol.receive.announcer+See messages from "/chc announce".
 ChatControlRed+chatcontrol.soundnotify+Use the sound notify feature.
 ChatControlRed+chatcontrol.spy.autoenable+Automatically start spying on everything on join.
