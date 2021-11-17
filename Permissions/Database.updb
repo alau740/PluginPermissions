@@ -817,6 +817,10 @@ BkTeleport+bkteleport.tpdeny+Refuses a teleport request.+/tpdeny
 BkTeleport+bkteleport.tphere+Sends a clickable TPHERE request to another player.+/tphere <player>
 BkTeleport+bkteleport.warp.others+eleports another player to a warp, even if the target player doesn't have the permission to go to that warp.+/warp <name> <player>
 BkTeleport+kteleport.warp.[warp-name]+Teleports you to a warp. You need to grant per warp permissions or use the global permission.+/warps,/warp <name>
+BlockLocker+blocklocker.protect+Protect containers and doors.+/blocklocker <linenumber> <value>
+BlockLocker+blocklocker.bypass+Bypass someone else's protection.
+BlockLocker+blocklocker.reload+Reload the plugin using /blocklocker reload.+/blocklocker reload
+BlockLocker+blocklocker.wilderness+Place chests in the wilderness (outside of Towny claims)
 BossShopPro+BossShop.bypass+Bypass the anti click spam delay.
 BossShopPro+BossShop.close+Allows to close the currently opened inventory of a player via command.+/shop close
 BossShopPro+BossShop.createSign+Allows to create BossShop signs.
@@ -1044,7 +1048,7 @@ ChatControlRed+chatcontrol.channel.list.options+Mute or Kick players from channe
 ChatControlRed+chatcontrol.channel.send.[channel]+Send messages to channel with "/ch send".+/ch send <channel> <message>
 ChatControlRed+chatcontrol.chat.read+See game chat messages.
 ChatControlRed+chatcontrol.chat.write+Write messages to game chat.
-ChatControlRed+chatcontrol.color.[color]+Enable to use & color codes for colors and decoration.
+ChatControlRed+chatcontrol.color.[color]+Enable to use color codes & hex codes for colors and decoration.
 ChatControlRed+chatcontrol.color.bold+Enable to use bold formatting.
 ChatControlRed+chatcontrol.color.obfuscated+Enable to use obfuscated formatting.
 ChatControlRed+chatcontrol.color.strikethrough+Enable to use strikethrough formatting.
@@ -1094,7 +1098,6 @@ ChatControlRed+chatcontrol.command.tour+Discoer what ChatControlRed is and how i
 ChatControlRed+chatcontrol.command.update+Reload player's tab list name.+/chc update
 ChatControlRed+chatcontrol.group.[group]+Automatically assign a certain group to player.
 ChatControlRed+chatcontrol.guicolor.[color]+Enable to use certain colors or decoration.
-ChatControlRed+chatcontrol.hexcolor.[color]+Enable to use hex colors or decoration, also via "/chc color". Replace color with the code without #.
 ChatControlRed+chatcontrol.receive.announcer+See messages from "/chc announce".
 ChatControlRed+chatcontrol.soundnotify+Use the sound notify feature.
 ChatControlRed+chatcontrol.spy.autoenable+Automatically start spying on everything on join.
@@ -6359,16 +6362,23 @@ SuperLobby+superlobby.admin+To use administrative commands+/sl reload,/sl remspa
 SuperLobby+superlobby.menu+To be able to use the menu
 SuperLobby+superlobby.staff+Used to bypass protection plugin
 SuperLobby+superlobby.use+To use the plugin.
-SuperVanish+sv.fly+Players without this permission will lose the ability to fly when they reappear and aren't in creative mode​.
+SuperVanish+sv.keepfly+Players without this permission will lose the ability to fly when they reappear and aren't in creative mode​.
 SuperVanish+sv.list+Shows a list of invisible players.+/sv list
 SuperVanish+sv.login+Broadcasts a login message.+/vlogin
 SuperVanish+sv.logout+Broadcasts a logout message.+/vlogout
 SuperVanish+sv.others+Hides/shows an other player.+/sv on <player>,/sv off <player>
 SuperVanish+sv.reload+Reloads the config.+/sv reload
 SuperVanish+sv.see+Players with this permission can see invisible players. (if it's enabled in the config)
-SuperVanish+sv.toggleitempickups+Toggles picking up items per player.+/sv tipu
-SuperVanish+sv.updatecfg+Adjusts the version of the config files.+/sv updatecfg,/sv updatecfg confirm
+SuperVanish+sv.toggleitems+Toggles picking up items per player.+/sv tipu
+SuperVanish+sv.recreatefiles+Recreates outdated config files.+/sv recreatefiles,/sv rccfg
+SuperVanish+sv.notoggle+Other players cannot hide/show you if you're online.
 SuperVanish+sv.use+Hides/shows you.+/sv on,/sv off
+SuperVanish+sv.joinvanished+You always join vanished (must be enabled in config).
+SuperVanish+sv.use.level[level]+Vanish use permission on level based (if enabled in config)
+SuperVanish+sv.see.level[level]+See vanish players based on your level (level 1 can't see players with level 5 use)
+SuperVanish+sv.damage+Bypass permisison for hitting entities prevention
+SuperVanish+sv.stacktrace+Debug permission purpose+/sv printstacktrace
+SuperVanish+sv.notify+Receive update notifications, if there is a new version to download
 SurvivalGames+sg.adddeathmatch+Allow the player to add a death match.+/sg Adddeathmatch
 SurvivalGames+sg.addspawn+Allow the player to add a spawn.+/sg Addspawn
 SurvivalGames+sg.admin+Allow the player to use all commands of SurvivalGames.+/sg Admin
