@@ -6796,6 +6796,8 @@ UltraEconomy+ultraeconomy.balancetop+Allows the player to view the top 10 player
 UltraEconomy+ultraeconomy.cheat+Allows the player to open the balance view.+/balance
 UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> [currency] <value>
 UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-accept <player>,/trade-decline <player>
+UltraEconomy+ultraeconomy.bank.own+Allows the player to use the Bank Feature if enabled.
+UltraEconomy+ultraeconomy.bank.others+Administator permission to manage other's bank account.
 UltraEditor+ultraeditor.editor+Get a link to the editors.+/ultraeditor editor
 UltraEditor+ultraeditor.getauth+Get current auth key.+/ultraeditor getauth
 UltraEditor+ultraeditor.help+Show a list of commands.+/ultraeditor help
