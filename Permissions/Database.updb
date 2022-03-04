@@ -4639,6 +4639,15 @@ MiniBoardGames+miniboardgames.reload+Reload the games/config/database.+/mbg relo
 MiniBoardGames+miniboardgames.spectate+Spectate a players game.+/mbg spectate,/miniboardgames spectate,/games spectate
 MiniBoardGames+miniboardgames.stats+See your stats.+/mbg stats,/miniboardgames stats,/games stats
 MiniBoardGames+miniboardgames.top+See the top stats for a game.+/mbg top <game> [page] [stats],/miniboardgames top <game> [page] [stats],/games top <game> [page] [stats]
+MiniGameMaker+minigamemaker.admin+Gives you all permissions.
+MiniGameMaker+minigamemaker.menu+Allows you to use /mgm menu.
+MiniGameMaker+minigamemaker.create+Allows you to save information to the config by using commands.
+MiniGameMaker+minigamemaker.delete+Allow you to delete information from the config by using commands.
+MiniGameMaker+minigamemaker.configure+Allows you to configure the minigames via the inventory menu.
+MiniGameMaker+minigamemaker.reload+Allows you use /mgm reload or /mgm rl.
+MiniGameMaker+minigamemaker.view+Allows you to view information saved in the config by using commands.
+MiniGameMaker+minigamemaker.ban+Allows you to use /mgm ban.
+MiniGameMaker+minigamemaker.unban+Allows you to use /mgm unban.
 MMOItems+mmoitems.admin+Permission for admin commands
 MMOItems+mmoitems.bypass.ability+Bypasses the ability permission restriction
 MMOItems+mmoitems.bypass.class+Bypasses the MMOCore class restriction
