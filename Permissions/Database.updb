@@ -6815,6 +6815,7 @@ UltraEditor+ultraeditor.info+Get some info on the plugin.+/ultraeditor info
 UltraEditor+ultraeditor.newauth+Generate a new auth key.+/ultraeditor newauth
 UltraEditor+ultraeditor.reload+Reload the config.+/ultraeditor reload
 UltraEditor+ultraeditor.use+Allows usage of commands.
+UltraMotd+ultramotd.admin+Allows the player to use the main command of the plugin to access the GUI.+/umotd
 UltraPrisonCore+ultraprison.admin+Admin permission to reload plugin or reset databases.+/prison reload,/prison cleardb
 UltraPrisonCore+ultraprison.autominer.admin+Admin permission to manage auto-miner things.+/adminautominer give <player> <time> <time_unit>
 UltraPrisonCore+ultraprison.autosell.admin+Admin permission to set sell price of item for specific mine and other auto-sell related things.
