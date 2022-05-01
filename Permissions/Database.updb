@@ -2140,7 +2140,7 @@ DiscordSRV+discordsrv.discord+Allows access to the discord command+/discord,/dis
 DiscordSRV+discordsrv.groupsyncwithcommands+whether or not the player can run a permission plugin command to force group sync to occur
 DiscordSRV+discordsrv.help+whether or not the player is able to display command help for DiscordSRV+/discord help,/discord ?
 DiscordSRV+discordsrv.language+whether or not the player can run /discord language to change the plugin's language+/discord language <Language> [-confirm],/discord lang <Language> [-confirm]
-DiscordSRV+discordsrv.link+	whether or not the player is able to link their Minecraft account to their Discord account+/discord link
+DiscordSRV+discordsrv.link+whether or not the player is able to link their Minecraft account to their Discord account+/discord link
 DiscordSRV+discordsrv.link.others+whether or not the player is able to link other people's Minecraft accounts to Discord accounts+/discord link <Name/UUID/DiscordID/DiscordTag>
 DiscordSRV+discordsrv.linked+whether or not the player is able to check what Discord account their Minecraft account is linked to+,/discord linked
 DiscordSRV+discordsrv.linked.others+whether or not the player is able to check what Discord account other Minecraft accounts are linked to+/discord linked <Name/UUID/DiscordID/DiscordTag>
