@@ -6834,6 +6834,14 @@ UltraPunishments+ultrapunishments.admin+Allows the player to use all features of
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
 UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban another player.
 UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted punishments messages.
+UltraPunishments+ultrapunishments.bypass.report+Bypasses getting reported.
+UltraPunishments+ultrapunishments.bypass.ban+Bypasses getting banned.
+UltraPunishments+ultrapunishments.bypass.kick+Bypasses getting kicked.
+UltraPunishments+ultrapunishments.bypass.mute+Bypasses getting muted.
+UltraPunishments+ultrapunishments.bypass.warn+Bypasses getting warned.
+UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
+UltraPunishments+ultrapunishments.behavior.command+Allows a player to see their Behavior Status.
+UltraPunishments+ultrapunishments.rollback.command+Allows a player to rollback executed punishments.
 UltraPunishments+ultrapunishments.clearchat.execute+Allows the clearing of chat for players.
 UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze another player.
 UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze another player.
