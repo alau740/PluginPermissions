@@ -2132,6 +2132,29 @@ DiscordMinecraft+discordminecraft.discordsay+Sends a message to the specified ch
 DiscordMinecraft+discordminecraft.discordunlink+Unlinks your account from Discord.
 DiscordMinecraft+discordminecraft.sdc+Sends a chat message to Discord.
 DiscordMinecraft+discordminecraft.tdc+Toggles whether you see chat syncing with Discord.
+DiscordSRV+discordsrv.admin+Parent permission of admin-related functions of DiscordSRV
+DiscordSRV+discordsrv.bcast+Whether or not the player is able to broadcast messages to the main text channel of DiscordSRV+/discord broadcast <#ChannelID|#ChannelName> <Message>,/discord bc <#ChannelID|#ChannelName> <Message>
+DiscordSRV+discordsrv.chat+Whether or not the user is able to have their chat forwarded to Discord
+DiscordSRV+discordsrv.debug+Whether or not the player is able to run a debug report+/discord debug,/discord debugger <start|stop|upload>
+DiscordSRV+discordsrv.discord+Allows access to the discord command+/discord,/discordsrv
+DiscordSRV+discordsrv.groupsyncwithcommands+Whether or not the player can run a permission plugin command to force group sync to occur
+DiscordSRV+discordsrv.help+Whether or not the player is able to display command help for DiscordSRV+/discord help,/discord ?
+DiscordSRV+discordsrv.language+Whether or not the player can run /discord language to change the plugin's language+/discord language <Language> [-confirm],/discord lang <Language> [-confirm]
+DiscordSRV+discordsrv.link+Whether or not the player is able to link their Minecraft account to their Discord account+/discord link
+DiscordSRV+discordsrv.link.others+Whether or not the player is able to link other people's Minecraft accounts to Discord accounts+/discord link <Name|UUID|DiscordID|DiscordTag>
+DiscordSRV+discordsrv.linked+Whether or not the player is able to check what Discord account their Minecraft account is linked to+,/discord linked
+DiscordSRV+discordsrv.linked.others+Whether or not the player is able to check what Discord account other Minecraft accounts are linked to+/discord linked <Name|UUID|DiscordID|DiscordTag>
+DiscordSRV+discordsrv.nicknamesync+Whether or not the player should have their nickname synced with Discord, if doing so is enabled in synchronization.yml
+DiscordSRV+discordsrv.player+Parent permission of player-related functions of DiscordSRV
+DiscordSRV+discordsrv.reload+Whether or not the player is able to reload DiscordSRV's configuration+/discord reload
+DiscordSRV+discordsrv.resync+Whether or not the player can run /discord resync to force a resync of all groups/roles+/discord resync
+DiscordSRV+discordsrv.silentjoin+Whether or not to have join messages for players with this permission to be silenced
+DiscordSRV+discordsrv.silentquit+Whether or not to have quit messages for players with this permission to be silenced
+DiscordSRV+discordsrv.updatenotification+Whether or not the player should be told if there's an update to DiscordSRV when joining
+DiscordSRV+discordsrv.sync.[group]+Groups that should be added to the player if their discord account is linked.
+DiscordSRV+discordsrv.sync.deny.[group]+Groups that should be removed from the player if their discord account is linked.
+DiscordSRV+discordsrv.unlink+Whether or not the player is able to unlink their Minecraft account from their Discord account+/discord unlink,/discord clearlinked 
+DiscordSRV+discordsrv.unlink.Others+Whether or not the player is able to unlink other people's Minecraft accounts from their Discord accounts+/discord unlink <Name|UUID> <DiscordID|DiscordTag>,/discord clearlinked <Name|UUID> <DiscordID|DiscordTag>
 Duels+duels.admin+Allows the player to use admin commands.
 Duels+duels.duel+Allows the player to duel.+/duel
 Duels+duels.kits.[kit]+Allows the player to use a specific kit if the usePermission option is enabled.
