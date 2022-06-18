@@ -1951,6 +1951,9 @@ CoreProtect+coreprotect.reload+Allows the player to reload the plugin's config.+
 CoreProtect+coreprotect.restore+Allows the player to restore something and to undo rollbacks.+/co restore
 CoreProtect+coreprotect.rollback+Allows the player to roll something back.+/co rollback
 CoreProtect+coreprotect.status+Allows the player to see the plugin's status.+/co status
+CraftEnhance+craftenhance.view+Opens a recipes viewer by default. When a page is specified, the viewer will open at that page.+/ceh viewer <page>
+CraftEnhance+craftenhance.edit+Unknown description+/ceh createrecipe <key> <permissions>,/ceh changekey [oldkey] [newkey],/ceh reload,/ceh setpermission [key] [new_perm],/ceh specs [key],/ceh cleanitemfile,/ceh disabler
+CraftEnhance+craftenhance.edititem+Edits the item in your hand.+/ceh edititem [lore|itemflag|enchant|durability|name]
 CratesPlus+cratesplus.admin+Access to all /crate commands. Defaults to OP.+/crate settings,/crate reload,/crate create,/crate rename,/crate delete,/crate crate,/crate key
 CratesPlus+cratesplus.updates+Any player with this permission will be notified of updates. Defaults to OP.
 CrazyCrates+CrazyCrates.Access+Opens the GUI, Lists all the Commands.+/CC Help,/CC
