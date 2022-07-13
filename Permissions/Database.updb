@@ -817,8 +817,8 @@ BkTeleport+bkteleport.tpdeny+Refuses a teleport request.+/tpdeny
 BkTeleport+bkteleport.tphere+Sends a clickable TPHERE request to another player.+/tphere <player>
 BkTeleport+bkteleport.warp.others+eleports another player to a warp, even if the target player doesn't have the permission to go to that warp.+/warp <name> <player>
 BkTeleport+kteleport.warp.[warp-name]+Teleports you to a warp. You need to grant per warp permissions or use the global permission.+/warps,/warp <name>
-BlockLocker+blocklocker.protect+Protect containers and doors.+/blocklocker <linenumber> <value>
 BlockLocker+blocklocker.bypass+Bypass someone else's protection.
+BlockLocker+blocklocker.protect+Protect containers and doors.+/blocklocker <linenumber> <value>
 BlockLocker+blocklocker.reload+Reload the plugin using /blocklocker reload.+/blocklocker reload
 BlockLocker+blocklocker.wilderness+Place chests in the wilderness (outside of Towny claims)
 BossShopPro+BossShop.bypass+Bypass the anti click spam delay.
@@ -1050,10 +1050,10 @@ ChatControlRed+chatcontrol.chat.read+See game chat messages.
 ChatControlRed+chatcontrol.chat.write+Write messages to game chat.
 ChatControlRed+chatcontrol.color.[color]+Enable to use color codes & hex codes for colors and decoration.
 ChatControlRed+chatcontrol.color.bold+Enable to use bold formatting.
+ChatControlRed+chatcontrol.color.italic+Enable to use italic formatting.
 ChatControlRed+chatcontrol.color.obfuscated+Enable to use obfuscated formatting.
 ChatControlRed+chatcontrol.color.strikethrough+Enable to use strikethrough formatting.
 ChatControlRed+chatcontrol.color.underline+Enable to use underline formatting.
-ChatControlRed+chatcontrol.color.italic+Enable to use italic formatting.
 ChatControlRed+chatcontrol.command.announce.[type]+Announce important messages to everyonevia "/chc announce". Replace "type" with: chat, title, actionbar, bossbar, toast.+/chc announce <type> <message>
 ChatControlRed+chatcontrol.command.book+Read or save books you can use in rules etc "/chc book".+/chc book
 ChatControlRed+chatcontrol.command.bungee+Forwards commands to BungeeCord.
@@ -1243,6 +1243,46 @@ CityRP+cityrp.setday+Allows you to change the current day+/setday
 CityRP+cityrp.settime+Change the current time+/settime
 CityRP+cityrp.whisper+Allows you to whisper to nearby players+/w
 CityRP+cityrp.yell+Allows you to yell to nearby players (16 Blocks)+/y
+ClansPro+clanspro.ally+Unknown description+/clan ally <clanName>
+ClansPro+clanspro.banks.deposit+Unknown description+/clan bank <deposit>
+ClansPro+clanspro.banks.use+Unknown description+/clan bank
+ClansPro+clanspro.banks.withdraw+Unknown description+/clan bank <withdraw>
+ClansPro+clanspro.banks+Unknown description+/clan bank balance
+ClansPro+clanspro.base+Unknown description+/clan base
+ClansPro+clanspro.bio+Unknown description+/clan bio
+ClansPro+clanspro.block+This permission allows players to block a person from spamming them with clan invites. The block feature resets each server restart and does not remember who got blocked.+/clan block <playerName>
+ClansPro+clanspro.chat+Unknown description+/clan chat
+ClansPro+clanspro.claim+Unknown description+/clan claim
+ClansPro+clanspro.color+Unknown description+/clan color <newColor>
+ClansPro+clanspro.create+This permission allows players to create clans.+/clan create <clanName>
+ClansPro+clanspro.demote+Unknown description+/clan demote
+ClansPro+clanspro.description+This permission allows clan members to set the description for the clan. (Dependent on the configured "Clearance Section" of the configs)+/clan description <newDesc>
+ClansPro+clanspro.enemy.remove+Unknown description+/clan enemy <remove> <clanName>
+ClansPro+clanspro.enemy+Unknown description+/clan enemy
+ClansPro+clanspro.forfeit+This permission allows clan clan to forfeit.+/clan forfeit
+ClansPro+clanspro.friendlyfire+Unknown description+/clan friendlyfire
+ClansPro+clanspro.info.other+Unknown description+/clan info <clanName>
+ClansPro+clanspro.info.other+Unknown description+/clan info <playerName>
+ClansPro+clanspro.info+Unknown description+/clan info
+ClansPro+clanspro.invite+This permission allows clans members to invite other players. (Dependent on the configured "Clearance Section" of the configs)+/clan invite <playerName>
+ClansPro+clanspro.join+This permission allows players to join.+/clan join <clanName>
+ClansPro+clanspro.kick+This permission allows clan members to kick members from clan. (Dependent on the configured "Clearance Section" of the configs)+/clan kick <playerName>
+ClansPro+clanspro.leave+This permission allows players to leave the current clan they are in.+/clan leave
+ClansPro+clanspro.list+Unknown description+/clan list
+ClansPro+clanspro.message+Unknown description+/clan message <newMessage>
+ClansPro+clanspro.mode+This permission allows clan to set the clan modes. (Dependent on the configured "Clearance Section" of the configs)+/clan <peace|war>
+ClansPro+clanspro.nickname+Unknown description+/clan nickname <newNick>
+ClansPro+clanspro.passowner+Unknown description+/clan passowner <playerName>
+ClansPro+clanspro.password+This permission is for enabling the ability for clan owners to make their clans join-able with a password.+/clan password <password>
+ClansPro+clanspro.peace+This permission allows clan to set the clan mode to peace. (Dependent on the configured "Clearance Section" of the configs)+/clan peace
+ClansPro+clanspro.players+Unknown description+/clan players <#page>
+ClansPro+clanspro.promote+Unknown description+/clan promote <playerName>
+ClansPro+clanspro.setbase+Unknown description+/clan setbase
+ClansPro+clanspro.tag+Unknown description+/clan tag <newTag>
+ClansPro+clanspro.top+Unknown description+/clan top
+ClansPro+clanspro.unclaim.all+Unknown description+/clan unclaim all
+ClansPro+clanspro.unclaim+Unknown description+/clan unclaim
+ClansPro+clanspro.war+This permission puts a clan into war with another clan as long as they're mode inst in peace. (Dependent on the configured "Clearance Section" of the configs)+/clan war <clanName> <seconds>
 ClanSystem+ClanSystem.Options+Allows People To Open The Admin Panel+/Options
 CleanMotD+cleanmotd.admin+Allows the player to use all commands of the plugin.+/cleanmotd help,/cleanmotd reload
 ClearLag+lagg.admin+Allows players to Manage clearlag's modules.+/lagg admin
@@ -1429,11 +1469,11 @@ CMI+cmi.command.giveall+Give item for all players+/giveall
 CMI+cmi.command.glow.color.[colorname]+Set players glow mode color
 CMI+cmi.command.glow.others+Set players glow mode for others
 CMI+cmi.command.glow+Set players glow mode+/glow
-CMI+cmi.command.gm.survival+Allows to change game mode to Survival.
 CMI+cmi.command.gm.adventure+Allows to change game mode to Adventure.
 CMI+cmi.command.gm.creative+Allows to change game mode to Creative.
-CMI+cmi.command.gm.spectator+Allows to change game mode to Spectator.
 CMI+cmi.command.gm.others+Set players game mode
+CMI+cmi.command.gm.spectator+Allows to change game mode to Spectator.
+CMI+cmi.command.gm.survival+Allows to change game mode to Survival.
 CMI+cmi.command.gm+Set players game mode+/gm,/gamemode
 CMI+cmi.command.god.others+Set players god mode to true or false
 CMI+cmi.command.god+Set players god mode to true or false+/god
@@ -1916,29 +1956,29 @@ Confiscate+confiscate.notify.updates+Permission to receive alerts on join when a
 Confiscate+confiscate.room.open+Permission to open chests in the chest room.
 Confiscate+confiscate.room.signs+Permission to view player logs by clicking on their sign in the chest room.
 Confiscate+confiscate.room.tool+Permission to use the room foundation tool.
-CoreArena+corearena.command.join.+Gives the player the ability to join an arena using "/ca join". You need both corearena.command.join and the other version with [arena] replaced with arenas you want the player to be able to join into.+/ca join
+CoreArena+corearena.bypass.arenacommands+Allow running commands while playing in an arena.
+CoreArena+corearena.chat.color.red+Permission to have a red name in the arena chat. (Not customizable).
+CoreArena+corearena.chat.global+Begin a message with '!' to send it to everyone on the server instead of only players in your arena.
+CoreArena+corearena.class.[class_name]+Permission to allow or deny a specific CoreArena class to a group or user.
+CoreArena+corearena.command.class+Gives the player the ability to open the Classes menu.+/ca class
+CoreArena+corearena.command.conversation+Reply to server's conversation.+/ca conversation
+CoreArena+corearena.command.edit+Toggle an arena's edit mode.+/ca edit
+CoreArena+corearena.command.find+Find arenas at player's location.+/ca find <player>
+CoreArena+corearena.command.items+Open the Items menu to keep editing the arena.+/ca items
 CoreArena+corearena.command.join.[arena]+Gives the player the ability to join an arena using "/ca join". You need both corearena.command.join and the other version with [arena] replaced with arenas you want the player to be able to join into.+/ca join
+CoreArena+corearena.command.join.+Gives the player the ability to join an arena using "/ca join". You need both corearena.command.join and the other version with [arena] replaced with arenas you want the player to be able to join into.+/ca join
 CoreArena+corearena.command.leave+Gives the player the ability to leave an arena.+/ca leave
 CoreArena+corearena.command.list+Gives the player the ability to see the available arenas.+/ca list
-CoreArena+corearena.command.rewards+Gives the player the ability to open the Rewards menu.+/ca rewards
-CoreArena+corearena.command.class+Gives the player the ability to open the Classes menu.+/ca class
-CoreArena+corearena.command.edit+Toggle an arena's edit mode.+/ca edit
-CoreArena+corearena.command.items+Open the Items menu to keep editing the arena.+/ca items
-CoreArena+corearena.command.tools+Open the Tools menu to keep editing the arena.+/ca tools
 CoreArena+corearena.command.menu+Open the Admins menu.+/ca menu
+CoreArena+corearena.command.new+Create new arenas.+/ca new <name>
 CoreArena+corearena.command.nugget+Manage player nuggets+/ca nugget
 CoreArena+corearena.command.reload+Reload the plugin.+/ca reload
+CoreArena+corearena.command.rewards+Gives the player the ability to open the Rewards menu.+/ca rewards
 CoreArena+corearena.command.start+Forces an arena to start.+/ca start <name>
 CoreArena+corearena.command.stop+Forces arenas to finish.+/ca stop <name>
-CoreArena+corearena.command.new+Create new arenas.+/ca new <name>
-CoreArena+corearena.command.find+Find arenas at player's location.+/ca find <player>
-CoreArena+corearena.command.conversation+Reply to server's conversation.+/ca conversation
+CoreArena+corearena.command.tools+Open the Tools menu to keep editing the arena.+/ca tools
 CoreArena+corearena.command.tp+Teleport to an arena.+/ca tp
-CoreArena+corearena.chat.global+Begin a message with '!' to send it to everyone on the server instead of only players in your arena.
-CoreArena+corearena.chat.color.red+Permission to have a red name in the arena chat. (Not customizable).
-CoreArena+corearena.bypass.arenacommands+Allow running commands while playing in an arena.
 CoreArena+corearena.tools+Grants permission to right click with tools as specified in the tools menu and use them.
-CoreArena+corearena.class.[class_name]+Permission to allow or deny a specific CoreArena class to a group or user.
 CoreProtect+coreprotect.*+Allows the player to use all commands of the plugin.+/co help,/co inspect,/co rollback,/co restore,/co lookup,/co purge,/co reload,/co status,/co near,/co undo
 CoreProtect+coreprotect.co+Allows the player to use the /co command handler.+/co
 CoreProtect+coreprotect.core+Allows the player to use the /core command handler.+/core
@@ -1951,9 +1991,9 @@ CoreProtect+coreprotect.reload+Allows the player to reload the plugin's config.+
 CoreProtect+coreprotect.restore+Allows the player to restore something and to undo rollbacks.+/co restore
 CoreProtect+coreprotect.rollback+Allows the player to roll something back.+/co rollback
 CoreProtect+coreprotect.status+Allows the player to see the plugin's status.+/co status
-CraftEnhance+craftenhance.view+Opens a recipes viewer by default. When a page is specified, the viewer will open at that page.+/ceh viewer <page>
 CraftEnhance+craftenhance.edit+Unknown description+/ceh createrecipe <key> <permissions>,/ceh changekey [oldkey] [newkey],/ceh reload,/ceh setpermission [key] [new_perm],/ceh specs [key],/ceh cleanitemfile,/ceh disabler
 CraftEnhance+craftenhance.edititem+Edits the item in your hand.+/ceh edititem [lore|itemflag|enchant|durability|name]
+CraftEnhance+craftenhance.view+Opens a recipes viewer by default. When a page is specified, the viewer will open at that page.+/ceh viewer <page>
 CratesPlus+cratesplus.admin+Access to all /crate commands. Defaults to OP.+/crate settings,/crate reload,/crate create,/crate rename,/crate delete,/crate crate,/crate key
 CratesPlus+cratesplus.updates+Any player with this permission will be notified of updates. Defaults to OP.
 CrazyCrates+CrazyCrates.Access+Opens the GUI, Lists all the Commands.+/CC Help,/CC
@@ -2143,21 +2183,21 @@ DiscordSRV+discordsrv.discord+Allows access to the discord command+/discord,/dis
 DiscordSRV+discordsrv.groupsyncwithcommands+Whether or not the player can run a permission plugin command to force group sync to occur
 DiscordSRV+discordsrv.help+Whether or not the player is able to display command help for DiscordSRV+/discord help,/discord ?
 DiscordSRV+discordsrv.language+Whether or not the player can run /discord language to change the plugin's language+/discord language <Language> [-confirm],/discord lang <Language> [-confirm]
-DiscordSRV+discordsrv.link+Whether or not the player is able to link their Minecraft account to their Discord account+/discord link
 DiscordSRV+discordsrv.link.others+Whether or not the player is able to link other people's Minecraft accounts to Discord accounts+/discord link <Name|UUID|DiscordID|DiscordTag>
-DiscordSRV+discordsrv.linked+Whether or not the player is able to check what Discord account their Minecraft account is linked to+,/discord linked
+DiscordSRV+discordsrv.link+Whether or not the player is able to link their Minecraft account to their Discord account+/discord link
 DiscordSRV+discordsrv.linked.others+Whether or not the player is able to check what Discord account other Minecraft accounts are linked to+/discord linked <Name|UUID|DiscordID|DiscordTag>
+DiscordSRV+discordsrv.linked+Whether or not the player is able to check what Discord account their Minecraft account is linked to+,/discord linked
 DiscordSRV+discordsrv.nicknamesync+Whether or not the player should have their nickname synced with Discord, if doing so is enabled in synchronization.yml
 DiscordSRV+discordsrv.player+Parent permission of player-related functions of DiscordSRV
 DiscordSRV+discordsrv.reload+Whether or not the player is able to reload DiscordSRV's configuration+/discord reload
 DiscordSRV+discordsrv.resync+Whether or not the player can run /discord resync to force a resync of all groups/roles+/discord resync
 DiscordSRV+discordsrv.silentjoin+Whether or not to have join messages for players with this permission to be silenced
 DiscordSRV+discordsrv.silentquit+Whether or not to have quit messages for players with this permission to be silenced
-DiscordSRV+discordsrv.updatenotification+Whether or not the player should be told if there's an update to DiscordSRV when joining
 DiscordSRV+discordsrv.sync.[group]+Groups that should be added to the player if their discord account is linked.
 DiscordSRV+discordsrv.sync.deny.[group]+Groups that should be removed from the player if their discord account is linked.
-DiscordSRV+discordsrv.unlink+Whether or not the player is able to unlink their Minecraft account from their Discord account+/discord unlink,/discord clearlinked 
 DiscordSRV+discordsrv.unlink.Others+Whether or not the player is able to unlink other people's Minecraft accounts from their Discord accounts+/discord unlink <Name|UUID> <DiscordID|DiscordTag>,/discord clearlinked <Name|UUID> <DiscordID|DiscordTag>
+DiscordSRV+discordsrv.unlink+Whether or not the player is able to unlink their Minecraft account from their Discord account+/discord unlink,/discord clearlinked 
+DiscordSRV+discordsrv.updatenotification+Whether or not the player should be told if there's an update to DiscordSRV when joining
 Duels+duels.admin+Allows the player to use admin commands.
 Duels+duels.duel+Allows the player to duel.+/duel
 Duels+duels.kits.[kit]+Allows the player to use a specific kit if the usePermission option is enabled.
@@ -3939,6 +3979,22 @@ JEssentials+jessentials.warp.list+Allows the player to list all available warps+
 JEssentials+jessentials.warp+Allows the player to teleport to a warp+/warp
 JEssentials+jessentials.weather+Allows changing of the world weather+/weather
 JEssentials+jessentials.workbench+Allow enable a crafting table interface+/workbench
+JetsMinions+minions.admin.break+Will allow a user to break any minion.
+JetsMinions+minions.admin.bypasslimit+Allows a user to place however many minions they want.
+JetsMinions+minions.admin.debug+Debugs the minion you are looking at.+/minions debug
+JetsMinions+minions.admin.givecommand+Gives a specified player that minion.+/minions give <player> <minionType> <amount>
+JetsMinions+minions.admin.list+Lists a players minions.+/minions list <player>
+JetsMinions+minions.admin.reload+Reloads the configuration file, although a restart is required for certain things.+/minions reload
+JetsMinions+minions.admin.remove+Removes a minion at the specified location.+/minions remove <world> <x> <y> <z>
+JetsMinions+minions.admin.storeother+Opens the store for another player.+/Minions storeother <player>
+JetsMinions+minions.admin.viewminion+Allows any user to open any (loaded) minion menu.
+JetsMinions+minions.place.default+Will allow access to three minions by default.
+JetsMinions+minions.player.helpcommand+Allows them access to /minions+/minions
+JetsMinions+minions.player.linkchest+Allows them to link a chest.
+JetsMinions+minions.player.rename+Allows them to rename their minion.
+JetsMinions+minions.player.store+Allow access to /minions store+/minions store
+JetsMinions+minions.skins.[NameOfSkin]+This will allow players to select skins in the skin GUI menu.
+JetsMinions+minions.skins.*+This will allow players to select all skins in the skin GUI menu.
 Jobs+jobs.[jobname].vipmaxlevel.[amount]+Give access to different max jobs levels. Uses biggest one.
 Jobs+jobs.[jobname].vipmaxlevel.[amount]+Give access to different max jobs levels. Uses biggest one.
 Jobs+jobs.[jobname].vipmaxlevel+Give access to different max jobs level
@@ -4466,35 +4522,35 @@ LoginSecurity+ls.update+Allows the player to receive update notifications of the
 LongerMessages+longermessages.use+Permission to write longer messages
 Lovey+lovey.admin+Allow to reload the config and turn on/off the hearts.+/lovey admin reload,/lovey admin on,/lovey admin off
 LWC+lwc.*+Full administrative access to LWC
-LWC+lwc.protect+Gives the ability to basic LWC usage (almost everything except LWC admin.)
 LWC+lwc.admin+Gives you absolutely power over LWC. As an LWC admin, you have no restrictions.
 LWC+lwc.allcommands+Gives you access to every LWC command. Without lwc.admin or lwc.mod, you cannot open protections you do not own.
-LWC+lwc.shownotices+Shows LWC notices
-LWC+lwc.mod+Allows you to open anyone's protection but not remove them
-LWC+lwc.deny+Denys you access to any block LWC can protect. For example, with this permission set, you cannot open even unprotected chests (if protectable.)
+LWC+lwc.allflags+Gives you access to every usable flag.+/lwc flag <flag> <on|off>
+LWC+lwc.allmodes+Gives you access to every mode, provided they are already disabled.+/lwc mode <mode>
+LWC+lwc.autoprotect+Allows you to auto protect LWC protections regardless of how LWC is configured
 LWC+lwc.create.*+Allows you to create every basic protection (public, private, password.)+/lwc create <protection-type> [users]
-LWC+lwc.create.public+Allows you to create a public protection.+/lwc create public [users],/cpublic
+LWC+lwc.create.display+Allows you to create a display protection.+/lwc create display [users],/cdisplay
+LWC+lwc.create.donation+Allows you to create a donation protection.+/lwc create donation [users],/cdonation
 LWC+lwc.create.password+Allows you to create a password protection.+/lwc create password <password>,/cpassword <password>
 LWC+lwc.create.private+Allows you to create a private protection.+/lwc create private [users],/cprivate
-LWC+lwc.create.donation+Allows you to create a donation protection.+/lwc create donation [users],/cdonation
-LWC+lwc.create.display+Allows you to create a display protection.+/lwc create display [users],/cdisplay
-LWC+lwc.modify+Allows you to modify protections you own.+/lwc modify <usernames|groups|protection-type>,/cmodify <usernames|groups|protection-type>
-LWC+lwc.unlock+Allows you to unlock password-protected protections.+/lwc unlock <password>,/cunlock <password>
-LWC+lwc.info+Allows you to view the owner and other misc data on a protection.+/lwc info,/cinfo
-LWC+lwc.remove+Allows you to remove protections you own.+/lwc remove [protection|modes],/cremove
+LWC+lwc.create.public+Allows you to create a public protection.+/lwc create public [users],/cpublic
+LWC+lwc.deny+Denys you access to any block LWC can protect. For example, with this permission set, you cannot open even unprotected chests (if protectable.)
 LWC+lwc.flag.*+Gives you access to every usable flag.+/lwc flag <flag> <on|off>
-LWC+lwc.allflags+Gives you access to every usable flag.+/lwc flag <flag> <on|off>
-LWC+lwc.flag.redstone+Allows you to use the redstone flag, which enables or disables the use of redstone on a protection depending on plugin settings.+/credstone <on|off>,/lwc flag redstone <on|off>
-LWC+lwc.flag.magnet+Allows you to use the magnet flag, which makes a protection such as a chest suck up dropped items in a specific radius around it.+/cmagnet <on|off>,/lwc flag magnet <on|off>
-LWC+lwc.flag.autoclose+Allows a door to automatically close itself after 3 seconds (configurable.)+/cautoclose <on|off>,/lwc flag autoclose <on|off>
 LWC+lwc.flag.allowexplosions+Flag to allow a given protection to explode from explosions.
+LWC+lwc.flag.autoclose+Allows a door to automatically close itself after 3 seconds (configurable.)+/cautoclose <on|off>,/lwc flag autoclose <on|off>
+LWC+lwc.flag.magnet+Allows you to use the magnet flag, which makes a protection such as a chest suck up dropped items in a specific radius around it.+/cmagnet <on|off>,/lwc flag magnet <on|off>
+LWC+lwc.flag.redstone+Allows you to use the redstone flag, which enables or disables the use of redstone on a protection depending on plugin settings.+/credstone <on|off>,/lwc flag redstone <on|off>
+LWC+lwc.info+Allows you to view the owner and other misc data on a protection.+/lwc info,/cinfo
+LWC+lwc.mod+Allows you to open anyone's protection but not remove them
 LWC+lwc.mode.*+Gives you access to every usable mode, provided they are already disabled.+/lwc mode <mode>
-LWC+lwc.allmodes+Gives you access to every mode, provided they are already disabled.+/lwc mode <mode>
-LWC+lwc.mode.persist+Allows you to use the persist flag, which allows you to use commands repeatably.+/cpersist,/lwc mode persist
 LWC+lwc.mode.droptransfer+Allows you to use the drop transfer flag, which allows you to "drop" items into your chest from far away+/cdroptransfer <on|off|select|status>,/lwc mode droptransfer <on|off|select|status>
-LWC+lwc.mode.nospam+Toggle the ability to hide protection creation messages+/cnospam,/lwc mode nospam
 LWC+lwc.mode.nolock+Toggle the ability to create protections+/cnolock,/lwc mode nolock
-LWC+lwc.autoprotect+Allows you to auto protect LWC protections regardless of how LWC is configured
+LWC+lwc.mode.nospam+Toggle the ability to hide protection creation messages+/cnospam,/lwc mode nospam
+LWC+lwc.mode.persist+Allows you to use the persist flag, which allows you to use commands repeatably.+/cpersist,/lwc mode persist
+LWC+lwc.modify+Allows you to modify protections you own.+/lwc modify <usernames|groups|protection-type>,/cmodify <usernames|groups|protection-type>
+LWC+lwc.protect+Gives the ability to basic LWC usage (almost everything except LWC admin.)
+LWC+lwc.remove+Allows you to remove protections you own.+/lwc remove [protection|modes],/cremove
+LWC+lwc.shownotices+Shows LWC notices
+LWC+lwc.unlock+Allows you to unlock password-protected protections.+/lwc unlock <password>,/cunlock <password>
 Maintenance+maintenance.admin+Super permission that grants access to all perms.
 Maintenance+maintenance.bypass+Join the server during maintenance.
 Maintenance+maintenance.command+Use the "/maintenance" command (also required to use the subcommands).+/maintenance
@@ -4666,14 +4722,14 @@ MiniBoardGames+miniboardgames.spectate+Spectate a players game.+/mbg spectate,/m
 MiniBoardGames+miniboardgames.stats+See your stats.+/mbg stats,/miniboardgames stats,/games stats
 MiniBoardGames+miniboardgames.top+See the top stats for a game.+/mbg top <game> [page] [stats],/miniboardgames top <game> [page] [stats],/games top <game> [page] [stats]
 MiniGameMaker+minigamemaker.admin+Gives you all permissions.
-MiniGameMaker+minigamemaker.menu+Allows you to use /mgm menu.
+MiniGameMaker+minigamemaker.ban+Allows you to use /mgm ban.
+MiniGameMaker+minigamemaker.configure+Allows you to configure the minigames via the inventory menu.
 MiniGameMaker+minigamemaker.create+Allows you to save information to the config by using commands.
 MiniGameMaker+minigamemaker.delete+Allow you to delete information from the config by using commands.
-MiniGameMaker+minigamemaker.configure+Allows you to configure the minigames via the inventory menu.
+MiniGameMaker+minigamemaker.menu+Allows you to use /mgm menu.
 MiniGameMaker+minigamemaker.reload+Allows you use /mgm reload or /mgm rl.
-MiniGameMaker+minigamemaker.view+Allows you to view information saved in the config by using commands.
-MiniGameMaker+minigamemaker.ban+Allows you to use /mgm ban.
 MiniGameMaker+minigamemaker.unban+Allows you to use /mgm unban.
+MiniGameMaker+minigamemaker.view+Allows you to view information saved in the config by using commands.
 MMOItems+mmoitems.admin+Permission for admin commands
 MMOItems+mmoitems.bypass.ability+Bypasses the ability permission restriction
 MMOItems+mmoitems.bypass.class+Bypasses the MMOCore class restriction
@@ -5026,6 +5082,7 @@ PigmanAttention+pigmanattention.admin+Gives access to Admin GUI
 PigmanAttention+pigmanattention.bypass+Let's players bypass pigman aggro
 PingNachricht+pingnachricht.main+Gives access to all /pingnachricht [/pn] commands+/pingnachricht reload,/pingnachricht setcounter <args>
 PlaceholderAPI+placeholderapi.admin+Ability to use admin commands.+/papi bcparse <player|me> <string>,/papi parserel <player> <player> <string>,/papi cmdparse <player|me> <string>,/papi disablecloud,/papi dump
+PlaceholderAPI+placeholderapi.ecloud.*+Ability to use all PAPI eClouds commands.+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
 PlaceholderAPI+placeholderapi.ecloud.clear+Allows you to clear the local eCloud expansion cache.+/papi ecloud clear
 PlaceholderAPI+placeholderapi.ecloud.download+Allows you to download an expansion from the eCloud.+/papi ecloud download <expansion> [version]
 PlaceholderAPI+placeholderapi.ecloud.info+Gives information about a specific Expansion.+/papi ecloud info <expansion> [version]
@@ -5035,7 +5092,6 @@ PlaceholderAPI+placeholderapi.ecloud.refresh+Allows you to refresh the local eCl
 PlaceholderAPI+placeholderapi.ecloud.status+Allows you to view the status of eCloud expansions.+/papi ecloud status
 PlaceholderAPI+placeholderapi.ecloud.toggle+Allows you to toggle/enable/disable the eCloud manager.+/papi ecloud toggle,/papi ecloud enable,/papi ecloud disable
 PlaceholderAPI+placeholderapi.ecloud.update+Allows you to update registered eCloud expansions.+/papi ecloud update <all|Bungee>
-PlaceholderAPI+placeholderapi.ecloud.*+Ability to use all PAPI eClouds commands.+/papi ecloud,/papi ecloud status,/papi ecloud list,/papi ecloud info,/papi ecloud download
 PlaceholderAPI+placeholderapi.help+Displays all the commands PlaceholderAPI currently offers.+/papi help
 PlaceholderAPI+placeholderapi.info+Allows you to view expansion information.+/papi info <expansion>
 PlaceholderAPI+placeholderapi.injector.anvil.bypass+Ability to use placeholders in anvils.
@@ -5123,52 +5179,52 @@ PluginManager+pluginmanager.reload+Unloads and then loads the plugin+/plm reload
 PluginManager+pluginmanager.show+Show's detailed information about the plugin+/plm show <plugin>
 PluginManager+pluginmanager.sreload+Disables and then enables the plugin+/plm sreload <plugin>
 PluginManager+pluginmanager.unload+Disables a plugin, then unloads it from the server+/plm unload <plugin>
+PremiumVanish+pv.*+Grants you all PremiumVanish permissions
+PremiumVanish+pv.breakblocks+Bypass permission for prevent block breaking
+PremiumVanish+pv.bypasscmd+Bypass permission for black/whitelist commands while vanished (See config)
+PremiumVanish+pv.bypassspam+Bypass permission for spam prevention (Spamming /pv on and off non stop)
+PremiumVanish+pv.bypassteleportback+Should vanished players be teleported back to where they vanished when they reappear?
+PremiumVanish+pv.creativeitems+Bypass permisison for creative items cheating prevention while in vanish
+PremiumVanish+pv.damage+Bypass permisison for hitting entities prevention
+PremiumVanish+pv.dropitems+Bypass permission for dropping items prevention (dropping items while vanished)
+PremiumVanish+pv.exempttarget+Exempt the player / group from being targetted
 PremiumVanish+pv.help+Access to /pv help+/pv help
-PremiumVanish+pv.use+Turn on or off vanish+/pv [on|off]
-PremiumVanish+pv.use.level[level]+Vanish use permission on level based
-PremiumVanish+pv.see.level[level]+See vanish players based on your level (level 1 can't see players with level 5 use)
-PremiumVanish+pv.others+Turn on or off vanish by other players+/pv [on|off] <player>
+PremiumVanish+pv.interact+Bypass permission for block interaction prevention (Overrides breakblocks, placeblocks, useblocks)
+PremiumVanish+pv.joinvanished+You always join vanished (must be enabled in config).
+PremiumVanish+pv.keepfly+You can always keep flying when you reappear.
 PremiumVanish+pv.list+See who are in vanish+/pv list
 PremiumVanish+pv.login+Unknown Description+/pv login
 PremiumVanish+pv.logout+Unknown Description+/pv logout
-PremiumVanish+pv.toggleitems+Toggle for default pickup items option+/pv tipu
+PremiumVanish+pv.modifyotherinv+Bypass permisison for modifying other player inventory prevention
+PremiumVanish+pv.modifyowninv+Bypass permission for modify own inventory prevention
+PremiumVanish+pv.notify+Receive update notifications, if there is a new version to download
+PremiumVanish+pv.notoggle+Other players cannot hide/show you if you're online.
+PremiumVanish+pv.openplayerinv+You can open a player's inventory by right-clicking the player.
+PremiumVanish+pv.others+Turn on or off vanish by other players+/pv [on|off] <player>
+PremiumVanish+pv.placeblocks+Bypass permission for prevent block placing
+PremiumVanish+pv.printstacktrace+Debug permission purpose+/pv printstacktrace
 PremiumVanish+pv.recreatefiles+Recreate config files+/pv recreatefiles
 PremiumVanish+pv.reload+Reload the config files+/pv reload
-PremiumVanish+pv.target+Lock the target on a player+/pv target <player>
-PremiumVanish+pv.unlock+Unknown Description+/pv unlock
-PremiumVanish+pv.tptg+Unknown Description+/pv tptg
-PremiumVanish+pv.printstacktrace+Debug permission purpose+/pv printstacktrace
-PremiumVanish+pv.setlevel+Unknown Description+/pv setlevel
-PremiumVanish+pv.togglescoreboard+Toggle on / off PremiumVanish scoreboard+/pv scoreboard
-PremiumVanish+pv.*+Grants you all PremiumVanish permissions
-PremiumVanish+pv.keepfly+You can always keep flying when you reappear.
-PremiumVanish+pv.notoggle+Other players cannot hide/show you if you're online.
-PremiumVanish+pv.see+You can see other vanished players.
-PremiumVanish+pv.joinvanished+You always join vanished (must be enabled in config).
-PremiumVanish+pv.spectatoreditinv+You can edit inventories in spectator mode
-PremiumVanish+pv.switch+You can toggle spectator mode by pressing shift twice.
-PremiumVanish+pv.openplayerinv+You can open a player's inventory by right-clicking the player.
-PremiumVanish+pv.silentchest+You can open chests silently.
-PremiumVanish+pv.setlevel.level[LEVEL]+Players can see a vanished player if their see level is higher or equal to the other player's use level+/pv setlevel <level>
-PremiumVanish+pv.bypassteleportback+Should vanished players be teleported back to where they vanished when they reappear?
-PremiumVanish+pv.breakblocks+Bypass permission for prevent block breaking
-PremiumVanish+pv.placeblocks+Bypass permission for prevent block placing
-PremiumVanish+pv.useblocks+Bypass permission for block use prevention
-PremiumVanish+pv.interact+Bypass permission for block interaction prevention (Overrides breakblocks, placeblocks, useblocks)
-PremiumVanish+pv.damage+Bypass permisison for hitting entities prevention
-PremiumVanish+pv.dropitems+Bypass permission for dropping items prevention (dropping items while vanished)
-PremiumVanish+pv.modifyowninv+Bypass permission for modify own inventory prevention
-PremiumVanish+pv.modifyotherinv+Bypass permisison for modifying other player inventory prevention
-PremiumVanish+pv.spectatortp+Bypass permission for spectator teleport prevention via menu
-PremiumVanish+pv.creativeitems+Bypass permisison for creative items cheating prevention while in vanish
-PremiumVanish+pv.viewcoords+Bypass permission to prevent vanish players see coords (Client-sided)
-PremiumVanish+pv.bypasscmd+Bypass permission for black/whitelist commands while vanished (See config)
 PremiumVanish+pv.scoreboard+Unknown Description+/pv scoreboard
-PremiumVanish+pv.exempttarget+Exempt the player / group from being targetted
-PremiumVanish+pv.bypassspam+Bypass permission for spam prevention (Spamming /pv on and off non stop)
-PremiumVanish+pv.notify+Receive update notifications, if there is a new version to download
+PremiumVanish+pv.see.level[level]+See vanish players based on your level (level 1 can't see players with level 5 use)
+PremiumVanish+pv.see+You can see other vanished players.
+PremiumVanish+pv.setlevel.level[LEVEL]+Players can see a vanished player if their see level is higher or equal to the other player's use level+/pv setlevel <level>
+PremiumVanish+pv.setlevel+Unknown Description+/pv setlevel
 PremiumVanish+pv.showintab+Unknown Description
 PremiumVanish+pv.silent+Unknown Description
+PremiumVanish+pv.silentchest+You can open chests silently.
+PremiumVanish+pv.spectatoreditinv+You can edit inventories in spectator mode
+PremiumVanish+pv.spectatortp+Bypass permission for spectator teleport prevention via menu
+PremiumVanish+pv.switch+You can toggle spectator mode by pressing shift twice.
+PremiumVanish+pv.target+Lock the target on a player+/pv target <player>
+PremiumVanish+pv.toggleitems+Toggle for default pickup items option+/pv tipu
+PremiumVanish+pv.togglescoreboard+Toggle on / off PremiumVanish scoreboard+/pv scoreboard
+PremiumVanish+pv.tptg+Unknown Description+/pv tptg
+PremiumVanish+pv.unlock+Unknown Description+/pv unlock
+PremiumVanish+pv.use.level[level]+Vanish use permission on level based
+PremiumVanish+pv.use+Turn on or off vanish+/pv [on|off]
+PremiumVanish+pv.useblocks+Bypass permission for block use prevention
+PremiumVanish+pv.viewcoords+Bypass permission to prevent vanish players see coords (Client-sided)
 ProCosmetics+ProCosmetics.Arrow-Effects.Bloody-Arrows+Arrow-Effect
 ProCosmetics+ProCosmetics.Arrow-Effects.Bloody-Arrows+Arrow-Effect
 ProCosmetics+ProCosmetics.Arrow-Effects.Candy-Cane-Arrows+Arrow-Effect
@@ -6400,23 +6456,23 @@ SuperLobby+superlobby.admin+To use administrative commands+/sl reload,/sl remspa
 SuperLobby+superlobby.menu+To be able to use the menu
 SuperLobby+superlobby.staff+Used to bypass protection plugin
 SuperLobby+superlobby.use+To use the plugin.
+SuperVanish+sv.damage+Bypass permisison for hitting entities prevention
+SuperVanish+sv.joinvanished+You always join vanished (must be enabled in config).
 SuperVanish+sv.keepfly+Players without this permission will lose the ability to fly when they reappear and aren't in creative mode​.
 SuperVanish+sv.list+Shows a list of invisible players.+/sv list
 SuperVanish+sv.login+Broadcasts a login message.+/vlogin
 SuperVanish+sv.logout+Broadcasts a logout message.+/vlogout
-SuperVanish+sv.others+Hides/shows an other player.+/sv on <player>,/sv off <player>
-SuperVanish+sv.reload+Reloads the config.+/sv reload
-SuperVanish+sv.see+Players with this permission can see invisible players. (if it's enabled in the config)
-SuperVanish+sv.toggleitems+Toggles picking up items per player.+/sv tipu
-SuperVanish+sv.recreatefiles+Recreates outdated config files.+/sv recreatefiles,/sv rccfg
-SuperVanish+sv.notoggle+Other players cannot hide/show you if you're online.
-SuperVanish+sv.use+Hides/shows you.+/sv on,/sv off
-SuperVanish+sv.joinvanished+You always join vanished (must be enabled in config).
-SuperVanish+sv.use.level[level]+Vanish use permission on level based (if enabled in config)
-SuperVanish+sv.see.level[level]+See vanish players based on your level (level 1 can't see players with level 5 use)
-SuperVanish+sv.damage+Bypass permisison for hitting entities prevention
-SuperVanish+sv.stacktrace+Debug permission purpose+/sv printstacktrace
 SuperVanish+sv.notify+Receive update notifications, if there is a new version to download
+SuperVanish+sv.notoggle+Other players cannot hide/show you if you're online.
+SuperVanish+sv.others+Hides/shows an other player.+/sv on <player>,/sv off <player>
+SuperVanish+sv.recreatefiles+Recreates outdated config files.+/sv recreatefiles,/sv rccfg
+SuperVanish+sv.reload+Reloads the config.+/sv reload
+SuperVanish+sv.see.level[level]+See vanish players based on your level (level 1 can't see players with level 5 use)
+SuperVanish+sv.see+Players with this permission can see invisible players. (if it's enabled in the config)
+SuperVanish+sv.stacktrace+Debug permission purpose+/sv printstacktrace
+SuperVanish+sv.toggleitems+Toggles picking up items per player.+/sv tipu
+SuperVanish+sv.use.level[level]+Vanish use permission on level based (if enabled in config)
+SuperVanish+sv.use+Hides/shows you.+/sv on,/sv off
 SurvivalGames+sg.adddeathmatch+Allow the player to add a death match.+/sg Adddeathmatch
 SurvivalGames+sg.addspawn+Allow the player to add a spawn.+/sg Addspawn
 SurvivalGames+sg.admin+Allow the player to use all commands of SurvivalGames.+/sg Admin
@@ -6829,11 +6885,11 @@ UltraEconomy+ultraeconomy.admin+Grants the player all permissions of the plugin.
 UltraEconomy+ultraeconomy.balance.others+Allows the player to see the balance of another player.+/balance <player>
 UltraEconomy+ultraeconomy.balance.self+Allows the player to see their own balance.+/balance
 UltraEconomy+ultraeconomy.balancetop+Allows the player to view the top 10 players balance for the selected currency.+/balancetop <currency>,/baltop <currency>
+UltraEconomy+ultraeconomy.bank.others+Administator permission to manage other's bank account.
+UltraEconomy+ultraeconomy.bank.own+Allows the player to use the Bank Feature if enabled.
 UltraEconomy+ultraeconomy.cheat+Allows the player to open the balance view.+/balance
 UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> [currency] <value>
 UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-accept <player>,/trade-decline <player>
-UltraEconomy+ultraeconomy.bank.own+Allows the player to use the Bank Feature if enabled.
-UltraEconomy+ultraeconomy.bank.others+Administator permission to manage other's bank account.
 UltraEditor+ultraeditor.editor+Get a link to the editors.+/ultraeditor editor
 UltraEditor+ultraeditor.getauth+Get current auth key.+/ultraeditor getauth
 UltraEditor+ultraeditor.help+Show a list of commands.+/ultraeditor help
@@ -6859,15 +6915,14 @@ UltraPunishments+ultrapunishments.access.details+Allows a player to access the p
 UltraPunishments+ultrapunishments.admin+Allows the player to use all features of the plugin.
 UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
 UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban another player.
+UltraPunishments+ultrapunishments.behavior.command+Allows a player to see their Behavior Status.
 UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted punishments messages.
-UltraPunishments+ultrapunishments.bypass.report+Bypasses getting reported.
 UltraPunishments+ultrapunishments.bypass.ban+Bypasses getting banned.
+UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
 UltraPunishments+ultrapunishments.bypass.kick+Bypasses getting kicked.
 UltraPunishments+ultrapunishments.bypass.mute+Bypasses getting muted.
+UltraPunishments+ultrapunishments.bypass.report+Bypasses getting reported.
 UltraPunishments+ultrapunishments.bypass.warn+Bypasses getting warned.
-UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
-UltraPunishments+ultrapunishments.behavior.command+Allows a player to see their Behavior Status.
-UltraPunishments+ultrapunishments.rollback.command+Allows a player to rollback executed punishments.
 UltraPunishments+ultrapunishments.clearchat.execute+Allows the clearing of chat for players.
 UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze another player.
 UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze another player.
@@ -6878,6 +6933,7 @@ UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute another 
 UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat.
 UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat.
 UltraPunishments+ultrapunishments.report.respond+Allows a player to respond to reports.
+UltraPunishments+ultrapunishments.rollback.command+Allows a player to rollback executed punishments.
 UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning.
 UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning.
 UltraRegions+ultraregions.admin+Allows the player to use the main command of the plugin to access the GUI.+/uregions
@@ -6934,38 +6990,38 @@ UltraSkyWars+ultraskywars.wineffects.[name]+Grants you permission to buy vip Win
 UltraSkyWars+usw.admin+Grants you administrator permission to configure.
 UltraSkyWars+usw.forcestart+Force start a game.+/sw forcestart
 UltraSkyWars+usw.spectate+Spectate a game.+/sw spect <name>
-UltraStaffChat+staffchat.talk+Permission required to send a message in staff chat.+/staffchat <message>,/sc <message>
-UltraStaffChat+staffchat.read+Permission required to receive staff chat messages.
-UltraStaffChat+staffchat.toggle+Permission required to toggle sending staff chat messages.+/sctoggle
-UltraStaffChat+staffchat.mute+Permission required to toggle receiving staff chat messages.+/scmute
-UltraStaffChat+staffchat.globalmute+Permission required to globally mute and unmute staff chat.+/mutesc
-UltraStaffChat+staffchat.mutebypass+Permission required to bypass global mute.
-UltraStaffChat+staffchat.list+Permission required to view the staff list.+/stafflist
-UltraStaffChat+staffchat.staff+Permission required to display on the staff list.
 UltraStaffChat+staffchat.afk+Permission required to toggle afk status.+/scafk
+UltraStaffChat+staffchat.globalmute+Permission required to globally mute and unmute staff chat.+/mutesc
 UltraStaffChat+staffchat.join+Permission required to cause a staff join broadcast.
-UltraStaffChat+staffchat.switch+Permission required to cause a server switch broadcast.
 UltraStaffChat+staffchat.leave+Permission required to cause a staff leave broadcast.
+UltraStaffChat+staffchat.list+Permission required to view the staff list.+/stafflist
+UltraStaffChat+staffchat.mute+Permission required to toggle receiving staff chat messages.+/scmute
+UltraStaffChat+staffchat.mutebypass+Permission required to bypass global mute.
+UltraStaffChat+staffchat.read+Permission required to receive staff chat messages.
+UltraStaffChat+staffchat.staff+Permission required to display on the staff list.
+UltraStaffChat+staffchat.switch+Permission required to cause a server switch broadcast.
+UltraStaffChat+staffchat.talk+Permission required to send a message in staff chat.+/staffchat <message>,/sc <message>
+UltraStaffChat+staffchat.toggle+Permission required to toggle sending staff chat messages.+/sctoggle
 UltraStaffChat+ultrastaffchat.reload+Permission required to reload the configuration files.+/ultrastaffchat reload,/usc reload
 UltraStaffChat+ultrastaffchat.update+Permission required to receive update notifications.
-UltraStaffChatPro+staffchat.talk+Permission required to send a message in staff chat.+/staffchat <message>
-UltraStaffChatPro+staffchat.read+Permission required to receive staff chat messages.
-UltraStaffChatPro+staffchat.toggle+Permission required to toggle sending messages in staff chat.+/sctoggle
-UltraStaffChatPro+staffchat.mute+Permission required to toggle receiving staff chat messages.+/scmute
-UltraStaffChatPro+staffchat.global-mute+Permission required to globally mute and unmute staff chat.+/mutesc
+UltraStaffChatPro+staffchat.afk.read+Permission required to receive afk broadcasts.
+UltraStaffChatPro+staffchat.afk+Permission required to toggle afk status.+/scafk
 UltraStaffChatPro+staffchat.global-mute.bypass+Permission required to bypass global mute.
 UltraStaffChatPro+staffchat.global-mute.read+Permission required to receive the global mute broadcast.
-UltraStaffChatPro+staffchat.list.view+Permission required to view the staff list.+/stafflist
-UltraStaffChatPro+staffchat.list.view-vanished+Permission required to view vanished players on the staff list.
-UltraStaffChatPro+staffchat.list+Permission required to display on the staff list.
-UltraStaffChatPro+staffchat.afk+Permission required to toggle afk status.+/scafk
-UltraStaffChatPro+staffchat.afk.read+Permission required to receive afk broadcasts.
-UltraStaffChatPro+staffchat.join+Permission required to cause a staff join broadcast.
+UltraStaffChatPro+staffchat.global-mute+Permission required to globally mute and unmute staff chat.+/mutesc
 UltraStaffChatPro+staffchat.join.read+Permission required to receive join broadcasts.
-UltraStaffChatPro+staffchat.switch+Permission required to cause a server switch broadcast.
-UltraStaffChatPro+staffchat.switch.read+Permission required to receive switch broadcasts.
-UltraStaffChatPro+staffchat.leave+Permission required to cause a staff leave broadcast.
+UltraStaffChatPro+staffchat.join+Permission required to cause a staff join broadcast.
 UltraStaffChatPro+staffchat.leave.read+Permission required to receive leave broadcasts.
+UltraStaffChatPro+staffchat.leave+Permission required to cause a staff leave broadcast.
+UltraStaffChatPro+staffchat.list.view-vanished+Permission required to view vanished players on the staff list.
+UltraStaffChatPro+staffchat.list.view+Permission required to view the staff list.+/stafflist
+UltraStaffChatPro+staffchat.list+Permission required to display on the staff list.
+UltraStaffChatPro+staffchat.mute+Permission required to toggle receiving staff chat messages.+/scmute
+UltraStaffChatPro+staffchat.read+Permission required to receive staff chat messages.
+UltraStaffChatPro+staffchat.switch.read+Permission required to receive switch broadcasts.
+UltraStaffChatPro+staffchat.switch+Permission required to cause a server switch broadcast.
+UltraStaffChatPro+staffchat.talk+Permission required to send a message in staff chat.+/staffchat <message>
+UltraStaffChatPro+staffchat.toggle+Permission required to toggle sending messages in staff chat.+/sctoggle
 UltraStaffChatPro+ultrastaffchatpro.debug+Permission required to execute debug commands.+/ultrastaffchatpro debug,/uscp debug
 UltraStaffChatPro+ultrastaffchatpro.reload+Permission required to reload the configuration files.+/ultrastaffchatpro reload,/uscp reload
 UltraStaffChatPro+ultrastaffchatpro.update+Permission required to receive update notifications.
@@ -7204,8 +7260,8 @@ WaveGuard+waveguard.command.status+Access to the Status command+/waveguard statu
 WaveGuard+waveguard.command.use+Access to use a Command from WaveGuard
 WaveGuard+waveguard.command.whitelist+Access to the Whitelist command+/waveguard whitelist
 WaveGuard+waveguard.message.staff+Access to Staff alerts
-Winter+winter.chest.gift+Create gift chests (public and private).
 Winter+winter.chest.dated+Create dated infinite chests.
+Winter+winter.chest.gift+Create gift chests (public and private).
 Winter+winter.chest.timed+Create timed infinite chests.
 Winter+winter.command.reload+Reload the Winter's configuration.​+/winter reload
 WorldBorder+worldborder.use+Allow the player to set the worldborder radius.+/wb <Radius>
