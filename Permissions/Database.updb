@@ -1243,6 +1243,7 @@ CityRP+cityrp.setday+Allows you to change the current day+/setday
 CityRP+cityrp.settime+Change the current time+/settime
 CityRP+cityrp.whisper+Allows you to whisper to nearby players+/w
 CityRP+cityrp.yell+Allows you to yell to nearby players (16 Blocks)+/y
+ClansPro+clanspro+Default permission. Required!
 ClansPro+clanspro.ally+Unknown description+/clan ally <clanName>
 ClansPro+clanspro.banks.deposit+Unknown description+/clan bank <deposit>
 ClansPro+clanspro.banks.use+Unknown description+/clan bank
