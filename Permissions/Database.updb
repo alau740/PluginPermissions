@@ -59,6 +59,11 @@ Actionbar+actionbar.reload+Allows you to reload the config+/actionbar reload
 Actionbar+actionbar.world+Allows you to send a world message via actionbar+/actionbar <world> <name> <message>
 ActionHealth+ActionHealth.Health+This will send the player the health message only if 'Use Permission' is enabled in the config.
 ActionHealth+ActionHealth.Reload+Reloads config.+/Actionhealth reload
+Adapt+adapt.main+Access to the main Adapt plugin+/Adapt
+Adapt+adapt.idontknowwhatimdoingiswear+This if for the Adapt Testing command DEVELOPERS ONLY+/Adapt test particle
+Adapt+adapt.opengui+Open the GUI without needing a Bookshelf+/Adapt open gui
+Adapt+adapt.cheatitem+Allows for you to create a Cheat Item (one time use Xp Items)+/Adapt item experience <skill> <number>
+Adapt+adapt.boost+Allows for you to use the Boost command to boost XP gains+/Adapt boost
 Admin-GUI+admingui.admin+To open Admin GUI
 Admin-GUI+admingui.ban.bypass+Bypass the ban command
 Admin-GUI+admingui.ban+Ban players
