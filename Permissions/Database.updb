@@ -6918,31 +6918,35 @@ UltraPrisonCore+ultraprison.multipliers.admin+Admin permission to manage multipl
 UltraPrisonCore+ultraprison.ranks.admin+Admin permission to manage ranks & prestiges.+/setrank <player> <rank_id>,/prestigeadmin add <player> <amount>,/prestigeadmin set <player> <amount>,/prestigeadmin remove <player> <amount>
 UltraPrisonCore+ultraprison.tokens.admin+Admin permission to manage tokens.+/tokens give <player> <amount>,/tokens remove <player> <amount>,/tokens set <player> <amount>
 UltraPrisonCore+ultraprison.value+Player permission to display value of his pickaxe.
-UltraPunishments+ultrapunishments.access.details+Allows a player to access the player details of a specific player.
-UltraPunishments+ultrapunishments.admin+Allows the player to use all features of the plugin.
-UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
-UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban another player.
-UltraPunishments+ultrapunishments.behavior.command+Allows a player to see their Behavior Status.
-UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted punishments messages.
-UltraPunishments+ultrapunishments.bypass.ban+Bypasses getting banned.
-UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
-UltraPunishments+ultrapunishments.bypass.kick+Bypasses getting kicked.
-UltraPunishments+ultrapunishments.bypass.mute+Bypasses getting muted.
+UltraPunishments+ultrapunishments.admin.openGUI+Allows access to /upun.+/upun
+UltraPunishments+ultrapunishments.ban.execute+Allows to ban a player.+/ban <User> <Server> <Time> <Notification Type> [Reason] 
+UltraPunishments+ultrapunishments.ban.revoke+Allows to unban a player.+/unban <User>
+UltraPunishments+ultrapunishments.mute.execute+Allows to mute a player.+/mute <User> <Time> <Notification Type> [Reason]
+UltraPunishments+ultrapunishments.mute.revoke+Allows to unmute a player.+/unmute <User>
+UltraPunishments+ultrapunishments.freeze.execute+Allows to freeze a player.+/freeze <User> <Time> <Notification Type> [Reason]
+UltraPunishments+ultrapunishments.freeze.revoke+Allows to unfreeze a player.+/unfreeze <User>
+UltraPunishments+ultrapunishments.kick.execute+Allows to kick a player from the server.+/kick <User> <Notification Type> [Reason]
+UltraPunishments+ultrapunishments.warning.execute+Allows to issue warnings.+/warn <User> <Server> <Kick|Message> [Reason]
+UltraPunishments+ultrapunishments.warning.revoke+Allows to revoke previously issued warnings.
+UltraPunishments+ultrapunishments.chatclear.execute+Allows the clear the chat for everyone.+/clearchat
+UltraPunishments+ultrapunishments.mutechat.execute+Allows to mute the server chat.+/mutechat
+UltraPunishments+ultrapunishments.rollback.command+Allows to rollback executed punishments.
+UltraPunishments+ultrapunishments.behavior.command+Allows to see own Behavior status.
 UltraPunishments+ultrapunishments.bypass.report+Bypasses getting reported.
-UltraPunishments+ultrapunishments.bypass.warn+Bypasses getting warned.
-UltraPunishments+ultrapunishments.clearchat.execute+Allows the clearing of chat for players.
-UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze another player.
-UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze another player.
-UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings.
-UltraPunishments+ultrapunishments.manage.templates+Allows a player to edit punishment templates.
-UltraPunishments+ultrapunishments.mute.execute+Allows a player to mute another player.
-UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute another player.
-UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat.
-UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat.
-UltraPunishments+ultrapunishments.report.respond+Allows a player to respond to reports.
-UltraPunishments+ultrapunishments.rollback.command+Allows a player to rollback executed punishments.
-UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning.
-UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning.
+ultrapunishments+ultrapunishments.bypass.warn+Bypasses getting warned.
+UltraPunishments+ultrapunishments.bypass.kick+Bypasses getting kicked.
+UltraPunishments+ultrapunishments.bypass.ban+Bypasses getting banned.
+UltraPunishments+ultrapunishments.bypass.mute+Bypasses getting muted.
+UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
+UltraPunishments+ultrapunishments.manage.templates+Allows to manage templates.
+UltraPunishments+ultrapunishments.manage.settings+Allows to manage settings.
+UltraPunishments+ultrapunishments.manage.exclusions+Allows to manage ban exclusions.
+UltraPunishments+ultrapunishments.manage.details+Allows to manage the details.
+UltraPunishments+ultrapunishments.report.respond+Allows to respond to reports.
+UltraPunishments+ultrapunishments.report.execute+Allows to execute the /report command.+/report
+UltraPunishments+ultrapunishments.mutechat.bypass+Allows players with this permission to bypass the mutechat.
+UltraPunishments+ultrapunishments.broadcaster.recieve+Allows players to see the punishment broadcast message.
+UltraPunishments+ultrapunishments.transferData+Allows access to the /uptransfer command.
 UltraRegions+ultraregions.admin+Allows the player to use the main command of the plugin to access the GUI.+/uregions
 UltraRegions+ultraregions.gamemode.region.bypass+Allows the player to bypass the regions default gamemode.
 UltraRegions+ultraregions.gamemode.world.bypass+Allows the player to bypass the worlds default gamemode.
