@@ -6891,12 +6891,17 @@ UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plug
 UltraEconomy+ultraeconomy.admin+Grants the player all permissions of the plugin.+/uecon
 UltraEconomy+ultraeconomy.balance.others+Allows the player to see the balance of another player.+/balance <player>
 UltraEconomy+ultraeconomy.balance.self+Allows the player to see their own balance.+/balance
+UltraEconomy+ultraeconomy.balance.reset+Be able to reset a balance.
 UltraEconomy+ultraeconomy.balancetop+Allows the player to view the top 10 players balance for the selected currency.+/balancetop <currency>,/baltop <currency>
 UltraEconomy+ultraeconomy.bank.others+Administator permission to manage other's bank account.
 UltraEconomy+ultraeconomy.bank.own+Allows the player to use the Bank Feature if enabled.
 UltraEconomy+ultraeconomy.cheat+Allows the player to open the balance view.+/balance
 UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> [currency] <value>
-UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-accept <player>,/trade-decline <player>
+UltraEconomy+ultraeconomy.paytoggle+Be able to toggle receive any payments, expect standing orders.+/paytoggle
+UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-decline <player>
+UltraEconomy+ultraeconomy.trade.tradeaccept+Be able to accept trade reqeust.+/trade-accept <player>
+UltraEconomy+ultraeconomy.uenotify+Be able to toggle recurring notifications.+/uenotify <notificationtype>
+UltraEconomy+ultraeconomy.transferdata+Administrator permission to transfer data between File and MySQL storage.+/uetransfer <File|MySQL> <File|MySQL>
 UltraEditor+ultraeditor.editor+Get a link to the editors.+/ultraeditor editor
 UltraEditor+ultraeditor.getauth+Get current auth key.+/ultraeditor getauth
 UltraEditor+ultraeditor.help+Show a list of commands.+/ultraeditor help
