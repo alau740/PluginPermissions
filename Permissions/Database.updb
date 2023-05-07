@@ -3785,6 +3785,53 @@ InsaneShops+insaneshops.create+Allows the player to create a shop.
 InsaneShops+insaneshops.limit.[limit]+Defines the maximum amount of shops a player can own.
 InsaneShops+insaneshops.teleportToShop+Allows the player to teleport to the shop
 InsaneShops+insaneshops.worldGuardFlag.bypass+Allows the player to bypass the WorldGuard Shop Creation Flag.
+InsaneVaults+insanevaults.admin.openGUI+Be able to open the Admin GUI.+/iv, /ivaults, /InsaneVaults
+InsaneVaults+insanevaults.admin.manageSettings+Be able to manage the InsaneVaults Settings through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageFeatures+Be able to manage the Features through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageUsers+Be able to manage Users through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageVaults+Be able to manage Vaults through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageImport+Be able to manage Import Data from different Plugins through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageVaultType+Be able to manage Vault Types through the Admin GUI.
+InsaneVaults+insanevaults.command.vaults+Be able to use /Vaults.+/Vaults
+InsaneVaults+insanevaults.command.vaults.user+Be able to use /Vaults <User> to open the UserView of the provided User.+/Vaults <User>
+InsaneVaults+insanevaults.command.vaultQuickAccess+Be able to use the QuickAccessCommand.+/pv
+InsaneVaults+insanevaults.command.ivc+Be able to execute the /ivc command to manage every aspect of InsaneVaults.+/ivc
+InsaneVaults+insanevaults.command.ivc.settings.changeIconFee+Be able to manage the change Icon Fee through the /ivc Settings ChangeIconFee <Fee> command.+/ivc Settings ChangeIconFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.changeNameFee+Be able to manage the change Name Fee through the /ivc Settings ChangeNameFee <Fee> command.+/ivc Settings ChangeNameFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.itemDepositFee+Be able to manage the Item Deposit Fee through the /ivc Settings ItemDepositFee <Fee> command.+/ivc Settings ItemDepositFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.itemWithdrawFee+Be able to manage the Item Withdraw Fee through the /ivc Settings ItemWithdrawFee <Fee> command.+/ivc Settings ItemWithdrawFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.createSharedAccessFee+Be able to manage the create Shared Access Fee through the /ivc Settings CreateSharedAccessFee <Fee> command.+/ivc Settings CreateSharedAccessFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.transferOwnershipFee+Be able to manage the transfer Ownership Fee through the /ivc Settings TransferOwnershipFee <Fee> command.+/ivc Settings TransferOwnershipFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.vaultTypeFees+Be able to manage the to be paid Vault Type Fees Settings through the /ivc Settings VaultTypeFees <Option> command.+/ivc Settings VaultTypeFees <Option>
+InsaneVaults+insanevaults.command.ivc.settings.puttingOnGovernment+Be able to manage if Fees and Costs should be put on the UltraEconomy's Government Account through the /ivc Settings PuttingCostsAndFeesOnGovernment <True | False> command.+/ivc Settings PuttingCostsAndFeesOnGovernment <True | False>
+InsaneVaults+insanevaults.command.ivc.settings.refundFees+Be able to manage if Vault Type Fee and paid Fees for created Shared Accesses should get refunded at deleting a Vault through the /ivc Settings RefundFees <True | False> command.+/ivc Settings RefundFees <True | False>
+InsaneVaults+insanevaults.command.ivc.features.communityVault+Be able to manage the Community Vault Feature through the /ivc Features CommunityVault <Option> command.+/ivc Features CommunityVault <Option>
+InsaneVaults+insanevaults.command.ivc.features.vaultExtendsInventory+Be able to manage the Vault extends Inventory Feature through the /ivc Features VaultExtendsInventory <True | False> command.+/ivc Features VaultExtendsInventory <True | False>
+InsaneVaults+insanevaults.command.ivc.features.customAlias+Be able to manage the Custom Command Alias Feature through the /ivc Features CustomCommandAlias <Option> command.+/ivc Features CustomCommandAlias <Option>
+InsaneVaults+insanevaults.command.ivc.features.vaultPurge+Be able to manage the Vault Purge Feature through the /ivc Features VaultPurgeFeature <Option> command.+/ivc Features VaultPurgeFeature <Option>
+InsaneVaults+insanevaults.command.ivc.vaults.createUnpaid+Be able to create a new unpaid Vault for specified User through the /ivc Vaults CreateUnpaid <User> <VaultType> command./ivc Vaults CreateUnpaid <User> <VaultType>
+InsaneVaults+insanevaults.command.ivc.vaults.vaultType+Be able to create new and delete existing Vault Types through command.
+InsaneVaults+insanevaults.command.ivc.vaults.vaultType.manage+Be able to manage VaultTypes through the /ivc Vaults VaultType Manage <Option> command.+/ivc Vaults VaultType Manage <Option>
+InsaneVaults+insanevaults.vault.interact.deposit.item+Be able to deposit items to vaults.
+InsaneVaults+insanevaults.vault.interact.withdraw.item+Be able to withdraw items from vaults.
+InsaneVaults+insanevaults.vault.create+Be able to purchase paid vaults.
+InsaneVaults+insanevaults.vault.limit.[Number]+Specify the amount of Vaults a User can hold at the same time (Replace [Number] with e.g 5).
+InsaneVaults+insanevaults.vault.limit.bypass+Be able to bypass the optionally configured Vault limit.
+InsaneVaults+insanevaults.vault.create.unpaid+Be able to create unpaid vaults for yourself and other users.
+InsaneVaults+insanevaults.manageVaults.sizeLimit.bypass+Be able to bypass the Size limit of Vaults.
+InsaneVaults+insanevaults.manageVaults.fees.own.bypass.+Be able to bypass Fees while interacting with own Vaults.
+InsaneVaults+insanevaults.manageVaults.fees.others.bypass+Be able to bypass Fees while interacting with Vaults from other Users.
+InsaneVaults+insanevaults.manageVaults.viewMoreVaultInformation+Be able to view more detailed information about the vault (When the vault was created and last time accessed).
+InsaneVaults+insanevaults.manageVaults.manageSettings+Be able to manage the settings of other vaults than your vault.
+InsaneVaults+insanevaults.manageVaults.depositInOther+Be able to deposit items in other vaults than your own vault if you haven't got access through the holder of this vault.
+InsaneVaults+insanevaults.manageVaults.withdrawFromOther+Be able to withdraw items from other vaults than your own vault if you haven't got access through the holder of this vault.
+InsaneVaults+insanevaults.manageVaults.vaultTypeBlacklist.bypass+Be able to bypass the item blacklist of vault types at depositing items.
+InsaneVaults+insanevaults.manageVaults.userBlacklist.bypass+Be able to bypass the user item blacklist at depositing items.
+InsaneVaults+insanevaults.manageVaults.lockState.view+Be able to view the current lock state of vaults.
+InsaneVaults+insanevaults.manageVaults.lockState.manage+Be able to change the current lock state of vaults which is not your own vault.
+InsaneVaults+insanevaults.manageVaults.lockState.bypass+Be able to bypass the lock state which can usually hold you back from depositing or withdrawing items.
+InsaneVaults+insanevaults.manageVaults.openOthers+Be able to open other vaults if you haven't got access from the original holder of the vault.
+InsaneVaults+insanevaults.manageVaults.deleteOthers+Be able to delete other vaults.
 InventorySaver+inferno.events.*+Allows the player to access all events and menu interactions.
 InventorySaver+invsave.*+Grants the player all permissions of the plugin.
 InventorySaver+invsave.command.invsave.edit+Allows the player to edit another player's inventory.+/invsave edit <player>
