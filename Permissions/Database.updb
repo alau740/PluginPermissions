@@ -2306,24 +2306,24 @@ EconomyShopGUI+economyshopgui.sellall+Allows you to use the sellall command to s
 EconomyShopGUI+economyshopgui.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
 EconomyShopGUI+economyshopgui.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
 EconomyShopGUI+economyshopgui.shop+This permission allows players to use the shop command.+/shop
-EconomyShopGUI+economyshopgui.shop.[ShopSectionName]+Acces to open a specific shop section by its name.+/shop <section>
+EconomyShopGUI+economyshopgui.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
 EconomyShopGUI+economyshopgui.shop.all+Gives you permission to open all shop sections.
 EconomyShopGUI+economyshopgui.sellall+This permission allows players to use the /sellall command.+/sellall
-EconomyShopGUI+economyshopgui.sellall.[ShopSectionName]+Acces to sell items to a specific shop section by its name.+/sellall
+EconomyShopGUI+economyshopgui.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
 EconomyShopGUI+economyshopgui.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
 EconomyShopGUI+economyshopgui.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
-EconomyShopGUI+economyshopgui.sellallitem.[ShopSectionName]+Acces to sell items to a specific shop section by its name.+/sellall item
+EconomyShopGUI+economyshopgui.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
 EconomyShopGUI+economyshopgui.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
 EconomyShopGUI+economyshopgui.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
-EconomyShopGUI+economyshopgui.sellallhand.[ShopSectionName]+Acces to sell items to a specific shop section by its name.+/sellall hand
+EconomyShopGUI+economyshopgui.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
 EconomyShopGUI+economyshopgui.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
 EconomyShopGUI+economyshopgui.sellgui+This permission allows players to use the /sellgui command.+/sellgui
-EconomyShopGUI+economyshopgui.sellgui.[ShopSectionName]+Acces to sell items to a specific shop section by its name.+/sellgui
+EconomyShopGUI+economyshopgui.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
 EconomyShopGUI+economyshopgui.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
-EconomyShopGUI+economyshopgui.sell-multipliers.[GroupName]+Allows players to have sell multipliers for the configured GroupName.
-EconomyShopGUI+economyshopgui.discounts.[GroupName]+Allows players to have discounts for the configured GroupName.
+EconomyShopGUI+economyshopgui.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
+EconomyShopGUI+economyshopgui.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
 EconomyShopGUI+economyshopgui.itemindexes+Allows players to see the item index for shop items.
-EconomyShopGUI+economyshopgui.shop.[ShopSectionName].item.<ItemPermission>+Allows players to access this specific item with this specific item permission [Premium Only].
+EconomyShopGUI+economyshopgui.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
 EconomyShopGUI+economyshopgui.shop.search+Allows players to search for shop items [Premium Only].+/shop search
 EconomyShopGUI+economyshopgui.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
 Eggwars+eggwars.addspawner+Adds a spawner to the arena.+/Eggwars addspawner
