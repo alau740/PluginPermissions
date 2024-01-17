@@ -2292,74 +2292,74 @@ EasyWarp+easywarp.command.warpother+Warp yourself (or a player specified) to the
 EasyWarp+easywarp.delay.bypass+The ability to bypass any warp delay if 'permsBypassDelay' is 'true' in the config.
 EasyWarp+easywarp.sign.create+The ability to create a warp sign
 EasyWarp+easywarp.sign.use+The ability to use warp signs if 'signs-require-permissions' is 'true' in the config.
-EconomyShopGUI+economyshopgui.eshop.uploadLayout+Allows players to upload the current shop layout to 'https://layouts.gpplugins.com/'.+/editshop uploadLayout
-EconomyShopGUI+economyshopgui.eshop.installLayout+Allows players to install custom shop layouts from 'https://layouts.gpplugins.com/'.+/editshop installLayout <layoutID>
-EconomyShopGUI+economyshopgui.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
-EconomyShopGUI+economyshopgui.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
-EconomyShopGUI+economyshopgui.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
-EconomyShopGUI+economyshopgui.eshop.edititem+This command will edit any item from the shop.+/editshop edititem <section> <item> <action> <key> <value>
-EconomyShopGUI+economyshopgui.eshop.editor+Gives access to the GUI Editor (when shift-clicking an item in a shop) [Premium Only].
-EconomyShopGUI+economyshopgui.eshop.import+Allow you to use the /editshop import command [Premium Only]+/editshop import
-EconomyShopGUI+economyshopgui.eshop+Allows access to the editshop commands.+/editshop
-EconomyShopGUI+economyshopgui.reload+Allows you to reload the plugin+/sreload
-EconomyShopGUI+economyshopgui.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
-EconomyShopGUI+economyshopgui.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
-EconomyShopGUI+economyshopgui.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
-EconomyShopGUI+economyshopgui.shop+This permission allows players to use the shop command.+/shop
-EconomyShopGUI+economyshopgui.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
-EconomyShopGUI+economyshopgui.shop.all+Gives you permission to open all shop sections.
-EconomyShopGUI+economyshopgui.sellall+This permission allows players to use the /sellall command.+/sellall
-EconomyShopGUI+economyshopgui.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
-EconomyShopGUI+economyshopgui.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
-EconomyShopGUI+economyshopgui.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
-EconomyShopGUI+economyshopgui.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
-EconomyShopGUI+economyshopgui.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
-EconomyShopGUI+economyshopgui.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
-EconomyShopGUI+economyshopgui.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
-EconomyShopGUI+economyshopgui.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
-EconomyShopGUI+economyshopgui.sellgui+This permission allows players to use the /sellgui command.+/sellgui
-EconomyShopGUI+economyshopgui.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
-EconomyShopGUI+economyshopgui.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
-EconomyShopGUI+economyshopgui.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
-EconomyShopGUI+economyshopgui.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
-EconomyShopGUI+economyshopgui.itemindexes+Allows players to see the item index for shop items.
-EconomyShopGUI+economyshopgui.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
-EconomyShopGUI+economyshopgui.shop.search+Allows players to search for shop items [Premium Only].+/shop search
-EconomyShopGUI+economyshopgui.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
-EconomyShopGUI-Premium+economyshopgui.eshop.uploadLayout+Allows players to upload the current shop layout to 'https://layouts.gpplugins.com/'.+/editshop uploadLayout
-EconomyShopGUI-Premium+economyshopgui.eshop.installLayout+Allows players to install custom shop layouts from 'https://layouts.gpplugins.com/'.+/editshop installLayout <layoutID>
-EconomyShopGUI-Premium+economyshopgui.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
-EconomyShopGUI-Premium+economyshopgui.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
-EconomyShopGUI-Premium+economyshopgui.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
-EconomyShopGUI-Premium+economyshopgui.eshop.edititem+This command will edit any item from the shop.+/editshop edititem <section> <item> <action> <key> <value>
-EconomyShopGUI-Premium+economyshopgui.eshop.editor+Gives access to the GUI Editor (when shift-clicking an item in a shop) [Premium Only].
-EconomyShopGUI-Premium+economyshopgui.eshop.import+Allow you to use the /editshop import command [Premium Only]+/editshop import
-EconomyShopGUI-Premium+economyshopgui.eshop+Allows access to the editshop commands.+/editshop
-EconomyShopGUI-Premium+economyshopgui.reload+Allows you to reload the plugin+/sreload
-EconomyShopGUI-Premium+economyshopgui.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
-EconomyShopGUI-Premium+economyshopgui.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
-EconomyShopGUI-Premium+economyshopgui.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
-EconomyShopGUI-Premium+economyshopgui.shop+This permission allows players to use the shop command.+/shop
-EconomyShopGUI-Premium+economyshopgui.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
-EconomyShopGUI-Premium+economyshopgui.shop.all+Gives you permission to open all shop sections.
-EconomyShopGUI-Premium+economyshopgui.sellall+This permission allows players to use the /sellall command.+/sellall
-EconomyShopGUI-Premium+economyshopgui.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
-EconomyShopGUI-Premium+economyshopgui.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
-EconomyShopGUI-Premium+economyshopgui.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
-EconomyShopGUI-Premium+economyshopgui.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
-EconomyShopGUI-Premium+economyshopgui.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
-EconomyShopGUI-Premium+economyshopgui.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
-EconomyShopGUI-Premium+economyshopgui.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
-EconomyShopGUI-Premium+economyshopgui.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
-EconomyShopGUI-Premium+economyshopgui.sellgui+This permission allows players to use the /sellgui command.+/sellgui
-EconomyShopGUI-Premium+economyshopgui.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
-EconomyShopGUI-Premium+economyshopgui.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
-EconomyShopGUI-Premium+economyshopgui.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
-EconomyShopGUI-Premium+economyshopgui.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
-EconomyShopGUI-Premium+economyshopgui.itemindexes+Allows players to see the item index for shop items.
-EconomyShopGUI-Premium+economyshopgui.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
-EconomyShopGUI-Premium+economyshopgui.shop.search+Allows players to search for shop items [Premium Only].+/shop search
-EconomyShopGUI-Premium+economyshopgui.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
+EconomyShopGUI+EconomyShopGUI.eshop.uploadLayout+Allows players to upload the current shop layout to 'https://layouts.gpplugins.com/'.+/editshop uploadLayout
+EconomyShopGUI+EconomyShopGUI.eshop.installLayout+Allows players to install custom shop layouts from 'https://layouts.gpplugins.com/'.+/editshop installLayout <layoutID>
+EconomyShopGUI+EconomyShopGUI.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
+EconomyShopGUI+EconomyShopGUI.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
+EconomyShopGUI+EconomyShopGUI.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
+EconomyShopGUI+EconomyShopGUI.eshop.edititem+This command will edit any item from the shop.+/editshop edititem <section> <item> <action> <key> <value>
+EconomyShopGUI+EconomyShopGUI.eshop.editor+Gives access to the GUI Editor (when shift-clicking an item in a shop) [Premium Only].
+EconomyShopGUI+EconomyShopGUI.eshop.import+Allow you to use the /editshop import command [Premium Only]+/editshop import
+EconomyShopGUI+EconomyShopGUI.eshop+Allows access to the editshop commands.+/editshop
+EconomyShopGUI+EconomyShopGUI.reload+Allows you to reload the plugin+/sreload
+EconomyShopGUI+EconomyShopGUI.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
+EconomyShopGUI+EconomyShopGUI.shop+This permission allows players to use the shop command.+/shop
+EconomyShopGUI+EconomyShopGUI.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
+EconomyShopGUI+EconomyShopGUI.shop.all+Gives you permission to open all shop sections.
+EconomyShopGUI+EconomyShopGUI.sellall+This permission allows players to use the /sellall command.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
+EconomyShopGUI+EconomyShopGUI.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
+EconomyShopGUI+EconomyShopGUI.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
+EconomyShopGUI+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellgui+This permission allows players to use the /sellgui command.+/sellgui
+EconomyShopGUI+EconomyShopGUI.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
+EconomyShopGUI+EconomyShopGUI.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
+EconomyShopGUI+EconomyShopGUI.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
+EconomyShopGUI+EconomyShopGUI.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
+EconomyShopGUI+EconomyShopGUI.itemindexes+Allows players to see the item index for shop items.
+EconomyShopGUI+EconomyShopGUI.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
+EconomyShopGUI+EconomyShopGUI.shop.search+Allows players to search for shop items [Premium Only].+/shop search
+EconomyShopGUI+EconomyShopGUI.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.uploadLayout+Allows players to upload the current shop layout to 'https://layouts.gpplugins.com/'.+/editshop uploadLayout
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.installLayout+Allows players to install custom shop layouts from 'https://layouts.gpplugins.com/'.+/editshop installLayout <layoutID>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.edititem+This command will edit any item from the shop.+/editshop edititem <section> <item> <action> <key> <value>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.editor+Gives access to the GUI Editor (when shift-clicking an item in a shop) [Premium Only].
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.import+Allow you to use the /editshop import command [Premium Only]+/editshop import
+EconomyShopGUI-Premium+EconomyShopGUI.eshop+Allows access to the editshop commands.+/editshop
+EconomyShopGUI-Premium+EconomyShopGUI.reload+Allows you to reload the plugin+/sreload
+EconomyShopGUI-Premium+EconomyShopGUI.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
+EconomyShopGUI-Premium+EconomyShopGUI.shop+This permission allows players to use the shop command.+/shop
+EconomyShopGUI-Premium+EconomyShopGUI.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
+EconomyShopGUI-Premium+EconomyShopGUI.shop.all+Gives you permission to open all shop sections.
+EconomyShopGUI-Premium+EconomyShopGUI.sellall+This permission allows players to use the /sellall command.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellgui+This permission allows players to use the /sellgui command.+/sellgui
+EconomyShopGUI-Premium+EconomyShopGUI.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
+EconomyShopGUI-Premium+EconomyShopGUI.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
+EconomyShopGUI-Premium+EconomyShopGUI.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
+EconomyShopGUI-Premium+EconomyShopGUI.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
+EconomyShopGUI-Premium+EconomyShopGUI.itemindexes+Allows players to see the item index for shop items.
+EconomyShopGUI-Premium+EconomyShopGUI.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
+EconomyShopGUI-Premium+EconomyShopGUI.shop.search+Allows players to search for shop items [Premium Only].+/shop search
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
 Eggwars+eggwars.addspawner+Adds a spawner to the arena.+/Eggwars addspawner
 Eggwars+eggwars.addvillager+Adds a villager to the arena.+/Eggwars addvillager
 Eggwars+eggwars.admin+Shows a list of admin commands.+/Eggwars admin
