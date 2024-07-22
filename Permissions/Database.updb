@@ -59,6 +59,11 @@ Actionbar+actionbar.reload+Allows you to reload the config+/actionbar reload
 Actionbar+actionbar.world+Allows you to send a world message via actionbar+/actionbar <world> <name> <message>
 ActionHealth+ActionHealth.Health+This will send the player the health message only if 'Use Permission' is enabled in the config.
 ActionHealth+ActionHealth.Reload+Reloads config.+/Actionhealth reload
+Adapt+adapt.main+Access to the main Adapt plugin+/Adapt
+Adapt+adapt.idontknowwhatimdoingiswear+This if for the Adapt Testing command DEVELOPERS ONLY+/Adapt test particle
+Adapt+adapt.opengui+Open the GUI without needing a Bookshelf+/Adapt open gui
+Adapt+adapt.cheatitem+Allows for you to create a Cheat Item (one time use Xp Items)+/Adapt item experience <skill> <number>
+Adapt+adapt.boost+Allows for you to use the Boost command to boost XP gains+/Adapt boost
 Admin-GUI+admingui.admin+To open Admin GUI
 Admin-GUI+admingui.ban.bypass+Bypass the ban command
 Admin-GUI+admingui.ban+Ban players
@@ -2287,6 +2292,8 @@ EasyWarp+easywarp.command.warpother+Warp yourself (or a player specified) to the
 EasyWarp+easywarp.delay.bypass+The ability to bypass any warp delay if 'permsBypassDelay' is 'true' in the config.
 EasyWarp+easywarp.sign.create+The ability to create a warp sign
 EasyWarp+easywarp.sign.use+The ability to use warp signs if 'signs-require-permissions' is 'true' in the config.
+EconomyShopGUI+EconomyShopGUI.eshop.uploadLayout+Allows players to upload the current shop layout to 'https://layouts.gpplugins.com/'.+/editshop uploadLayout
+EconomyShopGUI+EconomyShopGUI.eshop.installLayout+Allows players to install custom shop layouts from 'https://layouts.gpplugins.com/'.+/editshop installLayout <layoutID>
 EconomyShopGUI+EconomyShopGUI.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
 EconomyShopGUI+EconomyShopGUI.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
 EconomyShopGUI+EconomyShopGUI.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
@@ -2298,9 +2305,61 @@ EconomyShopGUI+EconomyShopGUI.reload+Allows you to reload the plugin+/sreload
 EconomyShopGUI+EconomyShopGUI.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
 EconomyShopGUI+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
 EconomyShopGUI+EconomyShopGUI.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
-EconomyShopGUI+EconomyShopGUI.shop.[ShopSectionName]+Acces to open a specific shop section by its name.+/shop <section>
+EconomyShopGUI+EconomyShopGUI.shop+This permission allows players to use the shop command.+/shop
+EconomyShopGUI+EconomyShopGUI.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
 EconomyShopGUI+EconomyShopGUI.shop.all+Gives you permission to open all shop sections.
-EconomyShopGUI+EconomyShopGUI.shop+This permission allows players to use the shop.+/shop
+EconomyShopGUI+EconomyShopGUI.sellall+This permission allows players to use the /sellall command.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
+EconomyShopGUI+EconomyShopGUI.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
+EconomyShopGUI+EconomyShopGUI.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
+EconomyShopGUI+EconomyShopGUI.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
+EconomyShopGUI+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
+EconomyShopGUI+EconomyShopGUI.sellgui+This permission allows players to use the /sellgui command.+/sellgui
+EconomyShopGUI+EconomyShopGUI.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
+EconomyShopGUI+EconomyShopGUI.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
+EconomyShopGUI+EconomyShopGUI.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
+EconomyShopGUI+EconomyShopGUI.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
+EconomyShopGUI+EconomyShopGUI.itemindexes+Allows players to see the item index for shop items.
+EconomyShopGUI+EconomyShopGUI.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
+EconomyShopGUI+EconomyShopGUI.shop.search+Allows players to search for shop items [Premium Only].+/shop search
+EconomyShopGUI+EconomyShopGUI.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.uploadLayout+Allows players to upload the current shop layout to 'https://layouts.gpplugins.com/'.+/editshop uploadLayout
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.installLayout+Allows players to install custom shop layouts from 'https://layouts.gpplugins.com/'.+/editshop installLayout <layoutID>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.addhanditem+With this oommand you can add items from your hand to the shop.+/editshop addhanditem <section> <buy price> <sell price>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.additem+This command will add any item from the shop.+/editshop additem <section> <material> <buy price> <sell price>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.deleteitem+This command will remove any item from the shop.+/editshop deleteitem <section> <item>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.edititem+This command will edit any item from the shop.+/editshop edititem <section> <item> <action> <key> <value>
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.editor+Gives access to the GUI Editor (when shift-clicking an item in a shop) [Premium Only].
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.import+Allow you to use the /editshop import command [Premium Only]+/editshop import
+EconomyShopGUI-Premium+EconomyShopGUI.eshop+Allows access to the editshop commands.+/editshop
+EconomyShopGUI-Premium+EconomyShopGUI.reload+Allows you to reload the plugin+/sreload
+EconomyShopGUI-Premium+EconomyShopGUI.sellall+Allows you to use the sellall command to sell all items in your inventory.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem+When you have this permission you are able to sell all items inside your inventory that match the specific material.+/sellall <material>
+EconomyShopGUI-Premium+EconomyShopGUI.shop+This permission allows players to use the shop command.+/shop
+EconomyShopGUI-Premium+EconomyShopGUI.shop.[shopsectionname]+Acces to open a specific shop section by its name.+/shop <section>
+EconomyShopGUI-Premium+EconomyShopGUI.shop.all+Gives you permission to open all shop sections.
+EconomyShopGUI-Premium+EconomyShopGUI.sellall+This permission allows players to use the /sellall command.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellall.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellall.all+Gives you permission to sell items to all shop sections using the /sellall command.+/sellall
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem+This permission allows players to use the /sellall item command.+/sellall item
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall item
+EconomyShopGUI-Premium+EconomyShopGUI.sellallitem.all+Gives you permission to sell items to all shop sections using the /sellall item command.+/sellall item
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand+This permission allows players to use the /sellall hand command.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellallhand.all+Gives you permission to sell items to all shop sections using the /sellall hand command.+/sellall hand
+EconomyShopGUI-Premium+EconomyShopGUI.sellgui+This permission allows players to use the /sellgui command.+/sellgui
+EconomyShopGUI-Premium+EconomyShopGUI.sellgui.[shopsectionname]+Acces to sell items to a specific shop section by its name.+/sellgui
+EconomyShopGUI-Premium+EconomyShopGUI.sellgui.all+Gives you permission to sell items to all shop sections using the /sellgui.+/sellgui
+EconomyShopGUI-Premium+EconomyShopGUI.sell-multipliers.[groupname]+Allows players to have sell multipliers for the configured GroupName.
+EconomyShopGUI-Premium+EconomyShopGUI.discounts.[groupname]+Allows players to have discounts for the configured GroupName.
+EconomyShopGUI-Premium+EconomyShopGUI.itemindexes+Allows players to see the item index for shop items.
+EconomyShopGUI-Premium+EconomyShopGUI.shop.[shopsectionname].item.<itempermission>+Allows players to access this specific item with this specific item permission [Premium Only].
+EconomyShopGUI-Premium+EconomyShopGUI.shop.search+Allows players to search for shop items [Premium Only].+/shop search
+EconomyShopGUI-Premium+EconomyShopGUI.eshop.update+Allows players to download and install the latest update of the plugin using a ingame command [Premium Only].+/editshop update
 Eggwars+eggwars.addspawner+Adds a spawner to the arena.+/Eggwars addspawner
 Eggwars+eggwars.addvillager+Adds a villager to the arena.+/Eggwars addvillager
 Eggwars+eggwars.admin+Shows a list of admin commands.+/Eggwars admin
@@ -3779,6 +3838,54 @@ InsaneShops+insaneshops.create.sellshop+Allows the player to create a sell shop.
 InsaneShops+insaneshops.create+Allows the player to create a shop.
 InsaneShops+insaneshops.limit.[limit]+Defines the maximum amount of shops a player can own.
 InsaneShops+insaneshops.teleportToShop+Allows the player to teleport to the shop
+InsaneShops+insaneshops.worldGuardFlag.bypass+Allows the player to bypass the WorldGuard Shop Creation Flag.
+InsaneVaults+insanevaults.admin.openGUI+Be able to open the Admin GUI.+/iv, /ivaults, /InsaneVaults
+InsaneVaults+insanevaults.admin.manageSettings+Be able to manage the InsaneVaults Settings through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageFeatures+Be able to manage the Features through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageUsers+Be able to manage Users through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageVaults+Be able to manage Vaults through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageImport+Be able to manage Import Data from different Plugins through the Admin GUI.
+InsaneVaults+insanevaults.admin.manageVaultType+Be able to manage Vault Types through the Admin GUI.
+InsaneVaults+insanevaults.command.vaults+Be able to use /Vaults.+/Vaults
+InsaneVaults+insanevaults.command.vaults.user+Be able to use /Vaults <User> to open the UserView of the provided User.+/Vaults <User>
+InsaneVaults+insanevaults.command.vaultQuickAccess+Be able to use the QuickAccessCommand.+/pv
+InsaneVaults+insanevaults.command.ivc+Be able to execute the /ivc command to manage every aspect of InsaneVaults.+/ivc
+InsaneVaults+insanevaults.command.ivc.settings.changeIconFee+Be able to manage the change Icon Fee through the /ivc Settings ChangeIconFee <Fee> command.+/ivc Settings ChangeIconFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.changeNameFee+Be able to manage the change Name Fee through the /ivc Settings ChangeNameFee <Fee> command.+/ivc Settings ChangeNameFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.itemDepositFee+Be able to manage the Item Deposit Fee through the /ivc Settings ItemDepositFee <Fee> command.+/ivc Settings ItemDepositFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.itemWithdrawFee+Be able to manage the Item Withdraw Fee through the /ivc Settings ItemWithdrawFee <Fee> command.+/ivc Settings ItemWithdrawFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.createSharedAccessFee+Be able to manage the create Shared Access Fee through the /ivc Settings CreateSharedAccessFee <Fee> command.+/ivc Settings CreateSharedAccessFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.transferOwnershipFee+Be able to manage the transfer Ownership Fee through the /ivc Settings TransferOwnershipFee <Fee> command.+/ivc Settings TransferOwnershipFee <Fee>
+InsaneVaults+insanevaults.command.ivc.settings.vaultTypeFees+Be able to manage the to be paid Vault Type Fees Settings through the /ivc Settings VaultTypeFees <Option> command.+/ivc Settings VaultTypeFees <Option>
+InsaneVaults+insanevaults.command.ivc.settings.puttingOnGovernment+Be able to manage if Fees and Costs should be put on the UltraEconomy's Government Account through the /ivc Settings PuttingCostsAndFeesOnGovernment <True | False> command.+/ivc Settings PuttingCostsAndFeesOnGovernment <True | False>
+InsaneVaults+insanevaults.command.ivc.settings.refundFees+Be able to manage if Vault Type Fee and paid Fees for created Shared Accesses should get refunded at deleting a Vault through the /ivc Settings RefundFees <True | False> command.+/ivc Settings RefundFees <True | False>
+InsaneVaults+insanevaults.command.ivc.features.communityVault+Be able to manage the Community Vault Feature through the /ivc Features CommunityVault <Option> command.+/ivc Features CommunityVault <Option>
+InsaneVaults+insanevaults.command.ivc.features.vaultExtendsInventory+Be able to manage the Vault extends Inventory Feature through the /ivc Features VaultExtendsInventory <True | False> command.+/ivc Features VaultExtendsInventory <True | False>
+InsaneVaults+insanevaults.command.ivc.features.customAlias+Be able to manage the Custom Command Alias Feature through the /ivc Features CustomCommandAlias <Option> command.+/ivc Features CustomCommandAlias <Option>
+InsaneVaults+insanevaults.command.ivc.features.vaultPurge+Be able to manage the Vault Purge Feature through the /ivc Features VaultPurgeFeature <Option> command.+/ivc Features VaultPurgeFeature <Option>
+InsaneVaults+insanevaults.command.ivc.vaults.createUnpaid+Be able to create a new unpaid Vault for specified User through the /ivc Vaults CreateUnpaid <User> <VaultType> command./ivc Vaults CreateUnpaid <User> <VaultType>
+InsaneVaults+insanevaults.command.ivc.vaults.vaultType+Be able to create new and delete existing Vault Types through command.
+InsaneVaults+insanevaults.command.ivc.vaults.vaultType.manage+Be able to manage VaultTypes through the /ivc Vaults VaultType Manage <Option> command.+/ivc Vaults VaultType Manage <Option>
+InsaneVaults+insanevaults.vault.interact.deposit.item+Be able to deposit items to vaults.
+InsaneVaults+insanevaults.vault.interact.withdraw.item+Be able to withdraw items from vaults.
+InsaneVaults+insanevaults.vault.create+Be able to purchase paid vaults.
+InsaneVaults+insanevaults.vault.limit.[Number]+Specify the amount of Vaults a User can hold at the same time (Replace [Number] with e.g 5).
+InsaneVaults+insanevaults.vault.limit.bypass+Be able to bypass the optionally configured Vault limit.
+InsaneVaults+insanevaults.vault.create.unpaid+Be able to create unpaid vaults for yourself and other users.
+InsaneVaults+insanevaults.manageVaults.sizeLimit.bypass+Be able to bypass the Size limit of Vaults.
+InsaneVaults+insanevaults.manageVaults.fees.own.bypass.+Be able to bypass Fees while interacting with own Vaults.
+InsaneVaults+insanevaults.manageVaults.fees.others.bypass+Be able to bypass Fees while interacting with Vaults from other Users.
+InsaneVaults+insanevaults.manageVaults.viewMoreVaultInformation+Be able to view more detailed information about the vault (When the vault was created and last time accessed).
+InsaneVaults+insanevaults.manageVaults.manageSettings+Be able to manage the settings of other vaults than your vault.
+InsaneVaults+insanevaults.manageVaults.depositInOther+Be able to deposit items in other vaults than your own vault if you haven't got access through the holder of this vault.
+InsaneVaults+insanevaults.manageVaults.withdrawFromOther+Be able to withdraw items from other vaults than your own vault if you haven't got access through the holder of this vault.
+InsaneVaults+insanevaults.manageVaults.vaultTypeBlacklist.bypass+Be able to bypass the item blacklist of vault types at depositing items.
+InsaneVaults+insanevaults.manageVaults.userBlacklist.bypass+Be able to bypass the user item blacklist at depositing items.
+InsaneVaults+insanevaults.manageVaults.lockState.view+Be able to view the current lock state of vaults.
+InsaneVaults+insanevaults.manageVaults.lockState.manage+Be able to change the current lock state of vaults which is not your own vault.
+InsaneVaults+insanevaults.manageVaults.lockState.bypass+Be able to bypass the lock state which can usually hold you back from depositing or withdrawing items.
+InsaneVaults+insanevaults.manageVaults.openOthers+Be able to open other vaults if you haven't got access from the original holder of the vault.
+InsaneVaults+insanevaults.manageVaults.deleteOthers+Be able to delete other vaults.
 InventorySaver+inferno.events.*+Allows the player to access all events and menu interactions.
 InventorySaver+invsave.*+Grants the player all permissions of the plugin.
 InventorySaver+invsave.command.invsave.edit+Allows the player to edit another player's inventory.+/invsave edit <player>
@@ -6885,12 +6992,17 @@ UltraCustomizer+ultracustomizer.admin+Ability to access the main GUI of the plug
 UltraEconomy+ultraeconomy.admin+Grants the player all permissions of the plugin.+/uecon
 UltraEconomy+ultraeconomy.balance.others+Allows the player to see the balance of another player.+/balance <player>
 UltraEconomy+ultraeconomy.balance.self+Allows the player to see their own balance.+/balance
+UltraEconomy+ultraeconomy.balance.reset+Be able to reset a balance.
 UltraEconomy+ultraeconomy.balancetop+Allows the player to view the top 10 players balance for the selected currency.+/balancetop <currency>,/baltop <currency>
 UltraEconomy+ultraeconomy.bank.others+Administator permission to manage other's bank account.
 UltraEconomy+ultraeconomy.bank.own+Allows the player to use the Bank Feature if enabled.
 UltraEconomy+ultraeconomy.cheat+Allows the player to open the balance view.+/balance
 UltraEconomy+ultraeconomy.pay+Allows the player to pay another player.+/pay <player> [currency] <value>
-UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-accept <player>,/trade-decline <player>
+UltraEconomy+ultraeconomy.paytoggle+Be able to toggle receive any payments, expect standing orders.+/paytoggle
+UltraEconomy+ultraeconomy.trade+Allows the player to trade with another player.+/trade <player>,/trade-decline <player>
+UltraEconomy+ultraeconomy.tradeaccept+Be able to accept trade reqeust.+/trade-accept <player>
+UltraEconomy+ultraeconomy.uenotify+Be able to toggle recurring notifications.+/uenotify <notificationtype>
+UltraEconomy+ultraeconomy.transferdata+Administrator permission to transfer data between File and MySQL storage.+/uetransfer <File|MySQL> <File|MySQL>
 UltraEditor+ultraeditor.editor+Get a link to the editors.+/ultraeditor editor
 UltraEditor+ultraeditor.getauth+Get current auth key.+/ultraeditor getauth
 UltraEditor+ultraeditor.help+Show a list of commands.+/ultraeditor help
@@ -6912,31 +7024,35 @@ UltraPrisonCore+ultraprison.multipliers.admin+Admin permission to manage multipl
 UltraPrisonCore+ultraprison.ranks.admin+Admin permission to manage ranks & prestiges.+/setrank <player> <rank_id>,/prestigeadmin add <player> <amount>,/prestigeadmin set <player> <amount>,/prestigeadmin remove <player> <amount>
 UltraPrisonCore+ultraprison.tokens.admin+Admin permission to manage tokens.+/tokens give <player> <amount>,/tokens remove <player> <amount>,/tokens set <player> <amount>
 UltraPrisonCore+ultraprison.value+Player permission to display value of his pickaxe.
-UltraPunishments+ultrapunishments.access.details+Allows a player to access the player details of a specific player.
-UltraPunishments+ultrapunishments.admin+Allows the player to use all features of the plugin.
-UltraPunishments+ultrapunishments.ban.execute+Allows a player to ban another player.
-UltraPunishments+ultrapunishments.ban.revoke+Allows a player to unban another player.
-UltraPunishments+ultrapunishments.behavior.command+Allows a player to see their Behavior Status.
-UltraPunishments+ultrapunishments.broadcaster.receive+Allows a player to receive the broadcasted punishments messages.
-UltraPunishments+ultrapunishments.bypass.ban+Bypasses getting banned.
-UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
-UltraPunishments+ultrapunishments.bypass.kick+Bypasses getting kicked.
-UltraPunishments+ultrapunishments.bypass.mute+Bypasses getting muted.
+UltraPunishments+ultrapunishments.admin.openGUI+Allows access to /upun.+/upun
+UltraPunishments+ultrapunishments.ban.execute+Allows to ban a player.+/ban <User> <Server> <Time> <Notification Type> [Reason] 
+UltraPunishments+ultrapunishments.ban.revoke+Allows to unban a player.+/unban <User>
+UltraPunishments+ultrapunishments.mute.execute+Allows to mute a player.+/mute <User> <Time> <Notification Type> [Reason]
+UltraPunishments+ultrapunishments.mute.revoke+Allows to unmute a player.+/unmute <User>
+UltraPunishments+ultrapunishments.freeze.execute+Allows to freeze a player.+/freeze <User> <Time> <Notification Type> [Reason]
+UltraPunishments+ultrapunishments.freeze.revoke+Allows to unfreeze a player.+/unfreeze <User>
+UltraPunishments+ultrapunishments.kick.execute+Allows to kick a player from the server.+/kick <User> <Notification Type> [Reason]
+UltraPunishments+ultrapunishments.warning.execute+Allows to issue warnings.+/warn <User> <Server> <Kick|Message> [Reason]
+UltraPunishments+ultrapunishments.warning.revoke+Allows to revoke previously issued warnings.
+UltraPunishments+ultrapunishments.chatclear.execute+Allows the clear the chat for everyone.+/clearchat
+UltraPunishments+ultrapunishments.mutechat.execute+Allows to mute the server chat.+/mutechat
+UltraPunishments+ultrapunishments.rollback.command+Allows to rollback executed punishments.
+UltraPunishments+ultrapunishments.behavior.command+Allows to see own Behavior status.
 UltraPunishments+ultrapunishments.bypass.report+Bypasses getting reported.
-UltraPunishments+ultrapunishments.bypass.warn+Bypasses getting warned.
-UltraPunishments+ultrapunishments.clearchat.execute+Allows the clearing of chat for players.
-UltraPunishments+ultrapunishments.freeze.execute+Allows a player to freeze another player.
-UltraPunishments+ultrapunishments.freeze.revoke+Allows a player to unfreeze another player.
-UltraPunishments+ultrapunishments.manage.settings+Allows a player to view and edit settings.
-UltraPunishments+ultrapunishments.manage.templates+Allows a player to edit punishment templates.
-UltraPunishments+ultrapunishments.mute.execute+Allows a player to mute another player.
-UltraPunishments+ultrapunishments.mute.revoke+Allows a player to unmute another player.
-UltraPunishments+ultrapunishments.mutechat.bypass+Allows a player to bypass the muted local chat.
-UltraPunishments+ultrapunishments.mutechat.execute+Allows a player to mute the whole local chat.
-UltraPunishments+ultrapunishments.report.respond+Allows a player to respond to reports.
-UltraPunishments+ultrapunishments.rollback.command+Allows a player to rollback executed punishments.
-UltraPunishments+ultrapunishments.warning.execute+Allows a player to issue a warning.
-UltraPunishments+ultrapunishments.warning.revoke+Allows a player to remove a warning.
+ultrapunishments+ultrapunishments.bypass.warn+Bypasses getting warned.
+UltraPunishments+ultrapunishments.bypass.kick+Bypasses getting kicked.
+UltraPunishments+ultrapunishments.bypass.ban+Bypasses getting banned.
+UltraPunishments+ultrapunishments.bypass.mute+Bypasses getting muted.
+UltraPunishments+ultrapunishments.bypass.freeze+Bypasses getting frozen.
+UltraPunishments+ultrapunishments.manage.templates+Allows to manage templates.
+UltraPunishments+ultrapunishments.manage.settings+Allows to manage settings.
+UltraPunishments+ultrapunishments.manage.exclusions+Allows to manage ban exclusions.
+UltraPunishments+ultrapunishments.manage.details+Allows to manage the details.
+UltraPunishments+ultrapunishments.report.respond+Allows to respond to reports.
+UltraPunishments+ultrapunishments.report.execute+Allows to execute the /report command.+/report
+UltraPunishments+ultrapunishments.mutechat.bypass+Allows players with this permission to bypass the mutechat.
+UltraPunishments+ultrapunishments.broadcaster.recieve+Allows players to see the punishment broadcast message.
+UltraPunishments+ultrapunishments.transferData+Allows access to the /uptransfer command.
 UltraRegions+ultraregions.admin+Allows the player to use the main command of the plugin to access the GUI.+/uregions
 UltraRegions+ultraregions.gamemode.region.bypass+Allows the player to bypass the regions default gamemode.
 UltraRegions+ultraregions.gamemode.world.bypass+Allows the player to bypass the worlds default gamemode.
